@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A curated guide to the best tech accessories under $50. Honest reviews, hands-on comparisons, and weekly picks for budget-conscious tech lovers.">
+  <title>Budget Tech Picks — Best Tech Under $50</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #0a0a0b;
+      color: #e4e4e7;
+      line-height: 1.6;
+    }
+    
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+    
+    /* Header */
+    header {
+      padding: 80px 0 60px;
+      text-align: center;
+    }
+    
+    .badge {
+      display: inline-block;
+      background: rgba(139, 92, 246, 0.15);
+      color: #a78bfa;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 6px 14px;
+      border-radius: 100px;
+      margin-bottom: 24px;
+    }
+    
+    h1 {
+      font-size: 42px;
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      line-height: 1.15;
+      margin-bottom: 16px;
+    }
+    
+    h1 span {
+      background: linear-gradient(135deg, #a78bfa, #60a5fa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    
+    .tagline {
+      font-size: 18px;
+      color: #71717a;
+      max-width: 480px;
+      margin: 0 auto 40px;
+    }
+    
+    /* Newsletter */
+    .newsletter {
+      background: #161618;
+      border: 1px solid #27272a;
+      border-radius: 16px;
+      padding: 32px;
+      margin-bottom: 80px;
+    }
+    
+    .newsletter h2 {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    
+    .newsletter p {
+      font-size: 14px;
+      color: #71717a;
+      margin-bottom: 20px;
+    }
+    
+    .form-row {
+      display: flex;
+      gap: 10px;
+    }
+    
+    .form-row input {
+      flex: 1;
+      background: #0a0a0b;
+      border: 1px solid #3f3f46;
+      border-radius: 8px;
+      padding: 12px 16px;
+      font-size: 14px;
+      color: #e4e4e7;
+      font-family: inherit;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    
+    .form-row input:focus {
+      border-color: #7c3aed;
+    }
+    
+    .form-row input::placeholder {
+      color: #52525b;
+    }
+    
+    .form-row button {
+      background: #7c3aed;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 12px 24px;
+      font-size: 14px;
+      font-weight: 600;
+      font-family: inherit;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: background 0.2s;
+    }
+    
+    .form-row button:hover {
+      background: #6d28d9;
+    }
+    
+    .form-note {
+      font-size: 12px;
+      color: #52525b;
+      margin-top: 12px;
+    }
+    
+    /* Sections */
+    section {
+      padding: 20px 0 60px;
+    }
+    
+    .section-label {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #52525b;
+      margin-bottom: 20px;
+    }
+    
+    /* Categories */
+    .categories {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 60px;
+    }
+    
+    .category {
+      background: #161618;
+      border: 1px solid #27272a;
+      border-radius: 8px;
+      padding: 10px 16px;
+      font-size: 14px;
+      color: #a1a1aa;
+      text-decoration: none;
+      transition: border-color 0.2s, color 0.2s;
+    }
+    
+    .category:hover {
+      border-color: #7c3aed;
+      color: #e4e4e7;
+    }
+    
+    /* Picks Grid */
+    .picks-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    
+    .pick-card {
+      background: #111113;
+      border: 1px solid #1c1c1f;
+      border-radius: 12px;
+      padding: 24px;
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+      transition: border-color 0.2s;
+    }
+    
+    .pick-card:hover {
+      border-color: #3f3f46;
+    }
+    
+    .pick-number {
+      font-size: 32px;
+      font-weight: 700;
+      color: #27272a;
+      line-height: 1;
+      min-width: 40px;
+    }
+    
+    .pick-content h3 {
+      font-size: 17px;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+    
+    .pick-content p {
+      font-size: 14px;
+      color: #71717a;
+      margin-bottom: 10px;
+    }
+    
+    .pick-meta {
+      display: flex;
+      gap: 16px;
+      font-size: 13px;
+    }
+    
+    .pick-meta span {
+      color: #52525b;
+    }
+    
+    .pick-meta strong {
+      color: #a1a1aa;
+      font-weight: 500;
+    }
+    
+    .pick-price {
+      color: #a78bfa !important;
+      font-weight: 600 !important;
+    }
+    
+    /* Coming Soon */
+    .coming-soon {
+      text-align: center;
+      padding: 60px 0;
+    }
+    
+    .coming-soon-icon {
+      font-size: 48px;
+      margin-bottom: 16px;
+    }
+    
+    .coming-soon h2 {
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    
+    .coming-soon p {
+      color: #71717a;
+      font-size: 15px;
+    }
+    
+    /* Footer */
+    footer {
+      border-top: 1px solid #1c1c1f;
+      padding: 40px 0;
+      text-align: center;
+      color: #52525b;
+      font-size: 13px;
+    }
+    
+    footer a {
+      color: #71717a;
+      text-decoration: none;
+    }
+    
+    footer a:hover {
+      color: #a1a1aa;
+    }
+    
+    /* Responsive */
+    @media (max-width: 600px) {
+      h1 { font-size: 30px; }
+      .tagline { font-size: 16px; }
+      .form-row { flex-direction: column; }
+      .pick-card { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <div class="badge">Free Weekly Newsletter</div>
+    <h1>Tech Picks <span>Under $50</span></h1>
+    <p class="tagline">Honest, hands-on reviews of the best budget tech accessories. USB-C hubs, smart plugs, cables, monitor arms, and more.</p>
+    
+    <div class="newsletter">
+      <h2>Get weekly picks delivered to your inbox</h2>
+      <p>No spam. No fluff. Just solid budget tech recommendations.</p>
+      <form action="#" method="POST" class="form-row" onsubmit="return false;">
+        <input type="email" placeholder="your@email.com" aria-label="Email address">
+        <button type="submit">Subscribe</button>
+      </form>
+      <p class="form-note">Join 0 readers. Unsubscribe anytime.</p>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+
+  <section>
+    <div class="section-label">Categories</div>
+    <div class="categories">
+      <a href="#" class="category">USB-C Hubs</a>
+      <a href="#" class="category">Smart Plugs</a>
+      <a href="#" class="category">Monitor Arms</a>
+      <a href="#" class="category">Cables & Adapters</a>
+      <a href="#" class="category">Keyboards</a>
+      <a href="#" class="category">Mice</a>
+      <a href="#" class="category">Webcams</a>
+      <a href="#" class="category">Desk Mats</a>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-label">Featured Picks</div>
+    <div class="picks-grid">
+      
+      <div class="pick-card">
+        <div class="pick-number">01</div>
+        <div class="pick-content">
+          <h3>USB-C Hub — Anker 7-in-1</h3>
+          <p>The Gold Standard for MacBook users. HDMI 4K, USB-A, SD card slots, and 100W pass-through charging in one compact hub.</p>
+          <div class="pick-meta">
+            <span>Price: <strong class="pick-price">$35</strong></span>
+            <span>Rating: <strong>4.8/5</strong></span>
+            <span>Reviews: <strong>12,400+</strong></span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="pick-card">
+        <div class="pick-number">02</div>
+        <div class="pick-content">
+          <h3>Smart Plug — TP-Link Kasa EP25</h3>
+          <p>WiFi smart plug with energy monitoring and Matter support. No hub required, works with everything.</p>
+          <div class="pick-meta">
+            <span>Price: <strong class="pick-price">$14</strong></span>
+            <span>Rating: <strong>4.6/5</strong></span>
+            <span>Reviews: <strong>8,900+</strong></span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="pick-card">
+        <div class="pick-number">03</div>
+        <div class="pick-content">
+          <h3>Monitor Arm — Amazon Basics Single</h3>
+          <p>Sturdy, adjustable, and under $30. Transforms your desk setup and frees up serious screen real estate.</p>
+          <div class="pick-meta">
+            <span>Price: <strong class="pick-price">$28</strong></span>
+            <span>Rating: <strong>4.5/5</strong></span>
+            <span>Reviews: <strong>6,200+</strong></span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <div class="coming-soon">
+      <div class="coming-soon-icon">🔍</div>
+      <h2>Full Reviews Coming Soon</h2>
+      <p>Detailed hands-on reviews with pros, cons, comparisons, and buying guides.<br>Subscribe to get notified when each review drops.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <p>&copy; 2026 Budget Tech Picks. As an Amazon Associate, we earn from qualifying purchases.</p>
+  </div>
+</footer>
+
+</body>
+</html>
