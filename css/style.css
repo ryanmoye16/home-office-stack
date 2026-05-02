@@ -102,12 +102,23 @@ button {
 .site-logo {
   display: flex;
   align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+
+.site-logo img.logo-icon {
+  height: 32px;
+  width: auto;
   flex-shrink: 0;
 }
 
-.site-logo img {
-  height: 32px;
-  width: auto;
+.site-logo .logo-text {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+  white-space: nowrap;
 }
 
 .main-nav {
