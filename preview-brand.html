@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logo & Favicon Preview — Home Office Stack</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { background: #0f172a; color: #f8fafc; font-family: Inter, system-ui, sans-serif; padding: 40px; }
+    h1 { font-size: 24px; font-weight: 700; margin-bottom: 8px; }
+    p { color: #94a3b8; margin-bottom: 40px; }
+    .section { margin-bottom: 48px; }
+    .label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; color: #64748b; margin-bottom: 16px; }
+    .dark-bg { background: #1e293b; border-radius: 12px; padding: 32px; margin-bottom: 24px; }
+    .light-bg { background: #f8fafc; border-radius: 12px; padding: 32px; margin-bottom: 24px; }
+    .logo-dark { background: #0f172a; }
+    .logo-light { background: #f8fafc; }
+    img.logo { height: 48px; }
+    .sizes { display: flex; align-items: center; gap: 24px; }
+    .sizes img { width: 32px; height: 32px; }
+    .sizes span { font-size: 12px; color: #64748b; }
+    hr { border: none; border-top: 1px solid #1e293b; margin: 40px 0; }
+  </style>
+</head>
+<body>
+  <h1>Home Office Stack — Brand Assets</h1>
+  <p>SVG logo and favicon for the Home Office Stack brand</p>
+
+  <div class="section">
+    <div class="label">Favicon — Dark Background</div>
+    <div class="dark-bg">
+      <div class="sizes">
+        <img src="favicon.svg" alt="32px favicon">
+        <span>32×32 SVG</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="label">Logo — Dark Background</div>
+    <div class="dark-bg">
+      <img class="logo" src="logo.svg" alt="Home Office Stack Logo">
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="label">Logo — Light Background</div>
+    <div class="light-bg">
+      <img class="logo" src="logo.svg" alt="Home Office Stack Logo">
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="section">
+    <div class="label">In Context — Nav Bar Preview</div>
+    <div class="dark-bg" style="display: flex; align-items: center; justify-content: space-between;">
+      <a href="#" style="display: flex; align-items: center; gap: 10px; text-decoration: none;">
+        <img src="favicon.svg" width="24" height="24" alt="">
+        <span style="font-size: 16px; font-weight: 700; color: #f8fafc;">Home Office Stack</span>
+      </a>
+      <nav style="display: flex; gap: 20px; font-size: 13px;">
+        <a href="#" style="color: #94a3b8; text-decoration: none;">Reviews</a>
+        <a href="#" style="color: #94a3b8; text-decoration: none;">Work Tools</a>
+        <a href="#" style="color: #94a3b8; text-decoration: none;">About</a>
+      </nav>
+    </div>
+  </div>
+</body>
+</html>

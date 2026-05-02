@@ -100,17 +100,14 @@ button {
 }
 
 .site-logo {
-  font-size: 18px;
-  font-weight: 700;
-  letter-spacing: -0.02em;
+  display: flex;
+  align-items: center;
   flex-shrink: 0;
 }
 
-.site-logo span {
-  background: var(--accent-gradient);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+.site-logo img {
+  height: 32px;
+  width: auto;
 }
 
 .main-nav {
@@ -1024,9 +1021,13 @@ button {
 }
 
 .footer-brand .site-logo {
-  font-size: 17px;
   margin-bottom: 14px;
-  display: block;
+  display: flex;
+}
+
+.footer-brand .site-logo img {
+  height: 28px;
+  width: auto;
 }
 
 .footer-brand p {
