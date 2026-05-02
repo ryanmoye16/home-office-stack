@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ryanmoye16.github.io/budget-tech-picks/sitemap.xml
+Sitemap: https://homeofficestack.com/sitemap.xml
