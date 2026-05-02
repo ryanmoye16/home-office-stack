@@ -335,6 +335,176 @@ button {
   color: var(--text-faint);
 }
 
+/* ---------- Two-Track Grid (Desk Gear + Work Tools) ---------- */
+.two-track-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 60px;
+}
+
+@media (max-width: 600px) {
+  .two-track-grid { grid-template-columns: 1fr; }
+}
+
+.track-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 28px;
+  display: block;
+  transition: border-color 0.2s, transform 0.2s;
+  color: inherit;
+  text-decoration: none;
+}
+
+.track-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.track-card-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.track-card-icon {
+  font-size: 28px;
+}
+
+.track-card-tag {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent-text);
+  background: var(--accent-soft);
+  padding: 3px 10px;
+  border-radius: 100px;
+}
+
+.track-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.track-card p {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+
+.track-card-list {
+  margin-bottom: 18px;
+}
+
+.track-card-list li {
+  font-size: 13px;
+  color: var(--text-secondary);
+  padding: 3px 0;
+  list-style: none;
+  position: relative;
+  padding-left: 14px;
+}
+
+.track-card-list li::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: var(--accent-text);
+  font-size: 11px;
+  top: 3px;
+}
+
+.track-card-cta {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--accent-text);
+}
+
+/* ---------- Section Header ---------- */
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.section-header .section-label {
+  margin-bottom: 0;
+}
+
+.section-more {
+  font-size: 13px;
+  color: var(--accent-text);
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.section-more:hover {
+  color: var(--text-primary);
+}
+
+/* ---------- Work Tools Grid ---------- */
+.tools-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.tool-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 22px;
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+  transition: border-color 0.2s;
+  color: inherit;
+  text-decoration: none;
+}
+
+.tool-card:hover {
+  border-color: var(--border-hover);
+}
+
+.tool-card-icon {
+  font-size: 28px;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.tool-card-body {
+  flex: 1;
+}
+
+.tool-card-body h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.tool-card-body p {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-bottom: 10px;
+}
+
+.tool-card-commission {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--green);
+  background: rgba(34, 197, 94, 0.1);
+  padding: 3px 10px;
+  border-radius: 100px;
+}
+
 /* ---------- Product Card ---------- */
 .picks-grid {
   display: flex;
