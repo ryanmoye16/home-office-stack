@@ -149,8 +149,22 @@ button {
 
 /* ---------- Hero (Homepage) ---------- */
 .hero {
-  padding: 80px 0 60px;
+  padding: 100px 0 80px;
   text-align: center;
+  position: relative;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 600px;
+  height: 400px;
+  background: radial-gradient(ellipse at center, var(--accent-soft) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: -1;
 }
 
 .hero-badge {
@@ -159,19 +173,20 @@ button {
   color: var(--accent-text);
   font-size: 12px;
   font-weight: 600;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-  padding: 6px 14px;
+  padding: 8px 18px;
   border-radius: var(--radius-full);
-  margin-bottom: 24px;
+  margin-bottom: 28px;
+  border: 1px solid rgba(139, 92, 246, 0.2);
 }
 
 .hero h1 {
-  font-size: 42px;
+  font-size: 52px;
   font-weight: 700;
-  letter-spacing: -0.03em;
-  line-height: 1.15;
-  margin-bottom: 16px;
+  letter-spacing: -0.04em;
+  line-height: 1.1;
+  margin-bottom: 20px;
 }
 
 .hero h1 span {
@@ -182,10 +197,11 @@ button {
 }
 
 .hero-tagline {
-  font-size: 18px;
-  color: var(--text-muted);
-  max-width: 480px;
-  margin: 0 auto 40px;
+  font-size: 20px;
+  color: var(--text-secondary);
+  max-width: 520px;
+  margin: 0 auto 48px;
+  line-height: 1.6;
 }
 
 /* ---------- Page Header ---------- */
@@ -310,13 +326,14 @@ button {
   border-radius: var(--radius-md);
   padding: 20px 16px;
   text-align: center;
-  transition: border-color 0.2s, transform 0.2s;
+  transition: border-color 0.25s, transform 0.25s, box-shadow 0.25s;
   display: block;
 }
 
 .category-card:hover {
   border-color: var(--accent);
-  transform: translateY(-2px);
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3), 0 0 0 1px var(--accent-soft);
 }
 
 .category-card-icon {
@@ -353,14 +370,15 @@ button {
   border-radius: var(--radius-lg);
   padding: 28px;
   display: block;
-  transition: border-color 0.2s, transform 0.2s;
+  transition: border-color 0.25s, transform 0.25s, box-shadow 0.25s;
   color: inherit;
   text-decoration: none;
 }
 
 .track-card:hover {
   border-color: var(--accent);
-  transform: translateY(-2px);
+  transform: translateY(-4px) scale(1.01);
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.35), 0 0 0 1px var(--accent-soft);
 }
 
 .track-card-header {
@@ -464,13 +482,15 @@ button {
   display: flex;
   gap: 18px;
   align-items: flex-start;
-  transition: border-color 0.2s;
+  transition: border-color 0.25s, transform 0.25s, box-shadow 0.25s;
   color: inherit;
   text-decoration: none;
 }
 
 .tool-card:hover {
   border-color: var(--border-hover);
+  transform: translateY(-2px) scale(1.005);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
 }
 
 .tool-card-icon {
@@ -520,13 +540,15 @@ button {
   display: flex;
   gap: 20px;
   align-items: flex-start;
-  transition: border-color 0.2s;
+  transition: border-color 0.25s, transform 0.25s, box-shadow 0.25s;
   text-decoration: none;
   color: inherit;
 }
 
 .pick-card:hover {
   border-color: var(--border-hover);
+  transform: translateY(-3px) scale(1.008);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
 }
 
 .pick-card-num {
@@ -675,16 +697,18 @@ button {
   background: var(--accent);
   color: #fff;
   text-align: center;
-  padding: 14px 20px;
+  padding: 16px 24px;
   border-radius: var(--radius-sm);
   font-weight: 600;
   font-size: 15px;
-  transition: background 0.2s;
+  transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
   margin-bottom: 12px;
 }
 
 .btn-affiliate:hover {
   background: var(--accent-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(124, 58, 237, 0.35);
 }
 
 .btn-secondary {
@@ -694,16 +718,18 @@ button {
   border: 1px solid var(--border);
   color: var(--text-secondary);
   text-align: center;
-  padding: 12px 20px;
+  padding: 14px 20px;
   border-radius: var(--radius-sm);
   font-weight: 500;
   font-size: 14px;
-  transition: border-color 0.2s, color 0.2s;
+  transition: border-color 0.2s, color 0.2s, background 0.2s, transform 0.2s;
 }
 
 .btn-secondary:hover {
   border-color: var(--border-hover);
   color: var(--text-primary);
+  background: var(--bg-secondary);
+  transform: translateY(-1px);
 }
 
 .affiliate-disclaimer {
@@ -963,29 +989,31 @@ button {
   display: inline-block;
   background: var(--accent);
   color: #fff;
-  padding: 12px 24px;
+  padding: 14px 28px;
   border-radius: var(--radius-sm);
   font-weight: 600;
   font-size: 15px;
-  transition: background 0.2s;
+  transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
 }
 
 .btn-primary:hover {
   background: var(--accent-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(124, 58, 237, 0.35);
 }
 
 /* ---------- Footer ---------- */
 .site-footer {
   border-top: 1px solid var(--border);
-  padding: 48px 0;
-  margin-top: 80px;
+  padding: 64px 0 48px;
+  margin-top: 100px;
 }
 
 .footer-grid {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
-  gap: 40px;
-  margin-bottom: 40px;
+  gap: 48px;
+  margin-bottom: 48px;
 }
 
 @media (max-width: 600px) {
@@ -996,46 +1024,47 @@ button {
 }
 
 .footer-brand .site-logo {
-  font-size: 16px;
-  margin-bottom: 12px;
+  font-size: 17px;
+  margin-bottom: 14px;
   display: block;
 }
 
 .footer-brand p {
-  font-size: 13px;
+  font-size: 14px;
   color: var(--text-muted);
-  line-height: 1.6;
+  line-height: 1.65;
   max-width: 280px;
 }
 
 .footer-col h4 {
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 600;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--text-faint);
-  margin-bottom: 16px;
+  margin-bottom: 18px;
 }
 
 .footer-col ul {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 10px;
 }
 
 .footer-col a {
   font-size: 14px;
   color: var(--text-muted);
-  transition: color 0.2s;
+  transition: color 0.2s, padding-left 0.2s;
 }
 
 .footer-col a:hover {
   color: var(--text-primary);
+  padding-left: 4px;
 }
 
 .footer-bottom {
   border-top: 1px solid var(--border);
-  padding-top: 24px;
+  padding-top: 28px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1046,6 +1075,11 @@ button {
 .footer-bottom p {
   font-size: 13px;
   color: var(--text-faint);
+}
+
+.footer-bottom-links {
+  display: flex;
+  gap: 20px;
 }
 
 .footer-bottom a {
