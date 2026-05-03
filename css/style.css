@@ -616,6 +616,32 @@ button {
   transform: translateY(-1px);
 }
 
+/* ---------- Mobile Sticky Amazon Bar ---------- */
+.mobile-cta-bar { display: none; }
+
+@media (max-width: 700px) {
+  .mobile-cta-bar {
+    display: block;
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    background: var(--bg-secondary);
+    border-top: 1px solid var(--border);
+    padding: 12px 16px;
+    z-index: 100;
+  }
+  .mobile-cta-bar a {
+    display: block;
+    background: #FF9900;
+    color: #000;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    padding: 14px;
+    border-radius: 8px;
+  }
+  body { padding-bottom: 72px; }
+}
+
 /* ---------- Review Page ---------- */
 .review-layout {
   display: grid;
