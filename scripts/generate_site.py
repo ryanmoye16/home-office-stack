@@ -46,25 +46,24 @@ def short_name(product):
 def build_picks_grid(products):
     """Build the homepage picks grid HTML.
 
-    Indentation mirrors the existing HTML structure:
-      6 spaces: <div class="picks-grid"> / </div>
-      8 spaces: <a class="pick-card">
-     10 spaces: <div class="pick-card-num"> / <div class="pick-card-content"> / </div>
-     12 spaces: <h3> / <p> / <div class="pick-card-meta"> / Amazon <a>
-     14 spaces: <span> inside pick-card-meta
+    Card structure: image left + content right (desktop), image top + content stacked (mobile).
+    Rank number appears as a small badge overlaid on the image corner.
     """
     lines = []
     for i, p in enumerate(products, start=1):
         num = f"0{i}" if i < 10 else str(i)
         lines.append(f'        <a href="/reviews/{p["slug"]}.html" class="pick-card">')
-        lines.append(f'          <div class="pick-card-num">{num}</div>')
-        lines.append(f'          <div class="pick-card-content">')
+        lines.append(f'          <div class="pick-card-img-wrap">')
+        lines.append(f'            <img src="{p["amazon_image"]}" alt="{p["name"]}" class="pick-card-img" loading="lazy">')
+        lines.append(f'            <span class="pick-card-badge">{num}</span>')
+        lines.append(f'          </div>')
+        lines.append(f'          <div class="pick-card-body">')
         lines.append(f'            <h3>{p["name"]}</h3>')
         lines.append(f'            <p>{p["tagline"]}</p>')
         lines.append(f'            <div class="pick-card-meta">')
-        lines.append(f'              <span>Price: <strong class="pick-card-price">{p["price"]}</strong></span>')
-        lines.append(f'              <span>Rating: <strong class="rating-stars">{p["rating_stars"]}</strong> <strong>{p["rating_value"]}</strong></span>')
-        lines.append(f'              <span>Reviews: <strong>{p["review_count"]}</strong></span>')
+        lines.append(f'              <span class="pick-card-price">{p["price"]}</span>')
+        lines.append(f'              <span class="pick-card-rating">{p["rating_stars"]} {p["rating_value"]}</span>')
+        lines.append(f'              <span class="pick-card-reviews">{p["review_count"]} reviews</span>')
         lines.append(f'            </div>')
         lines.append(f'            <a href="https://www.amazon.com/dp/{p["asin"]}?tag={AMAZON_TAG}" class="pick-card-btn" target="_blank" rel="nofollow noopener" onclick="event.stopPropagation();">Check Price on Amazon →</a>')
         lines.append(f'          </div>')
