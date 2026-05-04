@@ -593,27 +593,26 @@ button {
 
 /* Content area */
 .pick-card-body {
-  padding: 20px 20px 20px 20px;
+  padding: 16px 18px;
   display: flex;
   flex-direction: column;
-  gap: 0;
+  gap: 8px;
   flex: 1;
   min-width: 0;
 }
 
 .pick-card-body h3 {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 600;
-  margin-bottom: 6px;
   line-height: 1.3;
+  color: var(--text-primary);
 }
 
 .pick-card-body p {
   font-size: 13px;
-  color: var(--text-muted);
-  margin-bottom: 12px;
-  line-height: 1.5;
-  flex: 1;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin: 0;
 }
 
 .pick-card-meta {
@@ -622,7 +621,6 @@ button {
   gap: 10px;
   font-size: 12px;
   flex-wrap: wrap;
-  margin-bottom: 10px;
 }
 
 .pick-card-price {
@@ -641,13 +639,14 @@ button {
 .pick-card-btn {
   display: inline-block;
   background: #FF9900;
-  color: #000;
+  color: #111113;
   font-weight: 600;
   font-size: 12px;
-  padding: 7px 14px;
-  border-radius: 4px;
+  padding: 8px 16px;
+  border-radius: 6px;
   transition: background 0.2s, transform 0.15s;
   align-self: flex-start;
+  margin-top: 4px;
 }
 
 .pick-card-btn:hover {
