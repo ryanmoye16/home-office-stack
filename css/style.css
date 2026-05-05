@@ -538,6 +538,7 @@ button {
   display: grid;
   grid-template-columns: 1fr;
   gap: 12px;
+  max-width: 860px;
 }
 
 .pick-card {
