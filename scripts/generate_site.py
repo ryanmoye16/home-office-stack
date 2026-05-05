@@ -83,6 +83,20 @@ def build_footer_links(products):
     return "\n".join(lines)
 
 
+def bump_css_version(content):
+    """Bump the CSS cache-bust version (?v=N) each time the site is generated."""
+    import re
+    pattern = re.compile(r'href="css/style\.css\?v=(\d+)"')
+    def replacer(m):
+        new_version = int(m.group(1)) + 1
+        return f'href="css/style.css?v={new_version}"'
+    new_content, count = pattern.subn(replacer, content)
+    if count == 0:
+        # No version param yet — add it
+        new_content = re.sub(r'href="css/style\.css"', r'href="css/style.css?v=1"', content)
+    return new_content
+
+
 def replace_picks_grid(content, new_grid):
     """Replace the content between <div class="picks-grid"> and its closing </div>."""
     # Opening: 6 spaces + <div class="picks-grid">
@@ -124,6 +138,7 @@ def main():
     new_footer = build_footer_links(products)
 
     content = INDEX_FILE.read_text()
+    content = bump_css_version(content)
     content = replace_picks_grid(content, new_grid)
     content = replace_footer_links(content, new_footer)
 
