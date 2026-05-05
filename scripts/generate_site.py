@@ -46,7 +46,8 @@ def short_name(product):
 def build_picks_grid(products):
     """Build the homepage picks grid HTML.
 
-    Card structure: image left + content right (desktop), image top + content stacked (mobile).
+    Card structure: image full-width at top, content below.
+    Single unified card — no side-by-side layout.
     Rank number appears as a small badge overlaid on the image corner.
     """
     lines = []
@@ -58,13 +59,15 @@ def build_picks_grid(products):
         lines.append(f'            <span class="pick-card-badge">{num}</span>')
         lines.append(f'          </div>')
         lines.append(f'          <div class="pick-card-body">')
-        lines.append(f'            <h3>{p["name"]}</h3>')
-        lines.append(f'            <p>{p["tagline"]}</p>')
-        lines.append(f'            <div class="pick-card-meta">')
-        lines.append(f'              <span class="pick-card-price">{p["price"]}</span>')
-        lines.append(f'              <span class="pick-card-rating">{p["rating_stars"]} {p["rating_value"]}</span>')
-        lines.append(f'              <span class="pick-card-reviews">{p["review_count"]} reviews</span>')
+        lines.append(f'            <div class="pick-card-header">')
+        lines.append(f'              <h3>{p["name"]}</h3>')
+        lines.append(f'              <div class="pick-card-meta">')
+        lines.append(f'                <span class="pick-card-price">{p["price"]}</span>')
+        lines.append(f'                <span class="pick-card-rating">{p["rating_stars"]} {p["rating_value"]}</span>')
+        lines.append(f'                <span class="pick-card-reviews">{p["review_count"]} reviews</span>')
+        lines.append(f'              </div>')
         lines.append(f'            </div>')
+        lines.append(f'            <p class="pick-card-tagline">{p["tagline"]}</p>')
         lines.append(f'            <a href="https://www.amazon.com/dp/{p["asin"]}?tag={AMAZON_TAG}" class="pick-card-btn" target="_blank" rel="nofollow noopener" onclick="event.stopPropagation();">Check Price on Amazon →</a>')
         lines.append(f'          </div>')
         lines.append(f'        </a>')

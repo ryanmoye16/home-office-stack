@@ -537,7 +537,7 @@ button {
 .picks-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 12px;
+  gap: 14px;
   max-width: 860px;
 }
 
@@ -545,29 +545,27 @@ button {
   background: var(--bg-secondary);
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
-  display: flex;
-  flex-direction: row;
-  gap: 0;
   overflow: hidden;
-  transition: border-color 0.25s, transform 0.25s, box-shadow 0.25s;
   text-decoration: none;
   color: inherit;
+  transition: border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+  display: flex;
+  flex-direction: column;
 }
 
 .pick-card:hover {
   border-color: var(--border-hover);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.2);
   transform: translateY(-2px);
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
 }
 
-/* Image wrapper — holds image + badge overlay */
+/* Image — full width at top of card */
 .pick-card-img-wrap {
   position: relative;
-  width: 180px;
-  min-width: 180px;
-  flex-shrink: 0;
-  background: var(--bg-tertiary);
+  width: 100%;
+  aspect-ratio: 16 / 9;
   overflow: hidden;
+  background: var(--bg-tertiary);
 }
 
 .pick-card-img {
@@ -575,51 +573,56 @@ button {
   height: 100%;
   object-fit: cover;
   display: block;
+  transition: transform 0.3s ease;
 }
 
-/* Rank badge — small overlay in top-left of image */
+.pick-card:hover .pick-card-img {
+  transform: scale(1.02);
+}
+
+/* Rank badge — top-left of image */
 .pick-card-badge {
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 12px;
+  left: 12px;
   background: rgba(0, 0, 0, 0.75);
   color: #fff;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 700;
-  padding: 3px 8px;
-  border-radius: 4px;
+  padding: 4px 9px;
+  border-radius: 5px;
   line-height: 1;
   letter-spacing: 0.5px;
 }
 
-/* Content area */
+/* Content area — below image, unified with card */
 .pick-card-body {
-  padding: 18px 20px;
+  padding: 18px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+
+/* Header: title + meta row */
+.pick-card-header {
   display: flex;
   flex-direction: column;
   gap: 6px;
-  flex: 1;
-  min-width: 0;
 }
 
 .pick-card-body h3 {
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 600;
   line-height: 1.3;
   color: var(--text-primary);
-}
-
-.pick-card-body p {
-  font-size: 14px;
-  color: var(--text-secondary);
-  line-height: 1.6;
   margin: 0;
 }
 
 .pick-card-meta {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 14px;
   font-size: 13px;
   flex-wrap: wrap;
 }
@@ -627,6 +630,7 @@ button {
 .pick-card-price {
   color: var(--accent-text);
   font-weight: 600;
+  font-size: 14px;
 }
 
 .pick-card-rating {
@@ -637,17 +641,26 @@ button {
   color: var(--text-faint);
 }
 
+/* Tagline */
+.pick-card-tagline {
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* CTA button */
 .pick-card-btn {
   display: inline-block;
   background: #FF9900;
   color: #111113;
   font-weight: 600;
   font-size: 13px;
-  padding: 8px 18px;
+  padding: 9px 20px;
   border-radius: 6px;
   transition: background 0.2s, transform 0.15s;
   align-self: flex-start;
-  margin-top: 4px;
+  margin-top: auto;
 }
 
 .pick-card-btn:hover {
@@ -658,23 +671,24 @@ button {
 /* ---------- Picks Grid: Mobile ---------- */
 @media (max-width: 600px) {
   .picks-grid {
-    gap: 10px;
-  }
-  .pick-card {
-    flex-direction: column;
+    gap: 12px;
   }
   .pick-card-img-wrap {
-    width: 100%;
-    min-width: unset;
-    height: 200px;
+    aspect-ratio: 16 / 9;
   }
-  .pick-card-badge {
-    font-size: 11px;
-    padding: 2px 7px;
+  .pick-card-body {
+    padding: 14px 16px 16px;
+  }
+  .pick-card-body h3 {
+    font-size: 15px;
   }
   .pick-card-btn {
     width: 100%;
     text-align: center;
+  }
+  .pick-card-badge {
+    font-size: 10px;
+    padding: 3px 8px;
   }
 }
 
