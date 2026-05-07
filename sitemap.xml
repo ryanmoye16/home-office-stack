@@ -21,6 +21,11 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://homeofficestack.com/reviews/amazon-basics-laptop-stand.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://homeofficestack.com/reviews/amazon-basics-monitor-arm.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -31,7 +36,27 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://homeofficestack.com/reviews/lifelong-upryze-ergonomic.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://homeofficestack.com/reviews/quntis-monitor-light-bar-pro.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://homeofficestack.com/reviews/rain-design-ilevel2.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://homeofficestack.com/reviews/tp-link-kasa-ep25.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://homeofficestack.com/reviews/ysagi-leather-desk-mat.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -41,12 +66,32 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://homeofficestack.com/categories/work-tools.html</loc>
+    <loc>https://homeofficestack.com/categories/desk-mats.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://homeofficestack.com/categories/usb-c-hubs.html</loc>
+    <loc>https://homeofficestack.com/categories/keyboards.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://homeofficestack.com/categories/laptop-stands.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://homeofficestack.com/categories/mice.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://homeofficestack.com/categories/monitor-arms.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://homeofficestack.com/categories/monitor-light-bars.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -56,9 +101,24 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://homeofficestack.com/categories/monitor-arms.html</loc>
+    <loc>https://homeofficestack.com/categories/usb-c-hubs.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://homeofficestack.com/categories/work-tools.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://homeofficestack.com/categories/cables.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://homeofficestack.com/categories/webcams.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://homeofficestack.com/work-tools/email-marketing-for-remote-workers.html</loc>

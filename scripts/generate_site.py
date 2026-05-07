@@ -28,17 +28,21 @@ def load_products():
 def short_name(product):
     """Generate a concise footer link name from product name."""
     name = product["name"]
-    if "USB-C Hub" in name and "Anker" in name:
+    if "Anker 7-in-1" in name or "Anker" in name and "Hub" in name:
         return "Anker USB-C Hub"
-    if "Smart Plug" in name:
+    if "Kasa EP25" in name or "Smart Plug" in name and "Kasa" in name:
         return "TP-Link Kasa EP25"
     if "Monitor Arm" in name and "Amazon Basics" in name:
         return "Amazon Basics Arm"
-    if "Light Bar" in name:
+    if "Quntis" in name or "Monitor Light Bar" in name:
         return "Quntis Monitor Light Bar"
-    if "Laptop Stand" in name:
+    if "Rain Design" in name or "iLevel" in name:
+        return "Rain Design iLevel 2"
+    if "Upryze" in name or "Lifelong" in name:
+        return "Lifelong Upryze"
+    if "Laptop Stand" in name and "Amazon Basics" in name:
         return "Amazon Basics Laptop Stand"
-    if "Desk Mat" in name:
+    if "YSAGi" in name or "Desk Mat" in name:
         return "YSAGi Desk Mat"
     return name
 
