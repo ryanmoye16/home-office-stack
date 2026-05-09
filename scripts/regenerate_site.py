@@ -93,38 +93,44 @@ def build_category_grid(products):
 def short_name(product):
     """Concise footer link name."""
     name = product["name"]
-    if "Anker 7-in-1" in name or "Anker" in name and "Hub" in name:
+    slug = product.get("slug", "")
+
+    # Specific slugs first (most unique)
+    if slug == "anker-555-usb-c-hub":
+        return "Anker 555 USB-C Hub"
+    if slug == "ergodriven-topo-mini":
+        return "Ergodriven Topo Mini"
+    if slug == "anker-7in1-hub":
         return "Anker USB-C Hub"
-    if "Kasa EP25" in name or "Smart Plug" in name and "Kasa" in name:
+
+    # Brand + type patterns
+    if "Kasa EP25" in name:
         return "TP-Link Kasa EP25"
+    if "Smart Plug" in name and "Amazon" in name:
+        return "Amazon Smart Plug"
     if "Monitor Arm" in name and "Amazon Basics" in name:
         return "Amazon Basics Arm"
-    if "Quntis" in name or "Monitor Light Bar" in name:
+    if "Quntis" in name:
         return "Quntis Monitor Light Bar"
     if "Rain Design" in name or "iLevel" in name:
         return "Rain Design iLevel 2"
-    if "Upryze" in name or "Lifelong" in name:
+    if "Upryze" in name:
         return "Lifelong Upryze"
     if "Laptop Stand" in name and "Amazon Basics" in name:
         return "Amazon Basics Laptop Stand"
-    if "Satechi" in name or ("Vegan" in name and "Leather" in name):
+    if "Satechi" in name:
         return "Satechi Desk Mat"
-    if "HUANUO" in name or "huanuo" in name:
+    if "HUANUO" in name:
         return "HUANUO Monitor Arm"
-    if "Lamicall" in name or "lamicall" in name:
+    if "Lamicall" in name:
         return "Lamicall Laptop Stand"
-    if "Tapo P110M" in name or "tapo-p110m" in name:
+    if "Tapo P110M" in name:
         return "Tapo P110M Smart Plug"
-    if "YSAGi" in name or "Desk Mat" in name:
+    if "YSAGi" in name:
         return "YSAGi Desk Mat"
-    if "Amazon Smart Plug" in name:
-        return "Amazon Smart Plug"
-    if "North Bayou" in name or "F80" in name:
+    if "North Bayou" in name:
         return "North Bayou F80"
-    if "Anker 555" in name or "8-in-1" in name:
-        return "Anker 555 USB-C Hub"
-    if "Ergodriven" in name or "Topo" in name:
-        return "Ergodriven Topo Mini"
+
     return name
 
 
