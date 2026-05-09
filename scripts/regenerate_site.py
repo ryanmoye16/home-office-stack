@@ -107,6 +107,14 @@ def short_name(product):
         return "Lifelong Upryze"
     if "Laptop Stand" in name and "Amazon Basics" in name:
         return "Amazon Basics Laptop Stand"
+    if "Satechi" in name or ("Vegan" in name and "Leather" in name):
+        return "Satechi Desk Mat"
+    if "HUANUO" in name or "huanuo" in name:
+        return "HUANUO Monitor Arm"
+    if "Lamicall" in name or "lamicall" in name:
+        return "Lamicall Laptop Stand"
+    if "Tapo P110M" in name or "tapo-p110m" in name:
+        return "Tapo P110M Smart Plug"
     if "YSAGi" in name or "Desk Mat" in name:
         return "YSAGi Desk Mat"
     if "Amazon Smart Plug" in name:
