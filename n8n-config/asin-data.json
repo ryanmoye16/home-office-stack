@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "name": "Anker 7-in-1 USB-C Hub",
+      "asin": "B07ZVKTP53",
+      "slug": "anker-7in1-hub",
+      "type": "review",
+      "currentPrice": 39.99,
+      "currentRating": 4.6,
+      "currentReviews": 28369,
+      "lastChecked": "2026-05-02"
+    },
+    {
+      "name": "TP-Link Kasa EP25 Smart Plug",
+      "asin": "B0B14C719T",
+      "slug": "tp-link-kasa-ep25",
+      "type": "review",
+      "currentPrice": 42.99,
+      "currentRating": 4.2,
+      "currentReviews": 4962,
+      "lastChecked": "2026-05-02"
+    },
+    {
+      "name": "Amazon Basics Single Monitor Arm",
+      "asin": "B0CQXMT3QC",
+      "slug": "amazon-basics-monitor-arm",
+      "type": "review",
+      "currentPrice": 35.99,
+      "currentRating": 4.3,
+      "currentReviews": 3577,
+      "lastChecked": "2026-05-02"
+    },
+    {
+      "name": "Quntis Monitor Light Bar PRO+",
+      "asin": "B0B6P9J3J5",
+      "slug": "quntis-monitor-light-bar-pro",
+      "type": "review",
+      "currentPrice": 69.99,
+      "currentRating": 4.4,
+      "currentReviews": 2299,
+      "lastChecked": "2026-05-02"
+    },
+    {
+      "name": "Amazon Basics Laptop Stand",
+      "asin": "B0BLRJ4R8F",
+      "slug": "amazon-basics-laptop-stand",
+      "type": "review",
+      "currentPrice": 20.99,
+      "currentRating": 4.6,
+      "currentReviews": 3172,
+      "lastChecked": "2026-05-02"
+    },
+    {
+      "name": "YSAGi Leather Desk Mat",
+      "asin": "B0BMTPC44X",
+      "slug": "ysagi-leather-desk-mat",
+      "type": "review",
+      "currentPrice": 9.99,
+      "currentRating": 4.7,
+      "currentReviews": 20554,
+      "lastChecked": "2026-05-02"
+    }
+  ]
+}
