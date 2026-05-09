@@ -53,7 +53,8 @@ def main():
 
     OUTPUT_DIR.mkdir(exist_ok=True)
     output_path = OUTPUT_DIR / f"{slug}.html"
-    output_path.write_text(html)
+    # Strip leading/trailing whitespace to avoid double newlines
+    output_path.write_text(html.strip())
     print(f"✅ Generated {output_path}")
 
 
