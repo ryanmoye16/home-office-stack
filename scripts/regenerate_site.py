@@ -204,10 +204,60 @@ CATEGORY_SLUG_MAP = {
     "desk-gear": "desk-gear.html",
 }
 
+# Order of category cards at top of desk-gear.html (matching their DOM order)
+DESK_GEAR_CATEGORY_ORDER = [
+    "monitor-arms",
+    "usb-c-hubs",
+    "smart-plugs",
+    "laptop-stands",
+    "monitor-light-bars",
+    "desk-mats",
+]
+
 # Category pages that use relative paths (../) vs absolute (/)
 RELATIVE_REVIEWS = {
     "desk-gear.html",  # has ../reviews/ links
 }
+
+
+def update_category_card_counts(filepath, products):
+    """Fix category-card-count labels in desk-gear.html top grid.
+
+    The top grid shows one card per product category (monitor-arms, usb-c-hubs, etc.)
+    with a review count. This function replaces the count for each category card
+    based on how many products actually exist in featured-products.json for that
+    category.
+    """
+    content = filepath.read_text()
+    cat_counts = {}
+    for p in products:
+        cat = p.get("category")
+        if cat:
+            cat_counts[cat] = cat_counts.get(cat, 0) + 1
+
+    for cat_slug, cat_file in CATEGORY_SLUG_MAP.items():
+        # Only the 6 real categories (skip desk-gear itself)
+        if cat_slug == "desk-gear":
+            continue
+        count = cat_counts.get(cat_slug, 0)
+        label = f"{count} review" if count == 1 else f"{count} reviews" if count > 0 else "Coming soon"
+
+        # Replace in the top categories-grid (within the <a class="category-card"> block for this category)
+        # Pattern: the card for this category has href that ends with "{cat_file}"
+        # We replace the category-card-count div inside that specific <a> block
+        href_pattern = re.compile(
+            rf'(<a href="{cat_file}"[^>]*>.*?<div class="category-card-count">)[^<]*(</div>)',
+            re.DOTALL
+        )
+        # Build a placeholder that won't match after replacement
+        replacement = rf'\g<1>{label}\2'
+        new_content, n = href_pattern.subn(replacement, content)
+        if n == 0:
+            print(f"  WARNING: could not find category card for {cat_slug} in {filepath.name}", file=sys.stderr)
+        else:
+            content = new_content
+
+    filepath.write_text(content)
 
 
 def update_category_page(filepath, products):
@@ -263,6 +313,12 @@ def main():
         cat_products = products_by_category(products, cat_slug)
         update_category_page(filepath, cat_products)
         print(f"  ✅ {filename} ({len(cat_products)} products)")
+
+    # 3. Fix category card counts in desk-gear.html (the "X review" labels at top)
+    desk_gear_path = CATEGORIES_DIR / "desk-gear.html"
+    if desk_gear_path.exists():
+        update_category_card_counts(desk_gear_path, products)
+        print(f"  ✅ desk-gear.html card counts updated")
 
     print()
     print("All pages regenerated.")
