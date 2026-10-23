@@ -249,25 +249,26 @@
       "rating_stars": "\u2605\u2605\u2605\u2605",
       "rating_value": "4.3",
       "review_count": "7,627",
-      "tagline": "Premium 8-in-1 USB-C hub with 100W PD, dual HDMI, and 10Gbps data transfer.",
+      "tagline": "8-in-1 USB-C hub with Gigabit Ethernet, 4K@60Hz HDMI, 10Gbps data, and 85W pass-through charging.",
       "amazon_image": "https://m.media-amazon.com/images/I/71zuiK5poRL._SL500_.jpg",
       "date_published": "2026-05-09",
-      "verdict": "The Anker 555 is the premium USB-C hub choice \u2014 8 ports including dual HDMI, 100W PD, and 10Gbps USB-A/C data transfer. Wirecutter-recommended brand with proven Amazon track record.",
+      "verdict": "The Anker 555 is the step-up USB-C hub in Anker's lineup \u2014 8 functions including Gigabit Ethernet and a single 4K@60Hz HDMI output, 100W PD input (85W reaches the laptop), and 10Gbps data on both the USB-C and USB-A ports. It is the pick for a single-monitor MacBook desk that also needs wired networking and fast external-SSD transfers.",
       "specs": {
-        "Ports": "2\u00d7 USB-A 3.0, 2\u00d7 USB-C (1\u00d7 PD 100W, 1\u00d7 data), 2\u00d7 HDMI, SD slot, microSD slot",
-        "Power Delivery": "Up to 100W pass-through",
-        "Video Output": "Dual HDMI \u2014 4K@30Hz or single 4K@60Hz",
+        "Ports": "2\u00d7 USB-A 3.2 (10Gbps), 1\u00d7 USB-C data (10Gbps), 1\u00d7 USB-C PD input (100W), 1\u00d7 HDMI 4K@60Hz, Gigabit Ethernet, SD slot, microSD slot",
+        "Power Delivery": "Up to 100W input; up to 85W pass-through to the laptop (hub reserves 15W)",
+        "Video Output": "Single HDMI \u2014 4K at 60Hz with a DP 1.4 host, 4K at 30Hz with DP 1.2",
         "Data Transfer": "Up to 10Gbps (USB-A and USB-C data ports)",
         "Build": "Aluminum alloy body, braided cable",
         "Compatibility": "MacBook Pro/Air, Windows laptops, iPad Pro, Samsung DeX",
-        "Dimensions": "4.8 \u00d7 2.4 \u00d7 0.7 inches"
+        "Dimensions": "4.76 \u00d7 2.17 \u00d7 0.6 inches",
+        "Weight": "4.5 oz"
       },
       "brand": "Anker",
-      "what_we_liked": "The 8-in-1 port selection covers every common need \u2014 dual HDMI for multi-monitor setups, 100W PD for MacBook charging, 10Gbps data for fast file transfers, and both SD/microSD for creators. The aluminum build is premium and dissipates heat well.\n\nDual HDMI output is rare at this price point. Being able to run two external monitors from a single USB-C port is genuinely useful for productivity setups.\n\nBuild quality is exactly what you'd expect from Anker \u2014 the hub stays cool under load, the connections are solid, and there's no signal drop even with multiple devices connected.",
-      "what_could_be_better": "Dual HDMI output is limited to 4K@30Hz when both are used simultaneously. Single HDMI can do 4K@60Hz but dual 4K@60Hz requires a Thunderbolt dock.\n\nIt is more expensive than the 7-in-1, but the extra HDMI port and higher data transfer speed justify the premium for power users.\n\nNo Gigabit Ethernet \u2014 if you need wired internet, look at Anker's higher-end docks.",
-      "performance": "Tested with MacBook Pro 14-inch over 2 weeks. Dual monitor setup worked reliably \u2014 Dell U2720Q at 4K/60Hz primary and Dell P2720Q at 4K/60Hz secondary via the two HDMI ports. 100W PD kept the MacBook charged at full speed even under heavy load. USB-A data transfers at 10Gbps as rated.",
-      "who_this_is_for": "Power users who need dual HDMI output and maximum data transfer speeds. Also ideal for creators who need both SD and microSD slots alongside dual monitor support.",
-      "bottom_line": "The Anker 555 is the premium USB-C hub for power users. 8 ports, dual HDMI, 100W PD, and 10Gbps data transfer make it the definitive choice for complex desk setups."
+      "what_we_liked": "The port mix is the real step up over basic hubs. Gigabit Ethernet is built in \u2014 the feature owners single out most, because a wired connection stays stable on video calls when Wi-Fi does not \u2014 alongside a 4K@60Hz HDMI output, SD and microSD slots, and pass-through charging, all from one USB-C port on the laptop.\n\nData speed doubles the budget tier: the USB-C data port and both USB-A ports run at 10Gbps, so an external SSD is not bottlenecked by the hub the way it is on 5Gbps hubs.\n\nCharging is honestly rated. Anker specifies 100W PD input with 15W reserved for the hub itself, leaving up to 85W for the laptop \u2014 full speed for a MacBook Air and adequate for a 14-inch MacBook Pro. Anker also states plainly that the USB-C data port carries no video signal, so there is no guessing about which port drives a display: HDMI does.",
+      "what_could_be_better": "There is only one HDMI port, so this hub drives exactly one external display. That matches the native limit of base M1 and M2 MacBooks anyway, but owners of Pro/Max chips or M3/M4 Macs who want two external monitors need a Thunderbolt dock or a DisplayLink adapter instead \u2014 macOS does not extend a desktop across dual-HDMI USB-C hubs.\n\nPass-through charging tops out at 85W to the laptop, so a 16-inch MacBook Pro that ships with a 140W adapter charges more slowly through the hub under heavy load.\n\nAnker notes the shell can reach about 122\u00b0F when every port is busy with a PD adapter attached. Owners report it runs warm under full load; keep it on a hard desk surface rather than a couch or bed.",
+      "performance": "Owner feedback on the 555 is consistent: the Ethernet connection is the reliability win, the 4K HDMI output is stable for office and media work, and 10Gbps transfers keep external SSDs at full speed. Long-term reviewers report the aluminum body and braided cable holding up to daily travel use.\n\nTwo recurring owner notes are worth knowing before you buy. First, pass-through charging depends on the charger you feed it: a 100W PD charger is what delivers the full 85W to the laptop, and at least one long-term reviewer's early charging trouble traced back to the charger, resolved after a charger firmware update and help from Anker support. Second, warmth under full load is normal for this hub (Anker itself flags ~122\u00b0F fully loaded) and is not, by owner accounts, a sign of failure.",
+      "who_this_is_for": "MacBook owners building a one-cable desk around a single external monitor who also want wired Ethernet and fast SSD transfers. It fits especially well for:\n\nMacBook Air and 14-inch MacBook Pro users \u2014 85W pass-through covers their charging needs while the hub runs everything else.\n\nAnyone whose Wi-Fi drops on calls \u2014 built-in Gigabit Ethernet removes the separate adapter.\n\nCreators \u2014 SD and microSD slots plus 10Gbps USB ports cover card imports and external drives in one hub.",
+      "bottom_line": "The Anker 555 is the right upgrade from a basic travel hub when your desk needs Ethernet, 10Gbps data, and one 4K@60Hz monitor on a single cable. Buy it for the port mix and the honest 85W pass-through \u2014 not for dual monitors, which no configuration of this hub provides on a Mac."
     },
     {
       "slug": "north-bayou-f80-monitor-arm",
