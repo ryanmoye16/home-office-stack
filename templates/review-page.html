@@ -88,7 +88,7 @@ gtag('config', 'G-M90CV6HL4F');
           <div class="review-meta">
             <div class="review-meta-item">
               <span class="review-meta-label">Price:</span>
-              <strong style="color: var(--accent-text);">{{ product.price }}</strong>
+              <strong style="color: var(--accent-text);">Check price on Amazon</strong>
             </div>
             <div class="review-meta-item">
               <span class="review-meta-label">Rating:</span>
@@ -190,7 +190,7 @@ gtag('config', 'G-M90CV6HL4F');
             <img src="{{ product.amazon_image }}" alt="{{ product.name }}" class="pick-card-img" loading="lazy">
             <div class="pick-card-body">
               <h3 class="pick-card-title">{{ product.name }}</h3>
-              <p class="pick-card-subtitle">{% if product.specs.get('Ports') %}{{ product.specs['Ports'].split(',')[0] }} • {% endif %}{{ product.price }} • {{ product.rating_stars }} {{ product.rating_value }}/5</p>
+              <p class="pick-card-subtitle">{% if product.specs.get('Ports') %}{{ product.specs['Ports'].split(',')[0] }} • {% endif %}Check price on Amazon • {{ product.rating_stars }} {{ product.rating_value }}/5</p>
               <div class="pick-card-rating">{{ product.rating_stars }} <span>{{ product.rating_value }}/5</span></div>
               <a href="https://www.amazon.com/dp/{{ product.asin }}?tag={{ amazon_tag }}" class="pick-card-btn" target="_blank" rel="nofollow noopener">Check Price on Amazon →</a>
             </div>
@@ -201,7 +201,7 @@ gtag('config', 'G-M90CV6HL4F');
           <h4 style="font-size: 14px; font-weight: 600; margin-bottom: 12px;">Quick Facts</h4>
           <ul style="display: flex; flex-direction: column; gap: 8px; font-size: 13px; color: var(--text-secondary);">
             <li>✓ {{ product.name }}</li>
-            <li>✓ {{ product.price }}</li>
+            <li>✓ Check price on Amazon</li>
             <li>✓ {{ product.rating_stars }} {{ product.rating_value }}/5</li>
             <li>✓ {{ product.review_count }} Amazon reviews</li>
           </ul>
