@@ -265,8 +265,10 @@ def update_category_page(filepath, products):
     content = filepath.read_text()
     category_grid = build_category_grid(products)
 
-    # Category pages use ../reviews/ links (relative from categories/ subdir)
-    category_grid = category_grid.replace('/reviews/', '../reviews/')
+    # build_category_grid() already emits ../reviews/ links (relative from
+    # the categories/ subdir). Do NOT re-prefix here: a previous
+    # .replace('/reviews/', '../reviews/') matched inside '../reviews/'
+    # and produced broken '..../reviews/' hrefs (U1).
 
     new_content = replace_picks_grid(content, category_grid)
     new_content = bump_css_version(new_content)
