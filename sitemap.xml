@@ -11,11 +11,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://homeofficestack.com/404.html</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
     <loc>https://homeofficestack.com/privacy-policy.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
@@ -31,12 +26,47 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://homeofficestack.com/reviews/amazon-smart-plug.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://homeofficestack.com/reviews/anker-555-usb-c-hub.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://homeofficestack.com/reviews/anker-7in1-hub.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://homeofficestack.com/reviews/ergodriven-topo-mini.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://homeofficestack.com/reviews/huanuo-single-monitor-arm.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://homeofficestack.com/reviews/lamicall-adjustable-laptop-stand.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://homeofficestack.com/reviews/lifelong-upryze-ergonomic.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://homeofficestack.com/reviews/north-bayou-f80-monitor-arm.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://homeofficestack.com/reviews/quntis-monitor-light-bar.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -47,6 +77,16 @@
   </url>
   <url>
     <loc>https://homeofficestack.com/reviews/rain-design-ilevel2.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://homeofficestack.com/reviews/satechi-vegan-leather-desk-mat.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://homeofficestack.com/reviews/tapo-p110m-matter-smart-plug.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -71,17 +111,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://homeofficestack.com/categories/keyboards.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://homeofficestack.com/categories/laptop-stands.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://homeofficestack.com/categories/mice.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -109,16 +139,6 @@
     <loc>https://homeofficestack.com/categories/work-tools.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://homeofficestack.com/categories/cables.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://homeofficestack.com/categories/webcams.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://homeofficestack.com/work-tools/best-monitor-arm-for-ultrawide.html</loc>
