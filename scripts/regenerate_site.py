@@ -322,6 +322,19 @@ def main():
         update_category_card_counts(desk_gear_path, products)
         print(f"  ✅ desk-gear.html card counts updated")
 
+    # 4. Stamp sitemap <lastmod> dates from git history (P1 #7)
+    sitemap_script = REPO / "scripts" / "update_sitemap_lastmod.py"
+    if sitemap_script.exists():
+        import subprocess
+        result = subprocess.run(
+            [sys.executable, str(sitemap_script)],
+            capture_output=True, text=True,
+        )
+        if result.returncode == 0:
+            print(f"  ✅ sitemap.xml lastmod stamped")
+        else:
+            print(f"  WARNING: sitemap lastmod stamping failed: {result.stderr.strip()}", file=sys.stderr)
+
     print()
     print("All pages regenerated.")
     print()
