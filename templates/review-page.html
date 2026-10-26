@@ -109,7 +109,7 @@ gtag('config', 'G-M90CV6HL4F');
             </div>
             <div class="review-meta-item">
               <span class="review-meta-label">Reviews:</span>
-              <strong>{{ product.review_count }}</strong>
+              <strong>{{ product.review_count }}</strong> <span>(as of {{ product.rating_as_of }})</span>
             </div>
             <div class="review-meta-item">
               <span class="review-meta-label">Category:</span>
@@ -217,7 +217,7 @@ gtag('config', 'G-M90CV6HL4F');
             <li>{{ product.name }}</li>
             <li>Check price on Amazon</li>
             <li>{{ product.rating_stars }} {{ product.rating_value }}/5</li>
-            <li>{{ product.review_count }} Amazon reviews</li>
+            <li>{{ product.review_count }} Amazon reviews (as of {{ product.rating_as_of }})</li>
           </ul>
         </div>
 

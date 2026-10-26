@@ -67,7 +67,7 @@ def build_picks_grid(products):
         lines.append(f'            <div class="pick-card-meta">')
         lines.append(f'              <span class="pick-card-price">Check price on Amazon</span>')
         lines.append(f'              <span class="pick-card-rating">{p["rating_stars"]} {p["rating_value"]}</span>')
-        lines.append(f'              <span class="pick-card-reviews">{p["review_count"]} reviews</span>')
+        lines.append(f'              <span class="pick-card-reviews">{p["review_count"]} reviews (as of {p["rating_as_of"]})</span>')
         lines.append(f'            </div>')
         lines.append(f'            <p class="pick-card-tagline">{p["tagline"]}</p>')
         lines.append(f'            <div class="pick-card-btn" onclick="window.open(\'https://www.amazon.com/dp/{p["asin"]}?tag={AMAZON_TAG}\', \'_blank\', \'noopener,nofollow\');">Check Price on Amazon →</div>')
