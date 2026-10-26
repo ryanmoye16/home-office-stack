@@ -87,11 +87,110 @@
         "Clamp/Bolt": "Both included"
       },
       "brand": "Amazon Basics",
-      "what_we_liked": "Straightforward installation with clear instructions, per owner reports. All necessary hardware is included, and both C-clamp and grommet mount options are in the box.\n\nHeight, tilt, swivel, and rotation cover the standard ergonomic adjustments, and owners report the arm stays stable once mounted, with no wobble at normal typing speeds.\n\nThe integrated cable management channel keeps the desk tidy.",
-      "what_could_be_better": "At 20 lb max, it won't handle ultrawide monitors or heavy professional displays. Build quality is functional rather than premium, in line with owner expectations for the Amazon Basics line.\n\nThe adjustment mechanisms are slightly stiff out of the box, according to owners; they report the arm loosens up after a few days of use.",
-      "performance": "Owner reports describe a steady hold on standard 24 to 27 inch monitors, with no drift or sag once the arm is tensioned correctly. The recurring caveat is the break-in period: adjustment feels stiff at first, then smooths out with use.",
+      "what_we_liked": "Straightforward installation with clear instructions, per owner reports. All necessary hardware is included, and both C-clamp and grommet mount options are in the box.\n\nHeight, tilt, swivel, and rotation cover the standard ergonomic adjustments, and owners report the arm stays stable once mounted, with no wobble at normal typing speeds.\n\nThe integrated cable management channel keeps the desk tidy.\n\nMounting the monitor on an arm also removes the monitor's own stand from the desk entirely: the pole sits at the desk edge, so the footprint the factory stand occupied becomes usable desk surface again. Owners setting up small desks cite that reclaimed space, alongside the steady hold, as the change they notice most once the install is done.",
+      "what_could_be_better": "At 20 lb max, it won't handle ultrawide monitors or heavy professional displays. Build quality is functional rather than premium, in line with owner expectations for the Amazon Basics line.\n\nThe adjustment mechanisms are slightly stiff out of the box, according to owners; they report the arm loosens up after a few days of use.\n\nThe 20 lb ceiling needs measuring, not guessing. The figure that counts is your monitor's weight without its factory stand, from the manufacturer's specification page \u2014 a panel that reads comfortably under the limit with its stand attached can sit much closer to it than owners expect once the stand comes off, and capacity is best judged with headroom left over rather than at the line.",
+      "performance": "Owner reports describe a steady hold on standard 24 to 27 inch monitors, with no drift or sag once the arm is tensioned correctly. The recurring caveat is the break-in period: adjustment feels stiff at first, then smooths out with use.\n\nThe pattern in owner feedback is set-and-forget: this is a standard arm, not a gas-spring design, so moving the monitor takes deliberate effort, especially during the stiff break-in period. Owners who set their screen height once and leave it describe that as a non-issue; owners who reposition the screen several times a day feel the friction on every move, and that frequency \u2014 not the hold itself \u2014 is what separates the satisfied reports from the frustrated ones.",
       "who_this_is_for": "Budget-conscious buyers with standard 24 to 27 inch monitors under 20 lb. If you're building a first home office and want the basic adjustments without a gas-spring mechanism, this arm covers the essentials.",
-      "bottom_line": "The Amazon Basics Single Monitor Arm is the straightforward budget pick: it holds a standard monitor, adjusts in the four directions that matter, and includes both mounting options. Choose a gas-spring arm instead if you reposition your monitor often."
+      "bottom_line": "The Amazon Basics Single Monitor Arm is the straightforward budget pick: it holds a standard monitor, adjusts in the four directions that matter, and includes both mounting options. Choose a gas-spring arm instead if you reposition your monitor often.",
+      "date_modified": "2026-10-26",
+      "extra_sections": [
+        {
+          "heading": "Will It Fit Your Monitor? The Weight, Size and VESA Check",
+          "paragraphs": [
+            "This arm carries three hard limits, all printed in its specifications: monitors up to 32 inches, up to 20 lbs, and VESA mounting patterns of 75\u00d775mm or 100\u00d7100mm. Everything else about fit follows from those three numbers, so check them against the monitor you actually own \u2014 its weight without the factory stand and its VESA pattern, both from the manufacturer's specification page \u2014 before anything else on this page matters.",
+            "Weight is the limit owners most often misjudge. A monitor's listed shipping weight includes the stand and the box, and its on-desk weight includes the stand the arm replaces; the arm only ever carries the panel itself. Judge the panel-only figure against the 20 lb ceiling with headroom to spare \u2014 the weight-capacity guidance in our <a href=\"../work-tools/best-monitor-arm-for-ultrawide.html\">ultrawide monitor arm guide</a> works through why a rating is best treated as a ceiling to stay visibly under, not a target to land on, since an arm holds least comfortably at the very top of its range.",
+            "VESA is the quiet disqualifier. Most standard 24 to 32 inch monitors carry a 75\u00d775 or 100\u00d7100 pattern and mount directly; some panels hide the pattern under a cover or need the manufacturer's own adapter, and large professional displays that use 200\u00d7100 are outside what this arm accepts at all. If your monitor has no VESA pattern, no arm in this price class fixes that \u2014 check the back of the panel before you order, not after."
+          ],
+          "table": {
+            "rows": [
+              [
+                "24 inches",
+                "Fits comfortably",
+                "Well inside the size ceiling; panel-only weight is typically far under 20 lb. Confirm the VESA pattern."
+              ],
+              [
+                "27 inches",
+                "Fits",
+                "The size this arm is most often bought for. Check panel-only weight anyway \u2014 heavier professional 27 inch panels sit closer to the ceiling."
+              ],
+              [
+                "32 inches",
+                "Fits, at the ceiling",
+                "The stated maximum size. Weight, not inches, decides: a 32 inch panel near 20 lb without its stand leaves no headroom."
+              ],
+              [
+                "34 inch ultrawide",
+                "Outside the rating",
+                "Above the stated 32 inch maximum, whatever it weighs. Our ultrawide guide runs the numbers on all three arms we review against 34 inch panels."
+              ],
+              [
+                "VESA 200\u00d7100",
+                "Outside the rating",
+                "This arm accepts 75\u00d775 and 100\u00d7100 only. A 200-pattern panel needs an arm that lists it."
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "How High Should Your Monitor Sit?",
+          "paragraphs": [
+            "Ergonomic guidance for seated computer work \u2014 the OSHA workstation guidance our <a href=\"../work-tools/best-laptop-stand-for-posture.html\">laptop stand posture guide</a> is built on \u2014 puts the top of the screen at or just below eye level, the screen roughly 20 to 40 inches from your eyes, and your gaze angled slightly down, around 15 to 20 degrees. A monitor on its factory stand often fails the first test by a fixed amount you cannot change: the stand gives you one height, and your chair and desk were not designed around it. Height adjustment is the entire reason an arm exists.",
+            "You can measure your own gap in about a minute. Sit in your normal chair at your desk, look straight ahead, and note your eye level against the wall or a door frame. Then compare it with the top edge of your screen as it sits today. If the top of the screen sits well below eye level, you are looking down at a steeper angle than the guidance suggests all day; if it sits above eye level, you are tilting your head back. An arm closes that gap in either direction and, just as usefully, lets you pull the screen to the right viewing distance without moving the desk.",
+            "If the screen you are raising is a laptop rather than a monitor, the fork is different \u2014 a laptop stand against a monitor arm \u2014 and our <a href=\"../work-tools/laptop-stand-vs-monitor-arm.html\">laptop stand vs monitor arm guide</a> works through which screen you own first. And if you are arranging the whole desk rather than one screen, the screen layer is layer one of the four-layer setup in our <a href=\"../work-tools/ergonomic-desk-setup.html\">ergonomic desk setup guide</a>."
+          ]
+        },
+        {
+          "heading": "How It Compares With the Other Monitor Arms We Review",
+          "paragraphs": [
+            "All three arms we review mount a single monitor and adjust in the same four directions; what separates them is capacity, mechanism, and how often you plan to move the screen. The specifications below are each arm's own catalog figures, with the North Bayou F80's size range shown at the conservative 17 to 30 inch range its manual states. This arm is the only one of the three without a gas spring \u2014 which is another way of saying it is the set-and-forget option, and the other two trade that simplicity for one-handed repositioning."
+          ],
+          "table": {
+            "rows": [
+              [
+                "<a href=\"../reviews/amazon-basics-monitor-arm.html\">Amazon Basics</a> (this review)",
+                "Up to 20 lb \u00b7 up to 32 in",
+                "Standard mechanism \u00b7 both mounts included"
+              ],
+              [
+                "<a href=\"../reviews/huanuo-single-monitor-arm.html\">HUANUO Single</a>",
+                "Up to 22 lb \u00b7 13 to 32 in",
+                "Gas spring \u00b7 the capacity pick of the three"
+              ],
+              [
+                "<a href=\"../reviews/north-bayou-f80-monitor-arm.html\">NB North Bayou F80</a>",
+                "Up to 19.8 lb \u00b7 17 to 30 in (manual)",
+                "Gas spring \u00b7 smooth frequent repositioning"
+              ]
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": "Will the Amazon Basics monitor arm fit a 34-inch ultrawide monitor?",
+          "a": "No \u2014 not within its rating. The arm is specified for monitors up to 32 inches and 20 lbs, so a 34-inch ultrawide is outside the stated size maximum before weight is even considered. Our ultrawide monitor arm guide runs the weight and headroom numbers on all three arms we review against 34-inch panels, including where each one's limits land."
+        },
+        {
+          "q": "How do I check whether my monitor is under the 20 lb limit?",
+          "a": "Use the panel-only weight from your monitor manufacturer's specification page \u2014 the weight without its factory stand, since the arm replaces the stand. Do not use the shipping weight, which includes the stand and packaging. Then judge the figure with headroom: a panel at or very near 20 lbs is at the arm's ceiling, where any arm holds least comfortably, so a higher-capacity arm is the safer pick."
+        },
+        {
+          "q": "Does this arm work with a VESA 200\u00d7100 monitor?",
+          "a": "No. The arm accepts VESA 75\u00d775mm and 100\u00d7100mm patterns only. Check the pattern on the back of your monitor \u2014 or in its specification page \u2014 before ordering; some monitors hide the pattern under a removable cover, and some have no VESA mounting at all, in which case no standard arm fits without the manufacturer's own adapter."
+        },
+        {
+          "q": "Should I use the C-clamp or the grommet mount?",
+          "a": "Both are included in the box, so the desk decides. The C-clamp grips the edge of the desktop and needs no drilling, which is why most owners use it. The grommet mount bolts through a hole in the desk \u2014 either an existing cable hole or one you drill \u2014 and suits desks whose edge the clamp cannot reach or grip. Either way, the desk itself has to be solid enough to carry the arm and monitor at the mount point."
+        },
+        {
+          "q": "Is the Amazon Basics monitor arm a gas-spring arm?",
+          "a": "No. It is a standard arm with height, tilt, swivel, and rotation adjustment, but no gas-spring mechanism. Owners report the adjustment is stiff out of the box and loosens after a few days of use. That design suits a screen you set once and leave; if you reposition your monitor often, a gas-spring arm such as the HUANUO Single or the North Bayou F80 moves with one hand instead."
+        },
+        {
+          "q": "Does a monitor arm help on a small desk?",
+          "a": "Yes, in one specific way: the monitor's factory stand comes off the desk entirely and the arm's pole mounts at the desk edge, so the surface the stand occupied becomes usable again. The screen still needs the same viewing distance \u2014 roughly 20 to 40 inches from your eyes per ergonomic guidance \u2014 so on a shallow desk, check that the arm can hold the panel far enough back before relying on the reclaimed space."
+        }
+      ]
     },
     {
       "slug": "quntis-monitor-light-bar-pro",
