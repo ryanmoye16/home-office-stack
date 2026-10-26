@@ -51,9 +51,27 @@
     },
     "author": {"@type": "Person", "name": "Don at Home Office Stack"},
     "reviewBody": "{{ product.verdict }}",
-    "datePublished": "{{ product.date_published }}"
+    "datePublished": "{{ product.date_published }}"{% if product.date_modified %},
+    "dateModified": "{{ product.date_modified }}"{% endif %}
   }
   </script>
+  {% if product.faq %}
+  <!-- JSON-LD: FAQ Schema (only on reviews carrying a faq list in the catalog) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {% for item in product.faq %}{
+        "@type": "Question",
+        "name": {{ item.q | tojson }},
+        "acceptedAnswer": {"@type": "Answer", "text": {{ item.a | tojson }}}
+      }{% if not loop.last %},{% endif %}
+      {% endfor %}
+    ]
+  }
+  </script>
+  {% endif %}
 <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-M90CV6HL4F"></script>
 <script>
@@ -184,6 +202,35 @@ gtag('config', 'G-M90CV6HL4F');
           <h2>Who This Is For</h2>
           {% for para in product.who_this_is_for.split('\n\n') %}
           <p>{{ para }}</p>
+          {% endfor %}
+        </div>
+        {% endif %}
+
+        {# Optional depth sections from the catalog (extra_sections): paragraphs may carry internal-link markup, hence |safe; tables render as specs-table rows of cells, cells may carry link markup too. Reviews without the field render exactly as before. #}
+        {% if product.extra_sections %}
+        {% for section in product.extra_sections %}
+        <div class="review-section">
+          <h2>{{ section.heading }}</h2>
+          {% for para in section.paragraphs %}
+          <p>{{ para | safe }}</p>
+          {% endfor %}
+          {% if section.table %}
+          <table class="specs-table">
+            {% for row in section.table.rows %}
+            <tr>{% for cell in row %}<td>{{ cell | safe }}</td>{% endfor %}</tr>
+            {% endfor %}
+          </table>
+          {% endif %}
+        </div>
+        {% endfor %}
+        {% endif %}
+
+        {% if product.faq %}
+        <div class="review-section">
+          <h2>Frequently Asked Questions</h2>
+          {% for item in product.faq %}
+          <h3>{{ item.q }}</h3>
+          <p>{{ item.a }}</p>
           {% endfor %}
         </div>
         {% endif %}
