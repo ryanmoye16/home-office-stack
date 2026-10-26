@@ -13,6 +13,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://homeofficestack.com/how-we-research.html</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://homeofficestack.com/privacy-policy.html</loc>
     <lastmod>2026-10-26</lastmod>
     <changefreq>yearly</changefreq>
