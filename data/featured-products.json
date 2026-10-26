@@ -57,11 +57,125 @@
         "Requires Hub": "No"
       },
       "brand": "TP-Link Kasa",
-      "what_we_liked": "Apple HomeKit support is the headline: energy-monitoring plugs that work directly with Siri and the Home app are still uncommon, and the EP25 also works with Alexa, Google Assistant, and SmartThings, so it is not locked to one household ecosystem. TP-Link rates it for a full 15A / 1800W load and certifies it UL with a flame-retardant shell and a 2-year warranty.\n\nEnergy monitoring is the feature owners keep using \u2014 real-time and historical draw in the Kasa app makes standby hogs easy to spot on desk equipment, TVs, and space heaters. The slim body is genuinely compact: two plugs stack in the same duplex outlet without blocking the second socket. Scheduling, timers, Away Mode, and grouping all run in the Kasa app with no hub and no subscription.",
-      "what_could_be_better": "It is not a Matter plug, and there is no Thread or Zigbee \u2014 the EP25 predates TP-Link's Matter line, so a Matter-first setup should look at the Tapo P110M instead. It is also 2.4GHz Wi-Fi only, which is where the owner complaints concentrate: TP-Link's own community threads are full of HomeKit setup struggles on band-steered mesh networks, and the fixes (join the 2.4GHz band during setup, disable phone private addressing) are more fiddly than a modern Matter pairing.\n\nEnergy history lives in the Kasa app, so checking consumption means opening Kasa even if day-to-day control happens in Apple Home or through a voice assistant. Each plug also covers a single outlet, so multi-device desk setups need several of them.",
-      "performance": "Owner feedback splits cleanly in two: setup is the pain point, daily operation is not. Once paired, owners report schedules and timers firing dependably and the plug holding its connection on a healthy 2.4GHz network, and the energy readout gets used for real jobs \u2014 a recurring community example is monitoring draw and cutting power when variable utility rates spike. Voice control through Siri, Alexa, or Google is the everyday interaction most owners describe, with the Kasa app reserved for energy history and schedule changes.",
+      "what_we_liked": "Apple HomeKit support is the headline: energy-monitoring plugs that work directly with Siri and the Home app are still uncommon, and the EP25 also works with Alexa, Google Assistant, and SmartThings, so it is not locked to one household ecosystem. TP-Link rates it for a full 15A / 1800W load and certifies it UL with a flame-retardant shell and a 2-year warranty.\n\nEnergy monitoring is the feature owners keep using \u2014 real-time and historical draw in the Kasa app makes standby hogs easy to spot on desk equipment, TVs, and space heaters. The slim body is genuinely compact: two plugs stack in the same duplex outlet without blocking the second socket. Scheduling, timers, Away Mode, and grouping all run in the Kasa app with no hub and no subscription.\n\nThe scheduling side is what turns the monitoring into an actual routine rather than a curiosity. Owners put these plugs on the unglamorous home-office jobs \u2014 a desk lamp that comes on at start time, a fan or space heater that cannot be left running overnight, a coffee maker with a physical switch ready when they sit down \u2014 and sunrise/sunset plus custom schedules, timers, Away Mode, and grouping cover all of that in the Kasa app. None of it needs a hub, and none of it sits behind a subscription, which is why the feature set owners describe still using months later is the schedule-plus-history combination rather than voice control alone.",
+      "what_could_be_better": "It is not a Matter plug, and there is no Thread or Zigbee \u2014 the EP25 predates TP-Link's Matter line, so a Matter-first setup should look at the Tapo P110M instead. It is also 2.4GHz Wi-Fi only, which is where the owner complaints concentrate: TP-Link's own community threads are full of HomeKit setup struggles on band-steered mesh networks, and the fixes (join the 2.4GHz band during setup, disable phone private addressing) are more fiddly than a modern Matter pairing.\n\nEnergy history lives in the Kasa app, so checking consumption means opening Kasa even if day-to-day control happens in Apple Home or through a voice assistant. Each plug also covers a single outlet, so multi-device desk setups need several of them.\n\nThe single-outlet coverage compounds that app split. A desk with a monitor, a lamp, and a heater is three plugs, each reporting into Kasa separately, and because the EP25 predates TP-Link's Matter line, a household that standardizes on Matter later has no firmware path that turns these into Matter plugs \u2014 they stay HomeKit-over-Wi-Fi plugs for their whole life. That is a fine trade when HomeKit is the settled platform; it is the wrong place to build a multi-plug setup on if the platform decision is still open.",
+      "performance": "Owner feedback splits cleanly in two: setup is the pain point, daily operation is not. Once paired, owners report schedules and timers firing dependably and the plug holding its connection on a healthy 2.4GHz network, and the energy readout gets used for real jobs \u2014 a recurring community example is monitoring draw and cutting power when variable utility rates spike. Voice control through Siri, Alexa, or Google is the everyday interaction most owners describe, with the Kasa app reserved for energy history and schedule changes.\n\nOne performance limit has nothing to do with the plug itself: it can only control a device that resumes when power returns. A smart plug works by cutting and restoring power, so it suits devices with a physical on/off switch \u2014 lamps, fans, coffee makers, heaters that come back on at their set level. A device that wakes into a standby state and waits for its own power button will simply sit off when the plug restores power, however dependable the schedule is. Owners who match the plug to the first kind of device report the dependable operation above; mismatched devices are the other recurring source of 'it doesn't work' reports, and no plug in this class fixes that.",
       "who_this_is_for": "Apple HomeKit households that want energy monitoring without a subscription, and anyone who wants to track and cut the draw of high-draw devices like space heaters or desktop equipment. If your smart home is being built on Matter rather than HomeKit, this is the wrong TP-Link plug \u2014 the Matter model is the one to pick.",
-      "bottom_line": "The TP-Link Kasa EP25 is the smart plug to buy for HomeKit energy monitoring without a subscription fee: compact, 15A-rated, and backed by a 2-year warranty. Buy it for HomeKit, not for Matter \u2014 judged on that honest basis, it remains a solid, well-supported plug."
+      "bottom_line": "The TP-Link Kasa EP25 is the smart plug to buy for HomeKit energy monitoring without a subscription fee: compact, 15A-rated, and backed by a 2-year warranty. Buy it for HomeKit, not for Matter \u2014 judged on that honest basis, it remains a solid, well-supported plug.",
+      "date_modified": "2026-10-26",
+      "extra_sections": [
+        {
+          "heading": "Will It Fit Your Home? The Platform, Load and Network Check",
+          "paragraphs": [
+            "This plug carries three hard limits, and the first is not electrical: it is an Apple HomeKit plug running over Wi-Fi \u2014 not a Matter plug, with no Thread or Zigbee radio \u2014 it is rated for loads up to 15A / 1800W, and it connects on 2.4GHz Wi-Fi only, with no hub required. Everything else about fit follows from those three numbers, so check them against the home and the device you actually own \u2014 the platform your household controls lights and plugs from today, and the draw printed on the device's own rating label \u2014 before anything else on this page matters.",
+            "Platform is the limit buyers most often misjudge, because listings blur it. The EP25 works with Siri and the Home app, and also with Alexa, Google Assistant, and SmartThings, so a mixed household is covered \u2014 but it will never appear as a Matter device, and a setup being built Matter-first should start with the <a href=\"../reviews/tapo-p110m-matter-smart-plug.html\">Tapo P110M</a> instead, as our <a href=\"../work-tools/best-smart-plug.html\">smart plug guide</a> works through in its platform-first comparison. Thread, Zigbee, and Z-Wave systems are outside what this plug can join at all.",
+            "Load is a ceiling to stay under, not a target to land on. The 15A / 1800W rating covers the high-draw devices owners most often put on it \u2014 space heaters and desktop equipment are the recurring examples in owner feedback \u2014 but the figure that matters is the connected device's own stated draw, and a device at or over the rating does not belong on this plug or any of the three we review, which all share the same 15A ceiling. The network check is the last one: the plug needs a 2.4GHz band it can actually join during pairing, which is where band-steered mesh networks make setup fiddly (see the pairing question in the FAQ below)."
+          ],
+          "table": {
+            "rows": [
+              [
+                "Apple Home / Siri household",
+                "Fits \u2014 the reason to buy",
+                "HomeKit-native control plus energy monitoring with no subscription; still the uncommon combination this review is built on."
+              ],
+              [
+                "Alexa, Google Assistant, or SmartThings household",
+                "Fits",
+                "Also works with all three \u2014 but energy history still lives in the Kasa app, not in those platform apps."
+              ],
+              [
+                "Matter-first setup",
+                "Outside its platform",
+                "The EP25 is not a Matter plug and gains no Matter support later. The Tapo P110M is the Matter model in this lineup."
+              ],
+              [
+                "Thread, Zigbee, or Z-Wave system",
+                "Outside its platform",
+                "No such radio is built in, and no hub bridges a Wi-Fi HomeKit plug into those systems."
+              ],
+              [
+                "Device drawing up to 15A / 1800W",
+                "Fits, check the ceiling",
+                "Judge the device's own rating label against 15A / 1800W and stay visibly under it on a high-draw device."
+              ],
+              [
+                "Device drawing over 15A / 1800W",
+                "Outside the rating",
+                "Above the stated maximum. All three plugs we review share this ceiling, so the fix is a different class of control, not another pick here."
+              ],
+              [
+                "2.4GHz Wi-Fi you can join at setup",
+                "Fits",
+                "Required \u2014 there is no 5GHz connection. On a band-steered mesh network, join the 2.4GHz band during pairing."
+              ],
+              [
+                "Two plugs in one duplex outlet",
+                "Fits",
+                "The slim 2.62 \u00d7 1.5 \u00d7 1.57 inch body stacks two plugs in the same receptacle without blocking the second socket."
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "What Energy Monitoring Actually Tells You \u2014 and What a Plug Can Control",
+          "paragraphs": [
+            "Energy monitoring is this plug's second job, and owners use it in a specific way: real-time and historical draw in the Kasa app makes standby hogs easy to spot on desk equipment, TVs, and space heaters \u2014 the devices that keep drawing after the room looks off. The practical method owners describe is boring and effective: put the plug on one suspect device, let the history build over ordinary days rather than a single test hour, and then decide whether a schedule, an Away Mode pattern, or simply cutting power overnight is the fix. A recurring community example goes one step further and cuts power when variable utility rates spike, which only works because the history showed when the draw actually happens.",
+            "The control side has an equally specific limit, and it decides which devices belong on the plug at all. A smart plug cuts and restores power; it cannot press another device's power button. So it genuinely controls devices that resume when power returns \u2014 the lamp, fan, space heater, and coffee maker with physical switches that fill owner reports \u2014 and it cannot wake a device that restores into standby and waits for its own button. Check that behaviour on the device you own, with its own switch, before blaming or crediting any plug: unplug it while it is on, plug it back in, and see whether it resumes. That ten-second test is the whole compatibility question for control, just as the rating label is the whole question for load.",
+            "Put together, the two checks explain this plug's honest niche. It is not the plug that automates anything with a cord; it is the plug that measures and schedules the subset of high-draw, physically-switched devices a HomeKit household actually runs \u2014 and reports on them well enough that owners keep opening the history. Our <a href=\"../work-tools/best-smart-plug.html\">smart plug guide</a> sets that niche against the other two plugs we review, including the case where monitoring does not matter at all and a simpler plug is the right buy."
+          ]
+        },
+        {
+          "heading": "How It Compares With the Other Smart Plugs We Review",
+          "paragraphs": [
+            "All three plugs we review are rated 15A / 1800W, run on 2.4GHz Wi-Fi, need no hub, and can schedule a lamp; the specifications below are each plug's own catalog figures. What separates them is platform and monitoring, in that order. This plug is the HomeKit-with-monitoring pick of the three, the Tapo is the Matter pick, and the Amazon plug trades both monitoring and every non-Alexa platform away for the simplest setup."
+          ],
+          "table": {
+            "rows": [
+              [
+                "<a href=\"../reviews/tp-link-kasa-ep25.html\">TP-Link Kasa EP25</a> (this review)",
+                "Apple HomeKit over Wi-Fi \u2014 not Matter \u00b7 energy monitoring: yes",
+                "Siri, Alexa, Google Assistant, SmartThings \u00b7 2.62 \u00d7 1.5 \u00d7 1.57 in"
+              ],
+              [
+                "<a href=\"../reviews/tapo-p110m-matter-smart-plug.html\">Tapo P110M</a>",
+                "Matter over Wi-Fi \u00b7 Bluetooth for setup \u00b7 energy monitoring: yes",
+                "Alexa, Google Assistant, Siri \u00b7 the cross-platform pick"
+              ],
+              [
+                "<a href=\"../reviews/amazon-smart-plug.html\">Amazon Smart Plug</a>",
+                "Wi-Fi \u2014 Alexa only \u00b7 energy monitoring: no",
+                "Alexa only \u00b7 Wi-Fi Simple Setup \u00b7 3.2 \u00d7 1.5 \u00d7 2.2 in, the largest body of the three"
+              ]
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is the Kasa EP25 a Matter smart plug?",
+          "a": "No. The EP25 is an Apple HomeKit plug that runs over Wi-Fi; it has no Matter, Thread, or Zigbee support, and it predates TP-Link's Matter line. Buy it for HomeKit \u2014 if your setup is being built on Matter, the Tapo P110M is the TP-Link plug in our reviews that speaks Matter."
+        },
+        {
+          "q": "Does the EP25 work with Alexa, Google Assistant, or SmartThings as well as Siri?",
+          "a": "Yes. Alongside Siri and the Apple Home app, the EP25 works with Alexa, Google Assistant, and SmartThings, so it is not locked to one household ecosystem. Day-to-day control can happen in any of those, though energy history still lives in the Kasa app."
+        },
+        {
+          "q": "Does the EP25 need a hub or a subscription?",
+          "a": "Neither. It connects directly to 2.4GHz Wi-Fi with no hub, and scheduling, timers, Away Mode, grouping, and energy monitoring all run in the Kasa app with no subscription required."
+        },
+        {
+          "q": "Why does HomeKit pairing fail or keep dropping during setup?",
+          "a": "Owner complaints concentrate on exactly this step, and TP-Link's own community threads point at the network rather than the plug: on band-steered mesh networks the phone and plug can land on different bands. The recorded fixes are to join the 2.4GHz band during setup and to disable the phone's private Wi-Fi addressing for that network. Once paired, owners report the plug holding its connection on a healthy 2.4GHz network."
+        },
+        {
+          "q": "Can the EP25 run a space heater or other high-draw device?",
+          "a": "It is rated for a full 15A / 1800W load and is UL certified with a flame-retardant shell, and space heaters are among the devices owners most often monitor with it. The check is the heater's own rating label: if the device draws at or over the plug's rating, it does not belong on this plug \u2014 judge the stated draw, and stay visibly under the ceiling."
+        },
+        {
+          "q": "Where do I see the energy monitoring data?",
+          "a": "In the Kasa app, which shows real-time and historical draw. That stays true even if day-to-day control happens in Apple Home or through a voice assistant \u2014 checking consumption means opening Kasa. Owners use the history to spot standby hogs on desk equipment, TVs, and heaters, and to time schedules around when a device actually draws."
+        }
+      ]
     },
     {
       "slug": "amazon-basics-monitor-arm",
