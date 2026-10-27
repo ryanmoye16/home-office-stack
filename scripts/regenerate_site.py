@@ -102,6 +102,8 @@ def short_name(product):
         return "Ergodriven Topo Mini"
     if slug == "anker-7in1-hub":
         return "Anker USB-C Hub"
+    if slug == "duramont-ergonomic-office-chair":
+        return "Duramont Ergonomic Chair"
 
     # Brand + type patterns
     if "Kasa EP25" in name:
@@ -201,6 +203,7 @@ CATEGORY_SLUG_MAP = {
     "monitor-light-bars": "monitor-light-bars.html",
     "laptop-stands": "laptop-stands.html",
     "desk-mats": "desk-mats.html",
+    "chairs": "chairs.html",
     "desk-gear": "desk-gear.html",
 }
 
@@ -212,6 +215,7 @@ DESK_GEAR_CATEGORY_ORDER = [
     "laptop-stands",
     "monitor-light-bars",
     "desk-mats",
+    "chairs",
 ]
 
 # Category pages that use relative paths (../) vs absolute (/)
