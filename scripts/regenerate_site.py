@@ -106,6 +106,8 @@ def short_name(product):
         return "Duramont Ergonomic Chair"
     if slug == "shw-48-electric-standing-desk":
         return "SHW 48 Electric Standing Desk"
+    if slug == "logitech-ergo-k860":
+        return "Logitech Ergo K860"
 
     # Brand + type patterns
     if "Kasa EP25" in name:
@@ -207,6 +209,7 @@ CATEGORY_SLUG_MAP = {
     "desk-mats": "desk-mats.html",
     "chairs": "chairs.html",
     "standing-desks": "standing-desks.html",
+    "keyboards": "keyboards.html",
     "desk-gear": "desk-gear.html",
 }
 
@@ -220,6 +223,7 @@ DESK_GEAR_CATEGORY_ORDER = [
     "desk-mats",
     "chairs",
     "standing-desks",
+    "keyboards",
 ]
 
 # Category pages that use relative paths (../) vs absolute (/)
