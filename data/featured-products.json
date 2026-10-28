@@ -892,6 +892,10 @@
       "asin": "B0CMQ5C9NQ",
       "price": "$35.99",
       "tagline": "Gas-spring arm for 13–32 inch monitors up to 22 lb — C-clamp and grommet mounts included.",
+      "short_version": {
+        "buy_if": "you want gas-spring adjustability for a standard 24 to 27 inch monitor and want the highest capacity of the three arms we review — 4.4 to 22 lb for 13 to 32 inch panels, with both C-clamp and grommet mounts included and smooth one-hand height adjustment once tension is set.",
+        "skip_if": "your panel is above 22 lb, below the 4.4 lb gas-spring floor, wider than the stated 32 inch maximum, or uses VESA 200x100 (this arm accepts 75x75 and 100x100 only) — or you want detailed assembly instructions, which owners call unclear."
+      },
       "review_url": "https://www.amazon.com/HUANUO-Monitor-13%E2%80%B3-32%E2%80%B3-Adjustable-100x100mm/dp/B0CMQ5C9NQ",
       "prime": true,
       "prime_day": false,
@@ -1036,6 +1040,10 @@
       "asin": "B0BGLMR6DS",
       "price": "$39.99",
       "tagline": "Aluminum height-and-angle riser for 10 to 17.3 inch laptops — large weighted base, folds flat.",
+      "short_version": {
+        "buy_if": "your laptop is 10 to 17.3 in and you want real height and angle adjustment (5.7 to 8.1 in) on a large weighted aluminum base that stays planted, with ventilation holes and a fold-flat design for a desk that sometimes travels — pair it with an external keyboard and mouse.",
+        "skip_if": "you need standing height (this is a seated-desk riser), you carry a stand daily and want the lightest possible folder (this one is 2.1 lb and bulkier folded), or you plan to type on the laptop itself at taller settings, where owners note a bouncier feel and stiff two-hand hinge adjustment."
+      },
       "review_url": "https://www.amazon.com/Lamicall-Adjustable-Portable-Aluminum-Ergonomic/dp/B0BGLMR6DS",
       "prime": true,
       "prime_day": false,
@@ -1077,6 +1085,10 @@
       "asin": "B0DKGBP38V",
       "price": "$26.14",
       "tagline": "Matter-certified plug with energy monitoring, scheduling, and voice control across platforms.",
+      "short_version": {
+        "buy_if": "you are building on Matter and want energy monitoring without tying yourself to one platform — it works across Alexa, Google Assistant, Siri, SmartThings and Apple Home, with scheduling, voice control and a compact 15A / 1800W design.",
+        "skip_if": "your home is HomeKit-only and you do not need Matter (the Kasa EP25 covers that with its own energy monitoring), you are all-Alexa and need neither Matter nor energy monitoring (the Amazon Smart Plug is simpler), or your network cannot offer a clean 2.4GHz band — it is 2.4GHz Wi-Fi only and Matter pairing works best close to the controller."
+      },
       "review_url": "https://www.amazon.com/Tapo-Compatible-SmartThings-P110M-2-Pack/dp/B0DKGBP38V",
       "prime": true,
       "prime_day": false,
