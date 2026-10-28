@@ -110,6 +110,8 @@ def short_name(product):
         return "Logitech Ergo K860"
     if slug == "logitech-lift-vertical":
         return "Logitech Lift"
+    if slug == "anker-powerconf-c200":
+        return "Anker PowerConf C200"
 
     # Brand + type patterns
     if "Kasa EP25" in name:
@@ -213,6 +215,7 @@ CATEGORY_SLUG_MAP = {
     "standing-desks": "standing-desks.html",
     "keyboards": "keyboards.html",
     "mice": "mice.html",
+    "webcams": "webcams.html",
     "desk-gear": "desk-gear.html",
 }
 
@@ -228,6 +231,7 @@ DESK_GEAR_CATEGORY_ORDER = [
     "standing-desks",
     "keyboards",
     "mice",
+    "webcams",
 ]
 
 # Category pages that use relative paths (../) vs absolute (/)
