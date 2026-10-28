@@ -122,6 +122,8 @@ def short_name(product):
         return "Anker PowerConf C200"
     if slug == "logitech-brio-101":
         return "Logitech Brio 101"
+    if slug == "logitech-c920s-hd-pro":
+        return "Logitech C920s"
     if slug == "flexispot-en1-one-piece-standing-desk":
         return "FlexiSpot EN1 Standing Desk"
     if slug == "gabrylly-ergonomic-office-chair":

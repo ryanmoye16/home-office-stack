@@ -1977,7 +1977,7 @@
       "what_we_liked": "The framing is the feature, and reviewers who lived with the camera keep returning to it. A 58.9-degree lens sounds like a limitation until a call starts in a real home office: the bed, the laundry chair and the boxes behind you simply are not in the picture, because the lens never takes them in. Long-form testing found the same shape from the other side — set a little back from the face, the tight view gives a clean, professional head-and-shoulders shot with nothing to configure, and the cluttered room stays private without a virtual background's edge artifacts. For the solo, seated calls that make up most remote work, that is not a compromise; it is the correct default, chosen in hardware.\n\nThe picture itself is the second strength, judged against the right baseline. Nobody honest compares a camera at this level to a studio rig; the comparison is the laptop camera it replaces, and there the verdict across reviewers is consistent: a clear 1080p image with natural colour, a plain step up in sharpness and in how a face reads on a call. A large roundup that bought and tested webcams across the budget segment recommended the Brio 101 for the average person outright, citing its natural-looking image alongside its ease of use. Fine detail has a ceiling — the image can go slightly soft or grainy, especially as light falls — but on Teams, Zoom and Meet calls, where the app and the network set their own limits, that ceiling rarely decides how you look.\n\nRightLight 2 does quiet, useful work in ordinary rooms. Logitech's automatic light balance lifts a dim or shadowed face — the listing quantifies the claim as up to 50% brighter than its previous-generation webcams — and owner reports cluster around the same experience: faces come up brighter and shadows reduce without the user touching a setting. It is correction, not illumination, and this review's fit section is honest about where it runs out; but for the monitor-lit, late-afternoon rooms home offices actually are, it is aimed at exactly the right problem, and it pairs with the front-light advice in our ergonomic desk setup guide rather than pretending to replace it.\n\nThe privacy shutter and the setup complete a package with no friction in it. The shutter is part of the body, slides across the lens by hand, and a closed shutter is plain to see across the room — privacy that does not depend on an app behaving. Setup is one plug: long-form testing confirms a Mac or Windows PC recognises the camera within moments with no driver and no required software, call apps list it immediately, and a white LED lights only while an app is actually capturing. Owners echo the shape of it — plug in, select the camera, start the call — and report buying multiples for small offices and running the camera for a year or more without driver trouble.",
       "what_could_be_better": "The tight lens cuts both ways, and at laptop distance it cuts against you. Logitech's own guidance and reviewer testing agree: seated close to a laptop lid, a face takes up nearly the whole frame and can look oversized, and nothing zooms the view out — the only fixes are distance (a monitor set back on the desk, a second screen, a mount behind the display) or a different camera. Two people in frame is effectively out of reach, and presenters who gesture wide will leave the shot. This is the first fit question in the table below because it decides the purchase: if your seat is close and your framing needs are wide, this is the wrong lens, full stop.\n\nThe microphone is a single mono unit with no noise cancellation, and it hears the room along with you. Logitech rates its pickup to 4 feet, and at desk distance reviewers find speech clean and clearly heard at the far end — but there is no suppression working on the keyboard, the fan or the dog, the way the dual noise-canceling mics on the Anker PowerConf C200 work. In a quiet room it is a non-issue; in a shared or noisy one, a headset still wins, and owners in echoing rooms say so.\n\nThe attached USB-A cable is the third dated choice. It cannot be detached or swapped, so a USB-C-only laptop — most current MacBooks and thin Windows machines — needs an adapter or dock, and Logitech warns the adapter must carry both power and video; a power-only adapter leaves the camera unrecognised. Logitech also recommends plugging straight into the computer where possible, since some hubs and extenders do not supply the camera reliably. None of this is hidden, but it means the true cost of the camera on a modern laptop can include an adapter a USB-C camera would not need.\n\nThe mount and the low-light ceiling finish the list. The universal clip holds well on many lids and monitors, but long-form testing found shapes it grips loosely, and the body can overhang a thin bezel and cover a strip of screen; the camera tilts but does not swivel, and there is no tripod thread, so an off-centre seat or a boom arm takes improvising. And in genuinely dim rooms the picture goes visibly noisy despite RightLight — the correction brightens, it does not create detail. Finally, the shutter covers the lens only: it does not switch the camera off or mute the mic, a distinction worth knowing if you treat a closed shutter as fully private.",
       "performance": "Across reviewer testing the Brio 101 behaves like a camera with nothing left to misconfigure. The fixed-focus lens is sharp at desk distance by construction — there is no autofocus to hunt, pulse or settle on the bookshelf behind you, which autofocus cameras in this class demonstrably do — and the 1080p picture holds its natural colour as room light changes, with RightLight 2 adjusting exposure as the light goes. Logitech's help guidance, surfaced in testing write-ups, is practical about the edges: some call apps top out at 720p or need their HD setting switched on, a download under 3 Mbps or a crowded USB bus can drag quality down, and Logi Options+ holds the manual overrides — exposure, white balance, anti-flicker at 50 or 60 Hz to match the room's lighting — for rooms where the automatic balance guesses wrong.\n\nOwner reports describe the same steadiness over time. The feedback clusters on ease of setup and picture quality relative to expectations, the privacy cover earns repeated mentions as a feature owners value more than they expected, and long-term reports describe a year or more of trouble-free use without lag or driver issues. The recurring owner caveats are the ones this review has already named — the narrow view, the mounting on some screens, and focus and connectivity niggles on a minority of setups — not failures of the image itself. That is the honest summary of this camera's performance: a narrow, stable envelope, executed without drama.",
-      "who_this_is_for": "Solo remote workers at a monitor set back on the desk — standups, one-to-ones, client calls, interviews — who are currently appearing on a laptop's built-in camera and want the simplest possible upgrade: a clear 1080p picture, a frame that keeps the room behind them private, a physical lens shutter, and a setup that is finished the moment the plug goes in. It suits a desk where the camera can sit a little farther from the face, which is the seat its lens was designed around, and it pairs with the light layer of our <a href=\"../work-tools/ergonomic-desk-setup.html\">ergonomic desk setup guide</a>: front light first, RightLight second.\n\nSkip it if you take calls at laptop distance and want head-and-shoulders framing, if two people ever share your frame, or if you present standing and moving — the lens cannot widen, swivel or follow you. Skip it if you need autofocus, 60 fps or 2K/4K resolution for recording or streaming: our <a href=\"../reviews/anker-powerconf-c200.html\">Anker PowerConf C200 review</a> covers the step up to 2K with autofocus, selectable fields of view and dual noise-canceling mics. Skip it if your only ports are USB-C and you do not want an adapter in the chain. And skip it if your monitor's shape defeats clip mounts and a tripod is your fallback — this camera has no tripod thread to fall back to.",
+      "who_this_is_for": "Solo remote workers at a monitor set back on the desk — standups, one-to-ones, client calls, interviews — who are currently appearing on a laptop's built-in camera and want the simplest possible upgrade: a clear 1080p picture, a frame that keeps the room behind them private, a physical lens shutter, and a setup that is finished the moment the plug goes in. It suits a desk where the camera can sit a little farther from the face, which is the seat its lens was designed around, and it pairs with the light layer of our <a href=\"../work-tools/ergonomic-desk-setup.html\">ergonomic desk setup guide</a>: front light first, RightLight second.\n\nSkip it if you take calls at laptop distance and want head-and-shoulders framing, if two people ever share your frame, or if you present standing and moving — the lens cannot widen, swivel or follow you. Skip it if you need autofocus, 60 fps or 2K/4K resolution for recording or streaming: our <a href=\"../reviews/anker-powerconf-c200.html\">Anker PowerConf C200 review</a> covers the step up to 2K with autofocus, selectable fields of view and dual noise-canceling mics. If you want autofocus at 1080p without the 2K step, our <a href=\"../reviews/logitech-c920s-hd-pro.html\">Logitech C920s HD Pro review</a> covers the proven middle option — a wider 78-degree frame and a tripod thread included. Skip it if your only ports are USB-C and you do not want an adapter in the chain. And skip it if your monitor's shape defeats clip mounts and a tripod is your fallback — this camera has no tripod thread to fall back to.",
       "extra_sections": [
         {
           "heading": "Will It Fit Your Calls? The Distance, Frame and Light Check",
@@ -3074,6 +3074,171 @@
         {
           "q": "What warranty does the VIVO 63 x 32 carry?",
           "a": "A 3-year manufacturer warranty, stated in both the listing and the 2E Series manual — a published term, which is more than the SHW's manual offers (it defers to a card in the box) and shorter than the EN1 manual's 5 years on frame and motor. If the desk errors or stops responding, the manual's first fix is a reset: unplug, wait, then hold the down button for about 15 seconds until it cycles."
+        }
+      ]
+    },
+    {
+      "slug": "logitech-c920s-hd-pro",
+      "name": "Logitech C920s HD Pro Webcam",
+      "asin": "B07K986YLL",
+      "category": "webcams",
+      "category_label": "Webcams",
+      "rating_stars": "★★★★½",
+      "rating_value": "4.7",
+      "review_count": "6,847",
+      "rating_as_of": "October 2026",
+      "tagline": "Autofocus 1080p webcam with a five-element glass lens — a fixed 78-degree view, dual stereo mics, RightLight 2 light correction, a clip-on privacy shutter and a tripod-ready mount.",
+      "amazon_image": "https://images-na.ssl-images-amazon.com/images/P/B07K986YLL.01.LZZZZZZZ.jpg",
+      "date_published": "2026-10-28",
+      "verdict": "Logitech C920s HD review: an autofocus Full HD 1080p webcam at 30 fps with a glass lens, a fixed 78-degree view, dual stereo mics and a clip-on privacy shutter. That sentence is the whole design, and it is a deliberately proven one. The C920 line has been the default external webcam for remote work for the better part of a decade, and the C920s is that camera with one addition its predecessor lacked: a privacy shutter that clips over the lens. Everything else is the formula that made the family the benchmark — a five-element glass lens instead of the plastic optics cheaper cameras use, autofocus that adjusts smoothly as you move, automatic light correction, two microphones flanking the lens so a voice arrives in stereo, and a mount that clips to a screen, stands on the desk by itself, or screws onto a standard tripod. The long-term evidence is unusually strong for a webcam: Wirecutter's testers report staffers taking more than a thousand video calls on the C920 — the same camera without the shutter — without it acting up, and nine months of daily Zoom and Skype use from the C920s itself, working completely as expected. Shoppers back the package where this model is sold under its own number: Best Buy's listing for model 960-001257 carries 4.7 stars across 6,847 reviews (read October 2026), with 96 percent of reviewers saying they would recommend it. The honest limits are the mirror image of its age. The ceiling is 1080p at 30 frames per second at a moment when newer cameras offer 2K, 4K or 60 fps; in a dim room the frame rate drops as the camera lengthens its exposure to keep you visible, and the picture gains noise; the microphones are serviceable rather than special; the 78-degree view never changes; and the attached cable ends in USB-A. Judge it as the proven, autofocus 1080p meeting camera it is — the right buy when your calls need a sharper, better-framed picture than a laptop camera gives and nothing more exotic, and the wrong one when they do.",
+      "specs": {
+        "Resolution": "Full HD 1080p at 30 fps; 720p at 30 fps (no 60 fps mode at any resolution); video in H.264",
+        "Sensor": "3 MP camera (Logitech's specification)",
+        "Lens": "Five-element glass lens",
+        "Focus": "Autofocus",
+        "Field of View": "78° diagonal, fixed — digital zoom and pan inside that view are available in Logitech's camera-settings software, and they crop rather than widen",
+        "Microphones": "Dual stereo omnidirectional microphones, one on each side of the lens; rated pickup to 1 m (Logitech's specification); no noise cancellation is claimed",
+        "Light Correction": "RightLight 2 automatic light correction",
+        "Privacy": "Detachable clip-on privacy shutter that covers the lens — it does not switch the camera off and does not mute the microphones",
+        "Mounting": "Tripod-ready universal clip for laptops, LCDs and monitors (tripod not included); the clip also stands the camera on a desk; tilts up and down, does not swivel",
+        "Dimensions": "1.70 × 3.70 × 2.80 inches including the clip; 1.14 × 3.70 × 0.94 inches without it (Logitech's specifications)",
+        "Weight": "162 g (5.71 oz) including the mounting clip, per Logitech's specifications",
+        "Connectivity": "Attached, non-detachable USB-A cable, 5 ft (1.5 m); USB 2.0 UVC plug-and-play, no driver required",
+        "Compatibility": "Windows 7 or later; macOS 10.10 or later; Chrome OS; works with Skype, Google Hangouts, FaceTime, Zoom, Microsoft Teams and Google Meet",
+        "Software": "Logitech camera-settings software (optional) — exposure, gain, brightness, contrast, colour intensity, white balance and focus controls; the camera works fully without it",
+        "In the Box": "C920s webcam with attached 5 ft cable, privacy shutter, user documentation",
+        "Model": "Logitech 960-001257 — the C920 (960-000764, no privacy shutter), the C920x (960-001335) and the C920e are different listings on the same camera family; do not substitute their figures for this one's. Warranty term omitted: sources conflict (Logitech's spec sheet states 2 years, retailer and manual records state 1 year)"
+      },
+      "brand": "Logitech",
+      "what_we_liked": "The picture is the reason this camera became the default, and reviewers who test it against laptop cameras keep landing in the same place. Tom's Guide praises its clear Full HD picture and real-time autofocus, and the optics explain it: a five-element glass lens where the budget segment uses plastic, resolving the detail a call actually shows — a face, a name badge, a whiteboard edge — while the autofocus adjusts smoothly as you lean in or sit back instead of locking at one distance and softening everything outside it. Against the camera built into a laptop lid, the step up is not subtle, and it survives the compression every meeting app applies because it starts from more real detail.\n\nThe long-term record is the second strength, and for a webcam it is close to unique. Most cameras in this class are reviewed for a week and owned nervously; this one's family has been owned at scale for years. Wirecutter's long-term notes describe staffers using the C920 — the same camera, minus the shutter — as a primary webcam through more than a thousand video calls without it misbehaving, and a staffer's nine months on the C920s itself, used primarily for Zoom work calls and Skype interviews, working completely as expected. Best Buy's large owner pool for this exact model points the same way: its reviewers rate the camera highly for overall performance, video quality and ease of use, and 96 percent say they would recommend it. Proven is a claim most webcams cannot make; this one has the receipts.\n\nThe mount is more useful than it looks on a spec sheet. The universal clip braces against the back of a laptop lid or monitor in the usual way, but the same base stands the camera on a desk by itself, and underneath it sits a standard tripod thread — the mounting option the fixed-focus Brio 101, reviewed on this site, does not have. That matters in real home offices: a tripod behind the monitor raises the lens to eye level, a small desk tripod moves the camera off a screen it does not fit, and the camera can follow you to a second desk without a second purchase. Add the tilt adjustment and the framing problem most people actually have — a camera looking up at them from laptop height — is solvable with this mount and a few inches of tripod.\n\nThe shutter and the software finish a package with no theatrical extras. The privacy shutter is the C920s's defining addition over the C920: a cover that clips snugly over the lens, so joining a call early never means broadcasting the room before you are ready, and the covered lens is visible across the room rather than a state an app claims. Reviewers call it a welcome addition precisely because the alternative is tape or unplugging. Behind it, Logitech's camera-settings software exposes the manual controls this class usually locks away — exposure, gain, white balance and focus among them — so a room the automatic settings misread can be corrected once instead of endured on every call.",
+      "what_could_be_better": "Dim rooms are where this design shows its age first. Wirecutter's testing is specific about the mechanism: in a dimly lit room the frame rate drops as the camera adjusts its exposure to keep you visible, and the picture gains noise and loses detail as it does. The colour balance held in their tests, and no webcam in their test group did particularly well in low light, but the modern competition has moved: the Anker PowerConf C200 reviewed on this site was built around exactly this case, with a larger-aperture design reviewers praise after dark. If your calls happen in a monitor-lit room after sunset, that difference is the purchase decision — or budget for front light, which helps every camera and is the light layer of our ergonomic desk setup guide.\n\nThe microphones are the second dated element. There are two of them, flanking the lens, and they capture a voice naturally in stereo from desk distance — Tom's Guide calls the audio very good but not great, which is the fair summary. Testing of the C920, whose microphone arrangement the C920s shares, has been blunter, describing a thinner, scratchier sound closer to a typical laptop mic than to a headset. There is no noise cancellation working on the room: the keyboard, the fan and the dog arrive with you. In a quiet room on ordinary calls it is a non-issue; in a shared or noisy one, a headset still wins, and presenters who record should plan on a separate microphone.\n\nThe frame is fixed in both senses. The 78-degree view does not change — software zoom only crops inside it — so a wide group shot is out of reach, and the camera tilts but does not swivel, which Wirecutter notes means sliding the camera or reframing in software when your seat is off-centre. The clip's large front tab, the source of its stability on most screens, blocks a small sliver of the picture on superslim-bezel laptops and monitors. And the shutter, welcome as it is, takes some getting used to: it can come off the camera entirely when you open or close it in a hurry, which is still better than unplugging, but less elegant than the integrated sliding shutters on this site's other two webcams.\n\nThe connections and the ceiling finish the list. The cable is attached and ends in USB-A, so a USB-C-only laptop — most current MacBooks and thin Windows machines — needs an adapter in the chain, and the camera tops out at 1080p and 30 frames per second: no 60 fps smoothness for recording, no 2K or 4K headroom for cropping a recorded frame. Owners also report the automatic white balance can drift blue on some setups — a Best Buy reviewer found turning auto white balance off and adjusting manually fixed it, and the manual control exists in Logitech's software — but a camera bought to be plug-and-forget should not need the correction. None of this is hidden; it is the price of a design old enough to have a track record.",
+      "performance": "Across reviewer testing the C920s behaves like mature hardware usually does: the same strengths and the same caveats on every unit, with no surprises in between. The autofocus is the behaviour reviewers single out — smooth, precise adjustments that hold a face sharp as distance changes — and the automatic light correction keeps a usable, colour-balanced picture as room light shifts, right up to the dim-room edge this review has already named, where exposure wins over frame rate. The H.264 video format in the listing's technical details matters quietly here: the camera's output is encoded in the format call and streaming apps expect, and the UVC connection means Windows, macOS and Chrome OS all recognise it the moment it is plugged in, with call apps listing it immediately and no driver step anywhere in the process.\n\nOwner reports describe the same steadiness stretched over years. The feedback clusters on picture quality and on a setup with nothing to install, the privacy shutter earns repeated mentions as the feature owners value day to day, and the recurring caveats are the ones this review has already printed — autofocus hunting on a minority of setups, low light, the fixed view — not failures of the camera itself. Logitech's own support ecosystem is part of the performance story for a camera this old: every call app, capture program and operating system has met it before. That is the honest summary of this camera's performance: a known envelope, executed the same way on the thousandth call as on the first.",
+      "who_this_is_for": "Remote workers whose calls are solo or two-person, seated at a desk in a reasonably lit room, and who are currently appearing on a laptop's built-in camera — standups, one-to-ones, client calls, interviews, classes — and want the proven step up: a glass-lens 1080p picture that stays in focus, a physical lens cover, and a mount that can move to a tripod when the top of the screen is the wrong place. It suits anyone who values a camera with a decade of other people's calls behind it over a newer spec sheet, and it pairs with the light layer of our <a href=\"../work-tools/ergonomic-desk-setup.html\">ergonomic desk setup guide</a>: front light first, RightLight second.\n\nSkip it if your calls happen in dim or backlit rooms and low light is the problem you are actually solving: our <a href=\"../reviews/anker-powerconf-c200.html\">Anker PowerConf C200 review</a> covers the step up to 2K with stronger low-light handling, selectable fields of view and dual noise-canceling mics. Skip it if you want the simplest possible camera and your framing is always a tight solo shot: the <a href=\"../reviews/logitech-brio-101.html\">Logitech Brio 101</a> removes autofocus and adjustment entirely, at the cost of the tripod thread this camera has. Skip it if you record or stream and need 60 fps or more than 1080p — this camera has neither, at any setting. And skip it if your only ports are USB-C and an adapter in the chain bothers you more than a decade of track record reassures you.",
+      "bottom_line": "The Logitech C920s HD Pro is the proven option in our webcam coverage: a five-element glass lens, smooth autofocus, a 78-degree view wide enough for two, a tripod-ready mount and the clip-on privacy shutter the C920 lacked, backed by 4.7 stars across 6,847 reviews on Best Buy's listing for this model. Its limits are printed in its age — 1080p at 30 fps is the ceiling, dim rooms cost frame rate and detail, and the stereo mics are serviceable rather than strong. Buy it for ordinary calls in ordinary light, where its decade of evidence says it simply works; buy one of this site's other webcams when your light or your recording needs are not ordinary.",
+      "extra_sections": [
+        {
+          "heading": "Will It Fit Your Calls? The Light, Frame and Mount Check",
+          "paragraphs": [
+            "This camera carries three fit facts, and they matter more than any feature on it: the light correction compensates for an ordinary room rather than a dark one, the 78-degree frame never widens, and the frame rate is 30 at every resolution. Everything else about fit follows from those three, so check them against how your calls actually happen before anything else on this page matters.",
+            "The light check is the one to run first, because it decides whether this camera's proven design is its best feature or its disqualifier. In a room with a window to the side or a lamp in front of you, the picture reviewers praise is the picture you get. In a dim room the camera trades frame rate for exposure to keep you visible — motion goes less smooth and detail goes noisy — and no setting changes that trade; only light added in front of you, or a camera built for low light, does."
+          ],
+          "table": {
+            "rows": [
+              [
+                "Solo seated calls in a lit room",
+                "Fits — the reason to buy",
+                "The case a decade of owners bought it for: glass-lens 1080p, autofocus holding the face, nothing to configure."
+              ],
+              [
+                "Two people in frame",
+                "Fits",
+                "The 78-degree view accommodates two people at desk distance — the framing the Brio 101's 58.9-degree lens cannot reach."
+              ],
+              [
+                "Dim or monitor-lit home office",
+                "Fits, with a limit",
+                "RightLight 2 keeps you visible, but the frame rate drops and noise rises as exposure lengthens — add front light, or choose the C200."
+              ],
+              [
+                "Tripod, desk stand or eye-level mounting",
+                "Fits well",
+                "A standard tripod thread under the clip — the mounting fallback this site's other two webcams only partly match."
+              ],
+              [
+                "Superslim-bezel laptop or monitor",
+                "Tight fit — check first",
+                "The clip's large front tab can block a small sliver of the screen (Wirecutter's testing); the tripod thread is the workaround."
+              ],
+              [
+                "Group calls or a wide room view",
+                "Poor fit",
+                "The view never widens past 78 degrees and the body does not swivel; a wide-angle camera is a different purchase."
+              ],
+              [
+                "USB-C-only laptop",
+                "Fits, with an adapter",
+                "The attached cable is USB-A; an adapter that carries data and power is required, as with the Brio 101."
+              ],
+              [
+                "Recording or streaming at 60 fps, 2K or 4K",
+                "Outside its design",
+                "1080p at 30 fps is the ceiling at every setting; cameras built for recording start elsewhere."
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "C920s, Brio 101 or PowerConf C200? The Three Webcams on This Site, Side by Side",
+          "paragraphs": [
+            "With this review, the Webcams category holds three honest answers, and they divide by what each design refuses to compromise. The C920s is the proven middle: autofocus and a glass lens at 1080p, a frame wide enough for two, a tripod thread, and a track record no newer camera can match yet. The Logitech Brio 101, reviewed on this site, spends nothing on flexibility — one fixed lens, one tight frame, one mic. The Anker PowerConf C200 spends its design on adjustment and low light: a 2K sensor, three fields of view, dual noise-canceling microphones. Neither of the others makes the C920s the wrong buy for ordinary calls; both make it the wrong buy for their specific cases.",
+            "The short version: take the C920s when your calls are ordinary — solo or two-person, reasonably lit, at a desk — and you want the camera with the evidence behind it. Take the Brio 101 when your room is one you would rather keep out of frame and you value a camera that is finished the moment it is plugged in. Take the C200 when your light is poor, your room is noisy, or you record locally and can use the 2K headroom. The table puts the catalogued facts side by side; all three reviews state their limits in full."
+          ],
+          "table": {
+            "rows": [
+              [
+                "Resolution",
+                "1080p at 30 fps",
+                "1080p at 30 fps",
+                "2K (2560 × 1440) at 30 fps"
+              ],
+              [
+                "Focus",
+                "Autofocus",
+                "Fixed focus",
+                "Autofocus, 15 cm to 3 m"
+              ],
+              [
+                "Field of view",
+                "78°, fixed",
+                "58.9°, fixed",
+                "65°, 78° or 95°, selected in software (narrower views are crops)"
+              ],
+              [
+                "Microphones",
+                "Dual stereo mics, no noise cancellation claimed",
+                "Single mono mic, no noise cancellation",
+                "Dual stereo mics with AI noise cancellation"
+              ],
+              [
+                "Privacy",
+                "Detachable clip-on shutter — lens covered; camera and mic stay live",
+                "Sliding shutter — lens covered; camera and mic stay live",
+                "Sliding cover — the camera turns off when the lens is blocked"
+              ],
+              [
+                "Cable and mounting",
+                "Attached USB-A cable; clip mount, tilt only, tripod thread",
+                "Attached USB-A cable; clip mount, tilt only, no tripod thread",
+                "Detachable USB-C cable; clip mount plus tripod thread"
+              ]
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is the Logitech C920s the same camera as the C920 or the C920x?",
+          "a": "It is the same camera family, not the same listing. The C920s (model 960-001257, ASIN B07K986YLL) is the C920 design plus a clip-on privacy shutter; the original C920 (960-000764) has no shutter, and the C920x (960-001335) is a separate listing with its own bundle. This review's figures — including the Best Buy rating pool for model 960-001257 — belong to the C920s only; do not substitute the sibling listings' figures for it."
+        },
+        {
+          "q": "Does the C920s have autofocus?",
+          "a": "Yes. Autofocus is one of its defining features against fixed-focus cameras like the Brio 101: the glass lens adjusts smoothly as you lean in, sit back or hold something up, and reviewers consistently single the behaviour out. Logitech's camera-settings software also exposes a manual focus control for setups where you would rather lock it — a document camera angle, for instance — and leave it there."
+        },
+        {
+          "q": "Why does the picture get less smooth in a dim room?",
+          "a": "Because the camera trades frame rate for exposure. Wirecutter's testing found that in dim light the C920s lengthens its exposure to keep your face visible, the frame rate drops as it does, and the image gains noise and loses detail — while keeping its colour balance. No setting removes the trade. The fixes are light in front of you (the light layer of our ergonomic desk setup guide) or a camera built around low light, such as the Anker PowerConf C200."
+        },
+        {
+          "q": "Does closing the privacy shutter turn the C920s off?",
+          "a": "No. The shutter is a physical cover that clips over the lens — visible, dependable, and the C920s's main addition over the C920 — but the camera stays connected and the microphones stay live under it. It can also come off the camera entirely if you open or close it in a hurry. Treat a closed shutter as a covered lens, not a disconnected device; if you need the camera itself off, unplug it. (The Anker PowerConf C200's cover, by contrast, does turn its camera off.)"
+        },
+        {
+          "q": "Will the C920s work with a USB-C-only laptop?",
+          "a": "Yes, through a USB-C to USB-A adapter or a dock — its cable is attached and ends in USB-A, and the adapter must carry both data and power. The camera itself is UVC plug-and-play with no driver on Windows, macOS and Chrome OS, and call apps list it as soon as it is connected, adapter or not."
+        },
+        {
+          "q": "Will my calls actually display 1080p?",
+          "a": "The camera captures 1080p at 30 fps, but what a call carries is set by the meeting app, its settings and the network: some apps top out at 720p or need their HD setting switched on, and a slow connection can pull quality down. Enable HD in your app and the camera will not be the bottleneck — and for local recording in a capture app, its full 1080p is what lands on disk."
         }
       ]
     }
