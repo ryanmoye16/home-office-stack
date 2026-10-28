@@ -136,6 +136,17 @@ gtag('config', 'G-M90CV6HL4F');
           </div>
         </div>
 
+        {# Short version (plan §3.2): buy-if / skip-if + primary CTA at the top of the review, rendered only on reviews carrying a short_version object in the catalog. Moves the first Amazon link from ~27% to ~8% of page depth on those reviews. #}
+        {% if product.short_version %}
+        <!-- Short version -->
+        <div class="short-version">
+          <h2>Short version</h2>
+          <p class="short-version-line"><strong class="short-version-buy">Buy if</strong> {{ product.short_version.buy_if }}</p>
+          <p class="short-version-line"><strong class="short-version-skip">Skip if</strong> {{ product.short_version.skip_if }}</p>
+          <a href="https://www.amazon.com/dp/{{ product.asin }}?tag={{ amazon_tag }}" class="short-version-btn" target="_blank" rel="nofollow noopener sponsored">Check Price on Amazon →</a>
+        </div>
+        {% endif %}
+
         <!-- Verdict -->
         <div class="verdict-box">
           <h2>Our Verdict</h2>
