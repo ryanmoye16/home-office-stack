@@ -118,6 +118,8 @@ def short_name(product):
         return "Anker PowerConf C200"
     if slug == "logitech-brio-101":
         return "Logitech Brio 101"
+    if slug == "flexispot-en1-one-piece-standing-desk":
+        return "FlexiSpot EN1 Standing Desk"
 
     # Brand + type patterns
     if "Kasa EP25" in name:
