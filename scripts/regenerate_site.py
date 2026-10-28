@@ -110,6 +110,8 @@ def short_name(product):
         return "Logitech Ergo K860"
     if slug == "logitech-lift-vertical":
         return "Logitech Lift"
+    if slug == "logitech-mx-master-3s":
+        return "Logitech MX Master 3S"
     if slug == "anker-powerconf-c200":
         return "Anker PowerConf C200"
 
