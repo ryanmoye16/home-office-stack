@@ -108,6 +108,8 @@ def short_name(product):
         return "SHW 48 Electric Standing Desk"
     if slug == "logitech-ergo-k860":
         return "Logitech Ergo K860"
+    if slug == "logitech-lift-vertical":
+        return "Logitech Lift"
 
     # Brand + type patterns
     if "Kasa EP25" in name:
@@ -210,6 +212,7 @@ CATEGORY_SLUG_MAP = {
     "chairs": "chairs.html",
     "standing-desks": "standing-desks.html",
     "keyboards": "keyboards.html",
+    "mice": "mice.html",
     "desk-gear": "desk-gear.html",
 }
 
@@ -224,6 +227,7 @@ DESK_GEAR_CATEGORY_ORDER = [
     "chairs",
     "standing-desks",
     "keyboards",
+    "mice",
 ]
 
 # Category pages that use relative paths (../) vs absolute (/)
