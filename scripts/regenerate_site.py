@@ -120,6 +120,8 @@ def short_name(product):
         return "Logitech Brio 101"
     if slug == "flexispot-en1-one-piece-standing-desk":
         return "FlexiSpot EN1 Standing Desk"
+    if slug == "gabrylly-ergonomic-office-chair":
+        return "GABRYLLY Ergonomic Chair"
 
     # Brand + type patterns
     if "Kasa EP25" in name:
