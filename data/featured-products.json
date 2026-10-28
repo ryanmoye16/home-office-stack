@@ -578,6 +578,10 @@
       "review_count": "20,554",
       "rating_as_of": "May 2026",
       "tagline": "Waterproof PU leather desk mat with stitched edges and a non-slip base, in sizes from 24x14 in.",
+      "short_version": {
+        "buy_if": "you want a wipe-clean, waterproof PU surface that protects the desk and stays put — sizes start at 24x14 in, which covers a keyboard and mouse on a small desk without overhang, and the stitched edges resist fraying.",
+        "skip_if": "you want a thick, cushioned surface under your wrists (this mat is thin and firm, with little cushion), or you need a surface that reads as real leather up close — owners note the PU reads as synthetic."
+      },
       "amazon_image": "https://m.media-amazon.com/images/I/61liXy2x0TL._SL500_.jpg",
       "date_published": "2026-05-01",
       "verdict": "YSAGi leather desk mat review: a waterproof PU leather mat with stitched edges and a non-slip base, in sizes from 24x14 in, that owners praise for wiping clean. It is a thin, firm surface rather than a cushioned one, and owner reports are consistent on the basics: spills and coffee rings wipe off, the base stays put, and the stitched edges hold up better than unstitched budget mats.",
@@ -607,6 +611,10 @@
       "review_count": "7,627",
       "rating_as_of": "October 2026",
       "tagline": "8-in-1 USB-C hub with Gigabit Ethernet, 4K@60Hz HDMI, 10Gbps data, and 85W pass-through charging.",
+      "short_version": {
+        "buy_if": "you are building a single-monitor MacBook desk and want Gigabit Ethernet, one 4K@60Hz HDMI, 10Gbps data, SD and microSD slots, and up to 85W pass-through charging on one cable.",
+        "skip_if": "you need two external monitors (this hub has only one HDMI port, and macOS does not extend across dual-HDMI USB-C hubs — a Thunderbolt dock or DisplayLink adapter is the route), or full-speed charging for a 16-inch MacBook Pro under heavy load, which tops 85W."
+      },
       "amazon_image": "https://m.media-amazon.com/images/I/71zuiK5poRL._SL500_.jpg",
       "date_published": "2026-05-09",
       "verdict": "Anker 555 USB-C Hub (8-in-1) review: a desk hub with Gigabit Ethernet, one 4K@60Hz HDMI, 10Gbps data ports, SD and microSD slots, and 85W pass-through charging. It is the pick for a single-monitor MacBook desk that also needs wired networking and fast external-SSD transfers.",
@@ -639,6 +647,10 @@
       "review_count": "22,675",
       "rating_as_of": "May 2026",
       "tagline": "Gas-spring monitor arm for 17–30 inch monitors up to 19.8 lb — full-motion adjustment, C-clamp and grommet mounts.",
+      "short_version": {
+        "buy_if": "your monitor is 17 to 30 in and weighs 4.4 to 19.8 lb without its stand, and you want smooth gas-spring height adjustment with full-motion tilt, swivel, rotation and pan, plus both C-clamp and grommet mounts in the box.",
+        "skip_if": "your panel is above 19.8 lb (the lowest ceiling of the three arms reviewed) or below the 4.4 lb gas-spring floor, or you want detailed assembly instructions — owners call them minimal and recommend a helper for the final attachment."
+      },
       "amazon_image": "https://m.media-amazon.com/images/I/51FvgCU1lCL._SL500_.jpg",
       "date_published": "2026-05-09",
       "verdict": "NB North Bayou F80 review: a gas-spring monitor arm for 17 to 30 inch monitors up to 19.8 lb with smooth full-motion adjustment and C-clamp or grommet mounting. Owner feedback centers on the smooth gas-spring lift and position hold. The consistent limits are minimal assembly instructions and a 19.8 lb ceiling that rules out heavier professional displays.",
