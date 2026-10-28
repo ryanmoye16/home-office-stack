@@ -126,6 +126,8 @@ def short_name(product):
         return "FlexiSpot EN1 Standing Desk"
     if slug == "gabrylly-ergonomic-office-chair":
         return "GABRYLLY Ergonomic Chair"
+    if slug == "hon-ignition-2-task-chair":
+        return "HON Ignition 2.0"
 
     # Brand + type patterns
     if "Kasa EP25" in name:
