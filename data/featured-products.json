@@ -12,6 +12,10 @@
       "review_count": "28,369",
       "rating_as_of": "May 2026",
       "tagline": "7 ports in a slim travel body — both card slots, 4K@30Hz HDMI, 5Gbps data, no Ethernet.",
+      "short_version": {
+        "buy_if": "you travel with a USB-C laptop and want one slim hub with both SD and microSD slots, legacy USB-A ports, HDMI and 85W pass-through charging in a bag-sized body.",
+        "skip_if": "you need Gigabit Ethernet, 10Gbps drive speeds, or 4K at 60Hz — those are exactly what the larger Anker 555 adds — or you need video out of the USB-C ports, which this hub does not carry."
+      },
       "amazon_image": "https://m.media-amazon.com/images/I/71iA1PddRNL._SL500_.jpg",
       "date_published": "2026-05-01",
       "verdict": "Anker 7-in-1 USB-C Hub (341) review: seven ports in a slim bag-sized body — 5Gbps data, SD and microSD card slots, 4K@30Hz HDMI, 85W pass-through charging port. It is the travel pick in Anker's lineup: no Ethernet and no 10Gbps data, but the card slots, legacy ports, and one-cable charging most laptop owners actually use, in the smaller body. Buy it for portability; step up to the Anker 555 for Ethernet and faster drives.",
@@ -44,6 +48,10 @@
       "review_count": "4,962",
       "rating_as_of": "May 2026",
       "tagline": "Apple HomeKit, energy monitoring, and no subscription required.",
+      "short_version": {
+        "buy_if": "your home runs on Apple HomeKit and you want energy monitoring, scheduling and a full 15A rating with no hub and no subscription — it also works with Alexa, Google Assistant and SmartThings.",
+        "skip_if": "your setup is being built on Matter, Thread or Zigbee — the EP25 has none of them, so look at the Tapo P110M instead — or your network cannot offer a clean 2.4GHz band for setup."
+      },
       "amazon_image": "https://m.media-amazon.com/images/I/61dy0MWaMhL._SL500_.jpg",
       "date_published": "2026-05-01",
       "verdict": "TP-Link Kasa EP25 review: the HomeKit smart plug with energy monitoring, 15A capacity, scheduling and no subscription, working with Siri, Alexa and Google Home. One correction matters up front: the EP25 is not a Matter plug — HomeKit over Wi-Fi is its platform, and that distinction decides whether it fits your setup.",
@@ -189,6 +197,10 @@
       "review_count": "3,577",
       "rating_as_of": "May 2026",
       "tagline": "Budget desk-mount arm for monitors up to 32 inches and 20 lb — C-clamp and grommet mounts included.",
+      "short_version": {
+        "buy_if": "your monitor is up to 32 in and under 20 lb (panel weight without its stand) and you want straightforward height, tilt, swivel and rotation adjustment with both clamp and grommet mounts in the box.",
+        "skip_if": "your panel is heavier than 20 lb or wider than the stated 32 in maximum, or you reposition your monitor often enough to want a gas-spring arm instead of this arm's stiffer adjustment."
+      },
       "amazon_image": "https://m.media-amazon.com/images/I/511QVoYojOL._SL500_.jpg",
       "date_published": "2026-05-01",
       "verdict": "Amazon Basics Single Monitor Arm review: a budget desk-mount arm for monitors up to 32 inches and 20 lb, with full height, tilt, swivel and rotation adjustment. Owners most often praise the straightforward install and steady hold at normal typing speeds. The consistent limits are stiff adjustment out of the box and a 20 lb ceiling that rules out heavier panels.",
