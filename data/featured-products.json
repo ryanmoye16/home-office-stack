@@ -2578,6 +2578,170 @@
           "a": "No, and reviewers say so plainly. Its 400\u20134,000 DPI sensor and office-tuned buttons are built for documents, browsers, code and design placement, and its tall vertical body is made for a resting hand, not fast lifts and flicks. Macworld's verdict was the measured one: a good mouse, not ideal for high-intensity mousework. It is an all-day work mouse; a gaming mouse is a different purchase."
         }
       ]
+    },
+    {
+      "slug": "logitech-mx-mechanical",
+      "name": "Logitech MX Mechanical Wireless Keyboard",
+      "asin": "B09LK1P1RD",
+      "category": "keyboards",
+      "category_label": "Keyboards",
+      "rating_stars": "\u2605\u2605\u2605\u2605",
+      "rating_value": "4.2",
+      "review_count": "2,194",
+      "rating_as_of": "May 2026",
+      "tagline": "Full-size mechanical keyboard in Graphite \u2014 low-profile Tactile Quiet switches with a bump you feel rather than hear, smart white backlighting, Bluetooth and Logi Bolt for up to 3 devices.",
+      "amazon_image": "https://images-na.ssl-images-amazon.com/images/P/B09LK1P1RD.01.LZZZZZZZ.jpg",
+      "date_published": "2026-10-28",
+      "verdict": "Logitech MX Mechanical review: a full-size, low-profile mechanical keyboard with Tactile Quiet switches, smart backlighting, and three-device switching at work. That sentence is the whole design: instead of reshaping the keyboard or quietening it into a laptop board, the MX Mechanical keeps the straight, full-size layout most typists already know \u2014 numpad included \u2014 and puts low-profile mechanical switches under it, in this listing the Tactile Quiet variant, whose bump you feel without the click you hear from clicky boards. The aluminium top case, the smart white backlight that wakes as your hands approach, and three-device switching over Bluetooth or the included Logi Bolt receiver all come from Logitech's MX line, and reviewers split on how well the mechanical half was executed: RTINGS rates it very good for office use and comfortable for long periods even without a wrist rest, while PCWorld's reviewer criticised rattling construction and judged it short of the standard Logitech's own flat keyboards set. Owners on the listing itself land between those poles: 4.2 stars across 2,194 ratings for this exact ASIN (read May 2026), the most divided verdict in our keyboard coverage. The honest limits are specific: the switches are not hot-swappable, the ABS keycaps shine with use where PBT would not, the spacebar can sound hollow, there is no wrist rest in the box, and the charging cable charges only \u2014 the board stays wireless while it charges. Judge it as the mechanical option in a three-board category: the right buy when you want a tactile bump in a familiar full-size body, and the wrong one when you want the quietest board, a split shape, or a hobbyist's swappable switches.",
+      "specs": {
+        "Layout": "Full-size (104 keys) with numpad; straight, low-profile board with two flip-out tilt feet at the rear \u2014 no split and no tenting",
+        "Dimensions": "17.08 \u00d7 5.18 \u00d7 1.02 inches (433.85 \u00d7 131.55 \u00d7 26.1 mm) including keycaps, per Logitech \u2014 Amazon's technical-details box lists 17.9 \u00d7 5.9 \u00d7 2.1 inches, which matches the retail box, not the keyboard",
+        "Weight": "828 g (29.2 oz) per Logitech \u2014 the 2.55 lb figure in Amazon's technical details is the packaged weight",
+        "Keys": "Low-profile mechanical switches, Tactile Quiet variant on this listing (a tactile bump with no click bar); not hot-swappable \u2014 the Clicky and Linear switch versions are different listings, chosen at purchase, not changed later",
+        "Backlighting": "White only; smart illumination \u2014 hand-proximity wake plus automatic brightness from ambient light, adjustable in Logi Options+",
+        "Connectivity": "Bluetooth Low Energy or the included Logi Bolt USB receiver; up to 3 devices with Easy-Switch keys; wireless range up to 33 ft. Logi Bolt is NOT compatible with Logitech Unifying receivers",
+        "Battery": "Rechargeable Li-Po (1500 mAh) over USB-C; rated up to 15 days with backlighting on or up to 10 months with backlighting off. The cable is for charging only \u2014 the keyboard stays wireless while plugged in",
+        "Compatibility": "Windows, macOS, Chrome OS, Linux, iPadOS and Android (basic typing without software on systems other than Windows and macOS). Logitech's own note: on a FileVault-enabled Mac, Bluetooth may not enter your password at startup \u2014 use the Bolt receiver for that step",
+        "In the Box": "MX Mechanical keyboard, Logi Bolt USB receiver, USB-C charging cable, user documentation. No wrist rest is included",
+        "Warranty": "1-year limited hardware warranty (per Amazon's listing for this ASIN)",
+        "Model": "Logitech 920-010547, Graphite, Tactile Quiet (UPC 097855174659) \u2014 the Clicky and Linear switch versions and the smaller MX Mechanical Mini (no numpad) are different listings; do not substitute"
+      },
+      "brand": "Logitech",
+      "what_we_liked": "The switches are the reason this board exists, and reviewers who type all day keep naming them first. The Tactile Quiet variant puts a soft, rounded bump near the top of each press \u2014 feedback your fingers can follow without the sharp click of a clicky board \u2014 and reviewers describe the sound as closer to a high-quality laptop keyboard than to a traditional mechanical one, quiet enough that coworkers a few feet away in an open office are not part of the typing. For touch typists who find scissor boards like our <a href=\"../reviews/logitech-mx-keys-s.html\">Logitech MX Keys S review</a>'s too flat to trust at speed, that bump is the whole argument: rhythm comes back, because each press confirms itself.\n\nThe low profile is the second half of the feel, and it is what separates this board from the hobbyist mechanical category. The keys travel less than full-height mechanical switches and the case stands about an inch tall, so the wrists stay nearer the neutral angle a laptop board gives you; RTINGS' testing judged it very good for office use and comfortable to type on for long periods even without a wrist rest. Reviewers coming from MacBook and ThinkPad keyboards describe feeling at home quickly, which matters for a board bought for work rather than for a hobby.\n\nEverything around the switches is the proven MX package, and it works the way the MX Keys S's does: the white backlight wakes as your hands approach and dims itself with the room, three devices pair over Bluetooth or the included Logi Bolt receiver and switch from dedicated keys, Logi Options+ carries the pointer between computers with Flow, and the aluminium top case keeps the full-size body planted. The battery rating is the best in our keyboard coverage with the light on \u2014 up to 15 days, against the MX Keys S's ten \u2014 and up to 10 months with the backlight off, so the charging rhythm is a monthly habit rather than a weekly one for most typists.",
+      "what_could_be_better": "The construction noise is the criticism that follows this board from review to review, and it is the main reason its owner rating is the most divided in our keyboard coverage. PCWorld's reviewer singled out rattling in the physical construction and judged the board short of the standard set by Logitech's own flat keyboards; other reviewers hear the same family of sounds in miniature \u2014 the spacebar rings slightly hollow next to the letter keys, and a hint of stabiliser rattle shows up in fast typing. None of it makes the Tactile Quiet board loud, exactly; it makes it less clean-sounding than its price and its MX badge lead you to expect, and a desk mat underneath is the cheap partial fix reviewers reach for.\n\nThe keycaps will show their age. They are smooth ABS, and reviewers note the shine that develops on the most-used keys where PBT-capped boards keep their texture \u2014 the board stays fully functional, but it stops looking new sooner than a hobbyist board at similar money. That is the same bargain as the switches themselves: they are soldered, not hot-swappable, so the switch feel you buy is the switch feel you keep, and a single failed switch is a warranty conversation rather than a two-minute swap.\n\nTwo MX-line limits carry over unchanged. There is no wrist rest in the box and the only angle adjustment is a pair of flip-out rear feet, so palms rest on the desk edge or on a rest bought separately. And the USB-C cable is a charging cable only: plug it in and the board keeps working, but it keeps working wirelessly \u2014 there is no wired typing mode to fall back on when a receiver is lost or a Bluetooth stack misbehaves, which is worth knowing before it becomes the day you find out.",
+      "performance": "In daily typing the MX Mechanical performs as the mechanical entry in a three-board MX-and-ergonomic line-up, with the split in its reviews faithfully reflecting two different priorities. Where the test is typing itself \u2014 feedback per press, long-session comfort, office manners \u2014 it does well: RTINGS rates it very good for office use, reviewers find the Tactile Quiet bump softer and rounder than a Cherry MX Brown's, with actuation light enough for fast, continuous typing, and the sound stays in laptop territory rather than mechanical-keyboard territory. Where the test is finish \u2014 case rattle, spacebar tone, keycap material \u2014 the same reviewers mark it down, and PCWorld's verdict was the blunt one: high expectations set by Logitech's flat keyboards, not met.\n\nThe numbers owners actually live with are the battery's. Fifteen rated days with the backlight on is a fortnight-plus of real work weeks for most typists, and turning the light off stretches a charge toward Logitech's 10-month ceiling; either way the board outlasts the MX Keys S on the same desk, and it keeps typing while it charges over USB-C, just always over its wireless link. Multi-device performance is the MX standard: three pairings, Easy-Switch keys, Flow across computers in Logi Options+ \u2014 with Logitech's own FileVault footnote standing, that a Bluetooth board may not enter a Mac's startup password until the Bolt receiver handles that step.\n\nPositioned honestly, its performance is a fork, not a ladder. Against the MX Keys S it trades a little quiet and a slimmer case for a bump your fingers can feel; against the Ergo K860 it keeps your familiar straight layout and gives up the split shape and palm lift entirely. It is not the fastest-typing board in our coverage by any test we can cite, and it does not need to be: it is the one that makes mechanical feedback safe for a shared room, and its 4.2-star owner pool across 2,194 ratings says the compromise lands for most buyers and grates on a vocal minority \u2014 read the rattle paragraph above as the minority's case, stated fairly.",
+      "who_this_is_for": "Full-time typists \u2014 writers, developers, analysts, anyone whose day is hours of continuous keyboard work \u2014 who miss mechanical feedback on a laptop-style board and want it without the click: a low-profile Tactile Quiet bump, a familiar full-size layout with a real numpad, smart backlighting for evening work, and three-device switching that makes a two-computer desk feel like one machine. It is the mechanical third of the keyboard fork our <a href=\"../work-tools/ergonomic-desk-setup.html\">ergonomic desk setup guide</a> now covers at elbow height: shape, refinement, or feel \u2014 pick the axis your hands actually care about.\n\nSkip it if quiet is the priority: our <a href=\"../reviews/logitech-mx-keys-s.html\">Logitech MX Keys S review</a>'s scissor keys are the quieter, slimmer answer in the same MX line, with the same backlight and the same Bolt receiver. Skip it if your wrists need geometry: the split frame and negative palm lift of our <a href=\"../reviews/logitech-ergo-k860.html\">Logitech Ergo K860 review</a> answer a problem this straight board deliberately does not touch. Skip it if you are a mechanical hobbyist \u2014 no hot-swap, no PBT, no wired mode is a short list of everything that world expects. And skip it for a small desk: at 433.85 mm wide before the mouse zone, the numpad's reach cost is real, and Logitech's own Mini version of this board (a different listing) exists precisely for that desk.",
+      "bottom_line": "The Logitech MX Mechanical is the feel-first keyboard in our coverage: low-profile Tactile Quiet switches that give touch typists their bump back at laptop-board noise levels, the MX line's self-managing backlight and three-device switching, and the longest backlit battery rating of the three keyboards we have reviewed. Its limits are the mirror of its compromises \u2014 construction rattle its own maker's flat keyboards trained reviewers not to expect, ABS caps that shine, switches you cannot swap, and a charging cable that never becomes a wired mode. Buy it when the bump is what your hands are missing and your room is shared; buy the MX Keys S when quiet outranks feel, and the Ergo K860 when shape outranks both.",
+      "extra_sections": [
+        {
+          "heading": "Will It Fit Your Desk and Your Habits? The Width, Noise and Switch Check",
+          "paragraphs": [
+            "This board carries three fit facts, and they matter more than any feature on it: it is full-size at 433.85 mm wide with a numpad your mouse arm must reach past, its one switch choice is made at purchase and cannot be changed later, and its noise is mechanical noise reduced, not removed. Everything else about fit follows from those three, so check them against your desk, your room and your hands before anything else on this page matters.",
+            "The switch check comes first because it is irreversible: this listing is the Tactile Quiet variant, the only one of the three switch options reviewers judge safe for shared rooms. If the listing in front of you says Clicky, it is a different ASIN and a louder board; if it says Linear, the bump this review is about is not in it. The noise check is second: Tactile Quiet typing reads as laptop-level in reviewer testing, but the spacebar's hollow note and fast-typing rattle mean a microphone a foot away will still know it is a mechanical board."
+          ],
+          "table": {
+            "rows": [
+              [
+                "Full-size desk, numpad work, wide surface",
+                "Fits \u2014 the reason to buy",
+                "The board plus a proper mouse zone sits without pushing the mouse out of the shoulder's comfort arc, and the numpad earns its width."
+              ],
+              [
+                "Spreadsheet, data-entry or accounting work",
+                "Fits well",
+                "The numpad is a genuine asset, and Easy-Switch plus Flow suits the multi-computer version of this work."
+              ],
+              [
+                "Touch typist who finds scissor keys too flat",
+                "Fits \u2014 the switch case",
+                "The Tactile Quiet bump restores per-press confirmation at laptop-level noise; this is the buyer reviewers describe coming home to it."
+              ],
+              [
+                "Shared room or open office",
+                "Fits, with the rattle caveat",
+                "The switch itself is quiet; the spacebar and stabilisers are the sounds a near neighbour or microphone may still catch. A desk mat underneath helps."
+              ],
+              [
+                "Narrow or shallow desk",
+                "Count the reach",
+                "433.85 mm of keyboard plus mouse travel crowds a small desk fast; the MX Mechanical Mini or a tenkeyless board is the right buy."
+              ],
+              [
+                "Mechanical hobbyist",
+                "Outside its design",
+                "No hot-swappable switches, no PBT keycaps and no wired typing mode \u2014 the enthusiast checklist is answered no three times."
+              ],
+              [
+                "Wrists need a split or a palm lift",
+                "Outside its design",
+                "The straight board offers only flip-out rear feet; the Ergo K860's split frame answers this need instead."
+              ],
+              [
+                "Wants the quietest board in the line",
+                "Weak reason to buy",
+                "The MX Keys S's scissor keys are quieter and its case slimmer; buy the Mechanical for feel, not for silence."
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "MX Mechanical or MX Keys S? Logitech's Two Straight Boards, Side by Side",
+          "paragraphs": [
+            "Logitech now has two full-size straight keyboards in our coverage, and the choice between them is not newer-versus-older \u2014 it is a switch fork. The MX Mechanical (this review) puts low-profile mechanical switches under the familiar layout; the MX Keys S puts refined scissor switches under the same layout. Same numpad, same smart backlight idea, same Bolt receiver and three-device switching: nearly everything that differs follows from the switch, which is why your fingers should make this decision before any feature list does.",
+            "The practical rule: if you type by feel and distrust a press you cannot sense, the Mechanical is your board. If you type in a room where other people are the constraint, or you want the slimmest case on the desk, the Keys S answers both and this board answers neither. Our <a href=\"../reviews/logitech-mx-keys-s.html\">Logitech MX Keys S review</a> covers that side in full, and our <a href=\"../reviews/logitech-ergo-k860.html\">Logitech Ergo K860 review</a> covers the third answer, for wrists that need a different shape rather than a different switch."
+          ],
+          "table": {
+            "rows": [
+              [
+                "Switches",
+                "Low-profile mechanical, Tactile Quiet on this listing; bump you feel, no click",
+                "Perfect Stroke scissor; quiet, laptop-style travel"
+              ],
+              [
+                "Noise",
+                "Laptop-level switch sound, plus a hollow spacebar note and some stabiliser rattle",
+                "The quieter board \u2014 top-tier typing-noise scores in reviewer testing"
+              ],
+              [
+                "Dimensions",
+                "433.85 \u00d7 131.55 \u00d7 26.1 mm including keycaps",
+                "430.2 \u00d7 131.63 \u00d7 20.5 mm, keyboard only"
+              ],
+              [
+                "Weight",
+                "828 g",
+                "810 g"
+              ],
+              [
+                "Battery (backlight on / off)",
+                "Up to 15 days / up to 10 months",
+                "Up to 10 days / up to 5 months"
+              ],
+              [
+                "Keycaps",
+                "ABS; reviewers note shine developing with use",
+                "Matte dished caps shaped to centre the fingertip"
+              ],
+              [
+                "Customising the feel",
+                "None \u2014 switches are soldered, not hot-swappable",
+                "None \u2014 scissor switches are fixed by design"
+              ],
+              [
+                "Owner verdict (this ASIN)",
+                "4.2 stars across 2,194 ratings, as of May 2026",
+                "4.4 stars across 3,858 ratings, as of October 2026"
+              ]
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": "Which switch version is this review of the Logitech MX Mechanical?",
+          "a": "The Tactile Quiet version, in Graphite: model 920-010547, ASIN B09LK1P1RD, UPC 097855174659. Logitech sells the same board with Clicky and Linear switches as different listings, and the switch cannot be changed after purchase because the switches are soldered, not hot-swappable \u2014 check the switch name on the listing before ordering, because it decides both the feel and the noise."
+        },
+        {
+          "q": "Are the MX Mechanical's switches hot-swappable?",
+          "a": "No. The low-profile switches are fixed at the factory, so the Tactile Quiet feel of this listing is the feel for the life of the board, and a failed switch is a warranty repair rather than a swap. Buyers who want to change switches, springs or keycap profiles are in hobbyist-board territory, which this keyboard deliberately is not."
+        },
+        {
+          "q": "How long does the MX Mechanical's battery last, and can I type while it charges?",
+          "a": "Logitech rates the 1500 mAh battery for up to 15 days with the backlight on or up to 10 months with it off, the longest backlit rating in our keyboard coverage. It recharges over the included USB-C cable and keeps working while plugged in \u2014 but it keeps working wirelessly: the cable carries power only, and there is no wired typing mode."
+        },
+        {
+          "q": "Does the MX Mechanical work with a Logitech Unifying receiver?",
+          "a": "No. It pairs over Bluetooth or its included Logi Bolt receiver, and Logitech states Bolt is not compatible with Unifying technology \u2014 older Unifying mice and keyboards cannot share this board's receiver. On a desk standardised on Bolt (the MX Keys S, the Lift, the MX Master 3S) it joins the same receiver family; on a Unifying desk it needs Bluetooth or its own port."
+        },
+        {
+          "q": "How loud is the Tactile Quiet version, really?",
+          "a": "It is the quietest of the board's three switch options and reviewers put its switch sound near a high-quality laptop keyboard's \u2014 safe for an open office or a shared room. It is not silent: reviewers note a slightly hollow spacebar and a hint of stabiliser rattle in fast typing, and PCWorld criticised rattle in the construction outright. If absolute quiet outranks mechanical feel, the scissor-switch MX Keys S is the quieter buy."
+        },
+        {
+          "q": "Does the MX Mechanical work with a Mac at the login screen?",
+          "a": "With one Logitech-documented caveat: if FileVault is enabled on your Mac, a Bluetooth connection may not be able to enter your password at startup or reboot. Logitech's own fix is to use the included Logi Bolt receiver for that step. Day-to-day macOS typing, and Windows, Chrome OS, Linux, iPadOS and Android, are all supported, with full software features in Logi Options+ on Windows and macOS."
+        }
+      ]
     }
   ]
 }

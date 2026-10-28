@@ -110,7 +110,7 @@
   </url>
   <url>
     <loc>https://homeofficestack.com/reviews/logitech-mx-keys-s.html</loc>
-    <lastmod>2026-10-27</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -200,7 +200,7 @@
   </url>
   <url>
     <loc>https://homeofficestack.com/categories/keyboards.html</loc>
-    <lastmod>2026-10-27</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -344,6 +344,12 @@
   </url>
   <url>
     <loc>https://homeofficestack.com/reviews/logitech-mx-vertical.html</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://homeofficestack.com/reviews/logitech-mx-mechanical.html</loc>
     <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
