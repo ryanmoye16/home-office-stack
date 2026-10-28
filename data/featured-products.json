@@ -791,6 +791,10 @@
       "review_count": "13,446",
       "rating_as_of": "May 2026",
       "tagline": "Auto-dimming, touch controls, no screen glare. The standard Quntis screen bar for monitors up to 32 inches.",
+      "short_version": {
+        "buy_if": "you want a monitor light bar for a monitor up to 32 inches with auto-dimming, a wide 2700K to 6500K color range, and light aimed at the desk and keyboard rather than the screen — and you do not need a wireless remote.",
+        "skip_if": "the wireless rotary remote matters to you (that is the Quntis PRO+), your monitor is a 34-inch or wider ultrawide this bar does not cover evenly, or you have no nearby USB port for its short fixed cable."
+      },
       "amazon_image": "https://m.media-amazon.com/images/I/51p1Ui5sa7L._SL500_.jpg",
       "date_published": "2026-05-09",
       "verdict": "Quntis Monitor Light Bar (Standard) review: a USB-powered screen bar with auto-dimming, a wide 2700K to 6500K color range, touch controls and zero screen glare. Owners report the asymmetric optic puts light on the desk and keyboard rather than the screen, and that the ambient sensor adjusts brightness as room light changes. The trade-offs are the on-bar touch controls and a short fixed USB cable, covered below.",
@@ -822,6 +826,10 @@
       "review_count": "3,623",
       "rating_as_of": "May 2026",
       "tagline": "Compact calculated-terrain floor mat for standing desks — built-in foot-rest node, textured surface, repositions with one foot.",
+      "short_version": {
+        "buy_if": "you stand at a desk and find flat mats uncomfortable after half an hour or so — the calculated terrain, foot-rest node and center teardrop prompt the micro-movement that makes long standing sessions feel easier, it repositions with one foot, and the compact 25.2 x 19.2 inch footprint fits small workspaces, especially for users 5'4\" and shorter.",
+        "skip_if": "you simply want a plain, flat cushion underfoot, you are taller with a wider stance (Ergodriven steers you to the full-size Topo instead), or you use a treadmill desk — the surface does not grip treadmill belts."
+      },
       "amazon_image": "https://m.media-amazon.com/images/I/71ywUIbCv0L._SL500_.jpg",
       "date_published": "2026-05-09",
       "verdict": "Ergodriven Topo Mini review: a compact standing-desk anti-fatigue floor mat, with calculated terrain, a raised foot-rest node, and polyurethane foam cushioning. Unlike a flat mat, its terrain gives your feet things to do — owners report shifting, stretching, and changing stance without thinking about it, which is what makes long standing sessions feel easier.",
@@ -853,6 +861,10 @@
       "review_count": "571,662",
       "rating_as_of": "May 2026",
       "tagline": "Alexa-only control with Wi-Fi Simple Setup — scheduling and routines in the Alexa app, no hub.",
+      "short_version": {
+        "buy_if": "your home is all-in on Alexa and you want the simplest possible hub-free on/off control for a lamp, fan, coffee maker or similar device with a physical on/off switch — Wi-Fi Simple Setup, scheduling and routines all live in the Alexa app, with a 15A rating and no separate vendor app.",
+        "skip_if": "your home runs on Google Home or Apple Home (this plug is Alexa-only by design), you want energy monitoring, or the outlet only gets weak or band-steered 2.4GHz Wi-Fi — the Kasa EP25 or Tapo P110M fit better."
+      },
       "amazon_image": "https://m.media-amazon.com/images/I/61nWujX2i2L._SL500_.jpg",
       "date_published": "2026-05-09",
       "verdict": "Amazon Smart Plug review: an Alexa-only Wi-Fi plug with simple setup, app scheduling and routines, a 15A rating, and no hub required for voice control in homes. That simplicity is the whole product: Amazon states this plug is for exclusive use with Alexa and does not support other voice assistants or smart hubs, and there is no energy monitoring — households on Google Home or Apple Home, or anyone who wants to track power draw, need a different plug.",
