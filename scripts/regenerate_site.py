@@ -124,6 +124,8 @@ def short_name(product):
         return "Logitech Brio 101"
     if slug == "logitech-c920s-hd-pro":
         return "Logitech C920s"
+    if slug == "litwaro-under-desk-cable-tray":
+        return "Litwaro Cable Tray"
     if slug == "flexispot-en1-one-piece-standing-desk":
         return "FlexiSpot EN1 Standing Desk"
     if slug == "gabrylly-ergonomic-office-chair":
@@ -236,6 +238,7 @@ CATEGORY_SLUG_MAP = {
     "keyboards": "keyboards.html",
     "mice": "mice.html",
     "webcams": "webcams.html",
+    "cables": "cables.html",
     "desk-gear": "desk-gear.html",
 }
 
@@ -252,6 +255,7 @@ DESK_GEAR_CATEGORY_ORDER = [
     "keyboards",
     "mice",
     "webcams",
+    "cables",
 ]
 
 # Category pages that use relative paths (../) vs absolute (/)
