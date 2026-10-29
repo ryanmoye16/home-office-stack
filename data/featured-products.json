@@ -4167,6 +4167,198 @@
           "a": "Almost always the socket, not the sensor. Lint and skin oil build up on the ball's support points over a few weeks of use. Push the ball out from underneath, wipe the ball and the contact points inside the socket with a dry or slightly damp swab, and drop the ball back in — owners describe it as a two-minute job that restores the smooth tracking, and the recurring maintenance difference between a trackball and a conventional mouse."
         }
       ]
+    },
+    {
+      "slug": "logitech-brio-4k",
+      "name": "Logitech Brio 4K Ultra HD Webcam",
+      "asin": "B01N5UOYC4",
+      "category": "webcams",
+      "category_label": "Webcams",
+      "rating_stars": "★★★★½",
+      "rating_value": "4.5",
+      "review_count": "38",
+      "rating_as_of": "October 2026",
+      "tagline": "The original 4K webcam — 4096×2160 at 30 fps, autofocus glass lens, RightLight 3 with HDR, 65/78/90-degree fields of view, Windows Hello infrared sign-in, dual mics, attachable privacy shutter.",
+      "short_version": {
+        "buy_if": "you record, stream or crop your camera feed, sit in backlit or mixed light, or want Windows Hello face sign-in — a 4K autofocus camera with RightLight 3 HDR, three fields of view, a glass lens and a tripod-ready detachable clip.",
+        "skip_if": "your calls are ordinary 1080p meetings (every camera below it in this category does that job for less capability you will never use), you need 4K at 60 fps, your laptop is USB-C only and an adapter bothers you, or you rely on autofocus on a Mac — some owners report needing manual focus there."
+      },
+      "amazon_image": "https://images-na.ssl-images-amazon.com/images/P/B01N5UOYC4.01.LZZZZZZZ.jpg",
+      "date_published": "2026-10-29",
+      "verdict": "Logitech Brio 4K review: a 4K Ultra HD webcam at 30 fps with autofocus, RightLight 3 HDR, three fields of view, Windows Hello sign-in and its proven glass lens. That sentence describes the camera that defined the top of the webcam market in 2017 and, unusually, still describes a current buy: a 13-megapixel sensor behind an autofocus glass lens in a 4-inch black bar, capturing 4K at 30 frames per second, 1080p at up to 60, and 720p at up to 90, with three digital fields of view — 90 degrees for the room, 78 for a balanced frame, 65 for face-only eye contact — and an infrared sensor that signs a Windows user in by face. Two things earn it a fourth review slot on this site alongside three 1080p and 2K cameras. The first is headroom: 4K capture is mostly wasted inside a meeting app, which will compress and downscale it anyway, but it is not wasted when you record locally, stream, or crop a 1080p frame out of the wider shot without losing sharpness — the one job none of the other cameras reviewed here can do at all. The second is light handling: Tom's Guide's long-term review found its autofocus and HDR light correction tracking movement and lamp changes seamlessly, producing a superior image at 1080p as well as 4K, and hands-on testing since has kept landing in the same place — crisp, detailed, alive, with backlight that does not plunge the face into shadow. The rating evidence needs an honest note: Amazon blocks agent reads of its listing, so this page does not quote Amazon's pool. Target's listing for this exact model, 960-001105 in Black, carries 4.5 stars across 38 reviews (read October 2026), and the individual owner reviews syndicated there praise setup ease, clarity and Windows Hello in the same terms reviewers do. The honest limits are the mirror image of its age and ambition: the autofocus that reviewers praise on Windows has a documented finicky streak — PC Gamer found it locking close and struggling to refocus farther away, and a detailed Mac owner report describes manual focus as the standing workaround — the dual microphones are serviceable rather than a reason to buy, the cable is USB-A at the computer end, and for a plain 1080p meeting this is capability you pay for in complexity and never see. Judge it as the 4K headroom camera it is — the right buy when resolution, cropping or recording is the actual job, and the wrong one when a meeting is.",
+      "specs": {
+        "Resolution": "4K Ultra HD (4096 × 2160) at 30 fps; 1080p at 30 or 60 fps; 720p at 30, 60 or 90 fps (4K requires a USB 3.0 port and compatible software)",
+        "Sensor": "13 MP camera (Logitech's specification)",
+        "Lens": "Glass lens",
+        "Focus": "Autofocus (see the Mac caveat in What Could Be Better — some Mac owners report manual focus as the workaround)",
+        "Field of View": "90°, 78° or 65° diagonal, selected in Logitech's software — the narrower views are digital crops of the 4K sensor, which is why they hold detail better than a 1080p camera's crops",
+        "Digital Zoom": "5x, in Full HD (Logitech's specification)",
+        "Microphones": "Dual omnidirectional microphones with noise cancellation; rated pickup to 1 m (Logitech's specification)",
+        "Light Correction": "RightLight 3 with HDR — automatic exposure and contrast correction for low light through direct sunlight and backlight",
+        "Sign-in": "Infrared sensor for Windows Hello facial sign-in (Windows only)",
+        "Privacy": "Attachable privacy shutter that covers the lens — it does not switch the camera off and does not mute the microphones",
+        "Mounting": "Detachable universal clip for laptops, LCDs and monitors, with a standard tripod thread; the clip also stands the camera on a desk",
+        "Dimensions": "1.06 × 4.02 × 1.06 inches (27 × 102 × 27 mm), webcam only (Logitech's specification)",
+        "Weight": "63 g (2.22 oz) for the webcam without clip or cable, per Logitech's specifications — Amazon's listing weight fields are higher and read as packaged figures, so they are not used",
+        "Connectivity": "Detachable USB cable, USB-A plug-and-play at the computer end; supports USB-C with a third-party adapter (not included)",
+        "Compatibility": "Windows 8 or later (Windows 8.1 or higher for resolutions above 1080p); macOS 10.10 or later; ChromeOS; certified for Skype for Business and Microsoft Teams, and works with Zoom, Webex, Google Meet and other popular calling platforms",
+        "Software": "Logi Tune / Logitech Camera Settings (optional) — field of view, pan, tilt, zoom, exposure and image controls; the camera works without it",
+        "In the Box": "Brio webcam with detachable mounting clip, attachable privacy shutter, travel bag, USB cable, user documentation",
+        "Warranty": "3-year limited hardware warranty (Logitech's specification for this model)",
+        "Model": "Logitech 960-001105, Black (UPC 097855125620) — the MX Brio (a different, newer 4K camera), the Brio 500/505 family and the Brio 101 reviewed on this site are different listings with different sensors; do not substitute their figures for this one's"
+      },
+      "brand": "Logitech",
+      "what_we_liked": "The image is the reason this camera survived a decade of newer rivals, and reviewers who test it against ordinary webcams keep saying so in unusually strong language. Tom's Guide found the 4K picture superior to most webcams even downscaled at 1080p, with autofocus and HDR light correction visibly tracking movement and desk-lamp changes to hold the best image; a later hands-on review called the feed crisp, detailed and alive, with fabric texture and eye detail most webcams blur away, and dynamic range strong enough that a bright window behind the sitter does not turn the face to shadow. That combination — a glass lens, a large-for-its-class sensor and processing that works in mixed light — is exactly the set a home office needs, because home-office light is rarely the flat, front-lit light product photos assume.\n\nThe 4K headroom is real in the two places 4K actually matters, and this review will not pretend a meeting app is one of them. Record locally — a lesson, a demo, a presentation to upload later — and the file on disk is 4K, with the detail that implies. Crop instead, and the three fields of view stop being a compromise: on a 1080p camera the 65-degree view spends resolution the camera does not have, while on this sensor the tight frame is a crop out of a much larger picture and stays sharp. Streamers and anyone who reframes in software get the same benefit from the 5x digital zoom. No other camera in this category can do any of that; the Anker PowerConf C200's crops, from a 2K sensor, are the nearest version and they spend more to buy the same framing.\n\nWindows Hello is the feature owners mention with the most genuine delight, and it is easy to see why: the infrared sensor signs you into Windows by face, quickly and without a password, and owner reviews syndicated on Target's listing for this model return to it unprompted — bought for face login, works great on Zoom, colour well balanced. It is a small daily friction removed completely, and among the cameras reviewed here it is unique: none of the other three can sign you in at all.\n\nThe mounting and the kit are finished properly. The clip detaches, fits bulky monitors and laptops in Tom's Guide's testing, stands the camera on a desk, and carries a standard tripod thread underneath — the same mounting flexibility this site praised in the C920s, kept. The attachable privacy shutter, the travel bag and the detachable cable are the details of a camera designed to be carried and used for years, and the 3-year warranty in Logitech's specification says the same thing in contract form.",
+      "what_could_be_better": "The autofocus has a documented split personality, and pretending otherwise would fail the readers this camera most attracts. On Windows, reviewers praise it. PC Gamer, calling the image phenomenal in the same review, found the autofocus its Achilles' heel: once locked onto an object up close it often struggled to readjust when the object moved farther away, most prominently with colours similar to skin, and the annoyance persisted through firmware and software updates. On Mac the evidence is worse: a detailed owner account syndicated on Target's listing for this model reports that the camera consistently does not autofocus correctly in Zoom, Webex and Teams on macOS, and that the standing fix is keeping Logitech's Camera Settings open and focusing manually — when the focus is right, that owner grants, it looks great. Mac buyers should read that as a real cost: the camera's headline convenience may arrive with a manual step attached.\n\nThe microphones are not a reason to buy it. They are dual, omnidirectional and noise-canceling on the spec sheet, and in practice reviewers treat them as a fallback: PC Gamer would use the integrated mic in a pinch but not as a first choice, a GearDiary long-term review found the sound not good enough to replace a dedicated microphone, and one Target-syndicated owner says the same in almost the same words. For a camera bought for important calls, budget the voice side separately — a headset or a desk microphone — and treat the built-ins as what they are: clear enough at a metre, ordinary beyond it.\n\nFor ordinary meetings, this is more camera than the job can show you. Meeting apps compress, downscale and often cap resolution well below 4K, so on a standard Teams or Zoom call the visible difference against the C920s or the C200 is the light handling, not the resolution — and PC Gamer's closing question stands: whether you need 4K capturing capability at all, when a 1080p camera rivals it in meetings for much less. The honest version of the same point: buy the headroom only if recording, streaming or cropping is in your actual week.\n\nThe remaining limits are the familiar ones for its generation. The computer end of the cable is USB-A, so a USB-C-only laptop needs an adapter that carries data and power, and 4K needs a USB 3.0 port whatever the plug shape. The privacy shutter is attachable rather than built in — it can be mislaid in a way the C200's sliding cover and the Brio 101's built-in shutter cannot — and it covers the lens only, without switching the camera off or muting the mics. One owner found the camera heavy enough on a thin laptop lid to sink it slowly during a conference, and another reported occasional connection scrambles; both are minority reports, and both are the kind that matter if your setup matches theirs.",
+      "performance": "In reviewer testing the pattern is consistent across nearly a decade: put this camera in an ordinary room and the picture is the best its class produces; take away the light and it degrades gracefully rather than collapsing. Tom's Guide moved a laptop through angles and tinkered with a desk lamp and watched the RightLight 3 HDR system modify the image seamlessly at every step, at 4K and at 1080p alike. The later hands-on record agrees on the shape: soft morning light stays warm without washing out, office LED glare rebalances to believable tones, dim late-night light still pulls usable detail from near-darkness — not perfect, but ahead of the pack — with the standing caveat that lighting remains king and even this camera flattens in a genuinely dark room. Colours lean slightly warm out of the box, with reds running hot until a manual white-balance adjustment brings them into line.\n\nOwner evidence for this exact model, syndicated on Target's listing, rhymes with the reviewers: stellar image quality, excellent mic pickup in one account, easy setup, great software, video that stays great even when lighting is not. The dissenting owner reports are equally specific and are carried in full in What Could Be Better: flicker under normal lighting in one case (returned after a day), autofocus requiring manual management on a Mac in another, a heavy feel on a thin laptop lid, and one reviewer who judged it only slightly better than a MacBook's built-in camera and not worth the step up. That last verdict is the performance summary in miniature: against a good modern laptop camera, on a plain meeting, the gap is real but modest; against the same laptop camera in backlight, in a recording, or cropped tight, the gap is the product.",
+      "who_this_is_for": "Remote workers and creators whose camera does more than meetings — recording lessons, demos or presentations locally, streaming, or cropping a tight frame out of a wide shot — and who sit in the mixed, backlit light home offices actually have: this is the headroom camera in our <a href=\"../categories/webcams.html\">Webcams category</a>, and it pairs with the light layer of our <a href=\"../work-tools/ergonomic-desk-setup.html\">ergonomic desk setup guide</a>: front light first, RightLight second, resolution third. It also suits Windows users who want face sign-in badly enough to buy a camera for it — among the cameras reviewed here, it is the only one that offers it.\n\nSkip it if your camera life is ordinary 1080p meetings from one chair: our <a href=\"../reviews/logitech-c920s-hd-pro.html\">Logitech C920s review</a> covers that job with a proven glass-lens camera, and our <a href=\"../reviews/anker-powerconf-c200.html\">Anker PowerConf C200 review</a> covers it at 2K with stronger low-light praise and a cover that switches the camera off. Skip it if you want the simplest possible camera and a tight solo frame: the <a href=\"../reviews/logitech-brio-101.html\">Logitech Brio 101</a> removes adjustment entirely. Skip it if you need 4K at 60 fps — this camera's 4K is 30 fps, and its 60 fps modes live at 1080p and below. Skip it, finally, if you are on a Mac and the owner-reported manual-focus workaround would annoy you every single call: that report is in What Could Be Better, in full, before you spend anything.",
+      "bottom_line": "The Logitech Brio 4K is the headroom buy in this category: the only camera reviewed here that records in 4K, crops without going soft, handles backlight with HDR and signs a Windows user in by face — with a glass lens and a decade of reviewer praise behind the picture. It is also the easiest camera here to overbuy. If your week is meetings, the C920s and the C200 do the visible job for less complexity; if your week includes recording, streaming, cropping or Windows Hello, nothing else on this page does what this one does. Buy it for the work only it can do, with the Mac autofocus report read first if it applies to you.",
+      "extra_sections": [
+        {
+          "heading": "Will It Fit Your Calls? The Resolution, Light and Platform Check",
+          "paragraphs": [
+            "This camera carries three fit facts, and they matter more than its feature list: the 4K is headroom for recording and cropping rather than meeting quality, the light correction compensates for mixed light rather than darkness, and the platform changes the autofocus experience. Check those three against your actual week before anything else on this page matters.",
+            "The platform check deserves to go first for Mac users, because it is the only one that can turn a praised camera into a daily annoyance: the owner evidence in What Could Be Better describes manual focus as the standing workaround on macOS, while Windows reviewers praise the same autofocus. Windows users get the camera as designed, plus Hello sign-in; Mac users should buy it for the sensor and the light handling, with eyes open about focus."
+          ],
+          "table": {
+            "rows": [
+              [
+                "Recording lessons, demos or presentations locally",
+                "Fits — the reason to buy",
+                "4K lands on disk at 30 fps; no other camera reviewed here records above 2K."
+              ],
+              [
+                "Cropping a tight frame or reframing in software",
+                "Fits",
+                "The 65 and 78-degree views and the 5x zoom crop out of a 4K sensor, so they hold detail a 1080p or 2K crop spends."
+              ],
+              [
+                "Ordinary Teams or Zoom meetings at 1080p",
+                "Fits, and overkill",
+                "The picture reviewers praise is real at 1080p too — but the C920s and C200 do the visible meeting job without the 4K premium in complexity."
+              ],
+              [
+                "Backlit or mixed-light room",
+                "Fits",
+                "RightLight 3 with HDR is the tested strength: bright windows do not plunge the face into shadow. A genuinely dark room still flattens it — add front light."
+              ],
+              [
+                "Windows Hello face sign-in",
+                "Fits — unique here",
+                "The infrared sensor signs you into Windows by face; none of the other three cameras reviewed here offers it."
+              ],
+              [
+                "Mac as your only computer",
+                "Tight fit — read first",
+                "A detailed owner report for this model describes autofocus failing in Zoom, Webex and Teams on macOS, with manual focus in Logitech's software as the workaround."
+              ],
+              [
+                "USB-C-only laptop",
+                "Fits, with an adapter",
+                "The cable ends in USB-A at the computer; Logitech supports USB-C via a third-party adapter (not included), and 4K needs USB 3.0 bandwidth."
+              ],
+              [
+                "4K at 60 fps, or smooth-motion streaming at high resolution",
+                "Outside its design",
+                "4K is 30 fps; 60 fps exists at 1080p and 720p, and 90 fps at 720p only."
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Brio 4K, PowerConf C200, C920s or Brio 101? The Four Webcams on This Site, Side by Side",
+          "paragraphs": [
+            "With this review, the Webcams category holds four honest answers, and they divide by what each design spends itself on. The Brio 4K spends on resolution and light: 4K capture, HDR correction, three fields of view and Hello sign-in, at the cost of the Mac autofocus caveat and complexity a meeting never shows. The Anker PowerConf C200 spends on adjustment and low light at 2K: three fields of view, dual noise-canceling microphones and a cover that turns the camera off. The Logitech C920s spends on proof: autofocus 1080p through a glass lens, a tripod thread and a decade of calls behind it. The Logitech Brio 101 spends on nothing: one fixed tight frame, one mic, finished when plugged in.",
+            "The short version: take the Brio 4K when recording, streaming, cropping or face sign-in is in your actual week. Take the C200 when your room is dim, your framing changes, or a cover that switches the camera off matters. Take the C920s when your calls are ordinary and you want the camera with the evidence behind it. Take the Brio 101 when the room is the thing you want out of the picture and setup should take ten seconds. The full four-way comparison guide will be updated to match this review in a follow-up pass."
+          ],
+          "table": {
+            "rows": [
+              [
+                "",
+                "Brio 4K (this review)",
+                "Anker PowerConf C200",
+                "Logitech C920s",
+                "Logitech Brio 101"
+              ],
+              [
+                "Ceiling",
+                "4K at 30 fps (1080p to 60)",
+                "2K at 30 fps",
+                "1080p at 30 fps",
+                "1080p at 30 fps"
+              ],
+              [
+                "Focus",
+                "Autofocus (Mac caveat in this review)",
+                "Autofocus",
+                "Autofocus",
+                "Fixed focus"
+              ],
+              [
+                "Field of view",
+                "65°, 78° or 90°",
+                "65°, 78° or 95°",
+                "78° fixed",
+                "58.9° fixed"
+              ],
+              [
+                "Light story",
+                "RightLight 3 with HDR",
+                "Automatic low-light correction — the low-light pick",
+                "RightLight 2",
+                "RightLight 2"
+              ],
+              [
+                "Microphones",
+                "Dual, noise-canceling, to 1 m",
+                "Dual, noise-canceling, to 3 m",
+                "Dual stereo, to 1 m",
+                "Single mono, to 4 ft"
+              ],
+              [
+                "Privacy",
+                "Attachable shutter (lens only)",
+                "Built-in sliding cover — switches camera off",
+                "Clip-on shutter (lens only)",
+                "Built-in sliding shutter (lens only)"
+              ],
+              [
+                "Only it offers",
+                "4K recording/cropping + Windows Hello",
+                "Camera-off cover + 3 m mic pickup",
+                "A decade of owner evidence",
+                "The tightest frame — the room stays out"
+              ]
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is the Logitech Brio 4K the same camera as the MX Brio or the Brio 500?",
+          "a": "No. This review covers the original Brio, model 960-001105 (ASIN B01N5UOYC4, UPC 097855125620), sold since 2017. The MX Brio is a different, newer 4K camera with a different sensor and mount, and the Brio 500 family is a 1080p line — their figures, including their rating pools, are not this camera's and are not used here."
+        },
+        {
+          "q": "Will my Teams or Zoom calls actually show 4K?",
+          "a": "Almost certainly not — and this review does not sell the camera on that basis. Meeting apps compress and downscale, and many cap sent video at 1080p or below. The 4K earns its place in local recording (where the file on disk is 4K), in streaming software that accepts it, and in cropping: the narrower fields of view and the digital zoom cut into a 4K sensor, so the framed picture stays sharper than a crop from a 1080p or 2K camera."
+        },
+        {
+          "q": "Why does this page quote Target's ratings instead of Amazon's?",
+          "a": "Because Amazon blocks automated reads of its listing pages, so Amazon's rating pool for this ASIN could not be responsibly read and verified for this review. Target's listing for this exact model (960-001105, Black) carries 4.5 stars across 38 reviews, read in October 2026, and that is the pool this page publishes — small, and labelled as Target's wherever the figure appears, following the same disclosure this site used for the C920s and Best Buy."
+        },
+        {
+          "q": "Does the autofocus work properly on a Mac?",
+          "a": "That is this camera's best-documented weakness. Windows reviewers praise the autofocus, but a detailed owner report for this model describes it consistently failing to autofocus in Zoom, Webex and Teams on macOS, with manual focus in Logitech's Camera Settings kept open as the standing workaround — and PC Gamer found a related finickiness on Windows, locking close and struggling to refocus farther away. Mac buyers should weigh that report before buying; it is quoted in full in What Could Be Better."
+        },
+        {
+          "q": "Does the privacy shutter turn the Brio 4K off?",
+          "a": "No. The shutter is a physical cover that attaches over the lens — visible and dependable, but the camera stays connected and the microphones stay live under it, and because it is attachable rather than built in, it can be mislaid. Treat a closed shutter as a covered lens, not a disconnected device. (The Anker PowerConf C200's cover, by contrast, does turn its camera off.)"
+        },
+        {
+          "q": "Will it work with a USB-C-only laptop?",
+          "a": "Yes, through a USB-C adapter or dock — the cable ends in USB-A at the computer end, Logitech supports USB-C with a third-party adapter (not included), and the adapter must carry both data and power. One bandwidth note matters more than the plug shape: 4K requires a USB 3.0 port and compatible software, whatever adapter is in the chain."
+        }
+      ]
     }
   ]
 }

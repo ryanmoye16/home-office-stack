@@ -128,6 +128,8 @@ def short_name(product):
         return "Logitech Brio 101"
     if slug == "logitech-c920s-hd-pro":
         return "Logitech C920s"
+    if slug == "logitech-brio-4k":
+        return "Logitech Brio 4K"
     if slug == "litwaro-under-desk-cable-tray":
         return "Litwaro Cable Tray"
     if slug == "yecaye-j-channel-cable-raceway":
