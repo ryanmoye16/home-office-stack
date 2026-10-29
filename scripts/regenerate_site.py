@@ -116,6 +116,8 @@ def short_name(product):
         return "Logitech MX Vertical"
     if slug == "logitech-mx-keys-s":
         return "Logitech MX Keys S"
+    if slug == "logitech-mx-keys-mini":
+        return "Logitech MX Keys Mini"
     if slug == "logitech-mx-mechanical":
         return "Logitech MX Mechanical"
     if slug == "anker-powerconf-c200":
