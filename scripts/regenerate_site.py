@@ -146,6 +146,8 @@ def short_name(product):
         return "SIHOO M57"
     if slug == "vivo-electric-63x32-standing-desk":
         return "VIVO 63 Standing Desk"
+    if slug == "marsail-electric-standing-desk":
+        return "Marsail Standing Desk"
 
     # Brand + type patterns
     if "Kasa EP25" in name:

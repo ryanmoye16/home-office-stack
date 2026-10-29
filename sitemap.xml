@@ -482,4 +482,10 @@
     <loc>https://homeofficestack.com/reviews/logitech-ergo-m575s.html</loc>
     <lastmod>2026-10-29</lastmod>
   </url>
+  <url>
+    <loc>https://homeofficestack.com/reviews/marsail-electric-standing-desk.html</loc>
+    <lastmod>2026-10-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
