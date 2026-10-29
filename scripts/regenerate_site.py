@@ -126,6 +126,8 @@ def short_name(product):
         return "Logitech C920s"
     if slug == "litwaro-under-desk-cable-tray":
         return "Litwaro Cable Tray"
+    if slug == "yecaye-j-channel-cable-raceway":
+        return "Yecaye J Channel"
     if slug == "flexispot-en1-one-piece-standing-desk":
         return "FlexiSpot EN1 Standing Desk"
     if slug == "gabrylly-ergonomic-office-chair":
