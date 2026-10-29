@@ -142,6 +142,8 @@ def short_name(product):
         return "GABRYLLY Ergonomic Chair"
     if slug == "hon-ignition-2-task-chair":
         return "HON Ignition 2.0"
+    if slug == "sihoo-m57-ergonomic-office-chair":
+        return "SIHOO M57"
     if slug == "vivo-electric-63x32-standing-desk":
         return "VIVO 63 Standing Desk"
 
