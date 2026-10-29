@@ -128,6 +128,8 @@ def short_name(product):
         return "Litwaro Cable Tray"
     if slug == "yecaye-j-channel-cable-raceway":
         return "Yecaye J Channel"
+    if slug == "baskiss-cable-management-box":
+        return "Baskiss Cable Box"
     if slug == "flexispot-en1-one-piece-standing-desk":
         return "FlexiSpot EN1 Standing Desk"
     if slug == "gabrylly-ergonomic-office-chair":
