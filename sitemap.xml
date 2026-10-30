@@ -236,7 +236,7 @@
   </url>
   <url>
     <loc>https://homeofficestack.com/categories/chairs.html</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-10-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -476,7 +476,7 @@
   </url>
   <url>
     <loc>https://homeofficestack.com/work-tools/best-ergonomic-office-chair.html</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -489,6 +489,12 @@
   <url>
     <loc>https://homeofficestack.com/work-tools/best-ergonomic-chair-for-smaller-users.html</loc>
     <lastmod>2026-10-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://homeofficestack.com/work-tools/best-ergonomic-chair-for-lumbar-support.html</loc>
+    <lastmod>2026-10-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
