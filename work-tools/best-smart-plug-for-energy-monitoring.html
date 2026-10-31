@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Best Smart Plug for Energy Monitoring | Home Office Stack</title>
+  <meta name="description" content="Best smart plug for energy monitoring: the three plugs we reviewed, compared monitoring-first — what each one reports, where the data lives, and the load and control limits.">
+  <meta name="keywords" content="best smart plug for energy monitoring, smart plug with energy monitoring, smart plug power monitoring, tapo p110m energy monitoring, kasa ep25 energy monitoring">
+  <link rel="canonical" href="https://homeofficestack.com/work-tools/best-smart-plug-for-energy-monitoring.html">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Best Smart Plug for Energy Monitoring">
+  <meta property="og:description" content="Monitoring decides first here: what each plug reports, where the data lives — in the vendor app, not the platform app — and the 15A load and resume-when-powered limits. Two of our three reviewed plugs monitor; one cannot do it at all.">
+  <meta property="og:url" content="https://homeofficestack.com/work-tools/best-smart-plug-for-energy-monitoring.html">
+  <meta property="og:site_name" content="Home Office Stack">
+  <meta property="og:image" content="https://homeofficestack.com/images/og-default.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:alt" content="Home Office Stack — research-based reviews of desk gear and work tools for remote workers">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Best Smart Plug for Energy Monitoring">
+  <meta name="twitter:description" content="Monitoring decides first here: what each plug reports, where the data lives — in the vendor app, not the platform app — and the 15A load and resume-when-powered limits. Two of our three reviewed plugs monitor; one cannot do it at all.">
+  <meta name="twitter:image" content="https://homeofficestack.com/images/og-default.png">
+  <meta name="twitter:image:alt" content="Home Office Stack — research-based reviews of desk gear and work tools for remote workers">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css?v=23">
+  <link rel="icon" href="../app-icon.svg" type="image/svg+xml">
+
+  <!-- JSON-LD: Article Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Best Smart Plug for Energy Monitoring",
+    "description": "How to choose a smart plug when measuring power is the job, and how the three plugs reviewed on Home Office Stack split on the monitoring checks: the Tapo P110M and the TP-Link Kasa EP25 both monitor, with their richest data in the Tapo and Kasa vendor apps rather than a platform app, and the Amazon Smart Plug does not monitor at all — plus the shared 15A / 1800W load ceiling, the resume-when-power-returns control limit, and a method for hunting standby draw one device at a time.",
+    "author": {"@type": "Person", "name": "Don at Home Office Stack"},
+    "datePublished": "2026-10-31",
+    "dateModified": "2026-10-31",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Home Office Stack",
+      "url": "https://homeofficestack.com/"
+    },
+    "mainEntityOfPage": "https://homeofficestack.com/work-tools/best-smart-plug-for-energy-monitoring.html"
+  }
+  </script>
+
+  <!-- JSON-LD: ItemList Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Smart Plugs for Energy Monitoring Compared",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Tapo P110M Matter Smart Plug", "url": "https://homeofficestack.com/reviews/tapo-p110m-matter-smart-plug.html"},
+      {"@type": "ListItem", "position": 2, "name": "TP-Link Kasa EP25 Smart Plug", "url": "https://homeofficestack.com/reviews/tp-link-kasa-ep25.html"},
+      {"@type": "ListItem", "position": 3, "name": "Amazon Smart Plug", "url": "https://homeofficestack.com/reviews/amazon-smart-plug.html"}
+    ]
+  }
+  </script>
+
+  <!-- JSON-LD: FAQ Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Where do I actually see the energy data from a monitoring smart plug?",
+        "acceptedAnswer": {"@type": "Answer", "text": "In the vendor app, for both monitoring plugs we review. The Tapo app shows the P110M's daily, monthly and yearly use and its cost estimates, and the Kasa app shows the EP25's real-time and historical draw. What carries into a platform app — Apple Home, Alexa, Google Home or SmartThings — can be less, and for the Tapo plug it has depended on firmware and platform. Expect to open the vendor app whenever the numbers are the point."}
+      },
+      {
+        "@type": "Question",
+        "name": "Can a smart plug tell me what a device costs to run?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Partly. The Tapo app produces cost estimates for the P110M once you enter your own electricity rate, and the Kasa app's history for the EP25 shows how much energy a device used over time. The maths is yours to check either way: watts multiplied by the hours run, divided by 1000, gives kilowatt-hours, and that multiplied by the rate on your own electricity bill gives the running cost. We quote no rate here because yours is the only one that makes the answer true."}
+      },
+      {
+        "@type": "Question",
+        "name": "Can one monitoring plug measure my whole desk?",
+        "acceptedAnswer": {"@type": "Answer", "text": "No. One plug covers one outlet, so it measures the one device plugged into it. A multi-device desk is measured one device at a time — move the plug from suspect to suspect and let a history build for each — or with several plugs, each reporting its own device separately in the vendor app. There is no setting that turns a single-outlet plug into a whole-desk meter."}
+      },
+      {
+        "@type": "Question",
+        "name": "Can a monitoring plug run a space heater or another high-draw device?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Only inside the shared ceiling. All three plugs we review are rated 15A / 1800W, and space heaters are among the devices owners most often monitor with the two monitoring plugs. The check is the heater's own rating label, not the plug's marketing: judge the device's stated draw against that ceiling and stay visibly under it. A device that draws at or over the rating does not belong on any of these plugs, and monitoring a load does not make an over-limit load safe."}
+      },
+      {
+        "@type": "Question",
+        "name": "Why does a device stay off when the plug turns the power back on?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Because a smart plug can only cut and restore power; it cannot press another device's own power button. It genuinely controls devices that resume when power returns — lamps, fans and heaters with physical switches are the common owner examples — and it cannot wake a device that restores into standby and waits for its own button. Test it before blaming the plug: unplug it while it is on, plug it back in, and see whether it resumes. That test is the whole control question."}
+      }
+    ]
+  }
+  </script>
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M90CV6HL4F"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-M90CV6HL4F');
+</script>
+
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="header-inner">
+<a href="/" class="site-logo">
+    <img src="/logo.svg" alt="Home Office Stack" height="32" class="logo-icon">
+    <span class="logo-text">Home Office Stack</span>
+  </a>
+        <nav class="main-nav">
+          <a href="../">Home</a>
+          <a href="../categories/desk-gear.html">Desk Gear</a>
+          <a href="../categories/work-tools.html">Work Tools</a>
+          <a href="../about.html">About</a>
+        </nav>
+        <a href="../#newsletter" class="header-cta">Subscribe</a>
+      </div>
+    </div>
+  </header>
+
+    <main class="article-wrap">
+    <div class="container">
+
+      <div class="review-layout review-layout--single">
+
+        <div class="review-main article-main">
+
+          <div class="review-header">
+            <p class="section-label">Buying Guide — Smart Plugs</p>
+            <h1>Best Smart Plug for Energy Monitoring</h1>
+            <p class="review-subtitle">The short answer first: if measuring power is the job, only two of the three plugs we've reviewed can do it at all — and both keep their richest data in their own vendor app, not in the platform app you may control them from. This guide runs the checks in order: what each plug reports, where that data lives, and the load and control limits that decide which devices belong on a plug. Platform still matters, and our <a href="../work-tools/best-smart-plug.html" class="accent-link">general smart plug guide</a> ranks by it — here, monitoring decides first.</p>
+            <div class="chip-row chip-row--top">
+              <span class="meta-chip">Updated October 2026</span>
+              <span class="meta-chip">3 reviewed plugs compared, monitoring-first</span>
+              <span class="meta-chip">No prices shown — they change too often</span>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <p class="card-text"><strong>Affiliate disclosure:</strong> Home Office Stack is a participant in the Amazon Services LLC Associates Program. As an Amazon Associate, we earn from qualifying purchases made through links on this page — at no extra cost to you. Picks are research-based, grounded in manufacturer specs and published owner feedback; we don't accept sponsored placements.</p>
+          </div>
+
+          <div class="article-section">
+            <h2>Check one: what the monitoring actually reports</h2>
+            <p>
+              <strong>Energy monitoring is not one feature; it is three different answers wearing one label.</strong> The first answer is real-time draw — what the device is pulling right now, the number you watch while a heater cycles or a desktop wakes. The second is the history — how much energy it used across days, weeks and months, the record that turns a suspicion about standby draw into evidence. The third is cost estimates — the app translating energy used into money, which is only ever as good as the electricity rate someone typed in. Read any monitoring claim by asking which of the three answers it gives, because the useful purchase is usually the history, not the live number.
+            </p>
+            <p>
+              <strong>The two monitoring plugs here split that honestly.</strong> The <a href="../reviews/tp-link-kasa-ep25.html" class="accent-link">Kasa EP25</a> records real-time and historical draw, in those terms, in the Kasa app. The <a href="../reviews/tapo-p110m-matter-smart-plug.html" class="accent-link">Tapo P110M</a> builds its case on the longer view: daily, monthly and yearly use in the Tapo app, plus cost estimates once you enter your electricity rate. A standby hunt — the job owners describe most — lives in history: a device drawing a little, all night, every night, is invisible in a single real-time glance and obvious across a week of records. Cost estimates then answer whether the draw you found is worth acting on, using a rate you supplied yourself.
+            </p>
+            <p>
+              <strong>The third plug gives none of the three answers.</strong> The <a href="../reviews/amazon-smart-plug.html" class="accent-link">Amazon Smart Plug</a> records its energy monitoring specification as, literally, no. It reports nothing about power draw — no live figure, no history, no estimate. That is not a weaker version of monitoring; it is the absence of it, and it settles that plug's role here before any other feature is discussed. Keep it in this guide for one honest reason: a reader who only needs simple Alexa on and off control should be told plainly that this plug is that product, and that buying it for measurement would be buying the wrong tool.
+            </p>
+          </div>
+
+          <div class="article-section">
+            <h2>Check two: where the data lives — the central caveat</h2>
+            <p>
+              <strong>For both monitoring plugs, the richest data lives in the vendor app, not the platform app.</strong> It is the caveat that decides whether monitoring stays useful after the first week. The Tapo P110M can be controlled across Alexa, Google Assistant, Siri, SmartThings and Apple Home over Matter, and the Kasa EP25 through Siri and Apple Home alongside Alexa, Google Assistant and SmartThings — but control travelling is not the same as data travelling. The history, the breakdowns and, for Tapo, the cost estimates sit in the Tapo and Kasa apps respectively. A household living inside one platform app will still open a second, vendor app every time the numbers are the point.
+            </p>
+            <p>
+              <strong>The Tapo version of that split has an extra wrinkle, recorded in its review.</strong> Energy data is richest in the Tapo app; what carries over into a Matter platform has depended on firmware and platform support. Some energy information may appear in a platform app, and what appears can change — which is why this guide does not promise platform-side monitoring for the P110M. If you buy the Tapo plug for monitoring, plan to read the monitoring in the Tapo app, and treat anything a platform app shows as a bonus rather than the record.
+            </p>
+            <p>
+              <strong>The Kasa version is simpler and just as firm.</strong> Energy history lives in the Kasa app, so checking consumption means opening Kasa even if day-to-day control happens in Apple Home or through a voice assistant. Owners live with that split in a pattern our EP25 review records: voice and the platform app for everyday switching, the vendor app reserved for energy history and schedule changes. Neither plug needs a hub or a subscription, which keeps the caveat about inconvenience rather than cost — but the second app is still there. If a second app is a deal-breaker, the honest conclusion is that neither monitoring plug removes it, whatever platform the box advertises.
+            </p>
+          </div>
+
+          <div class="article-section">
+            <h2>Check three: load and control limits</h2>
+            <p>
+              <strong>All three plugs share the same electrical ceiling: 15A / 1800W.</strong> Load capacity never separates these picks — monitoring and platform do that — so there is no higher-rated option hiding elsewhere in this comparison. The ceiling also sets the boundary for the high-draw devices owners most often want to measure, space heaters and desktop equipment among them. The figure that matters is the connected device's own stated draw, read off that device's rating label. Judge the label against the ceiling and stay visibly under it. A device drawing at or over the rating does not belong on any of the three plugs, and a plug faithfully reporting an over-limit load does not make running it a sensible idea.
+            </p>
+            <p>
+              <strong>Control has a separate limit, and it is about behaviour, not wattage.</strong> A smart plug works by cutting and restoring power. It cannot press another device's power button or restore the state it was in before the power went. So a plug genuinely controls only devices that resume when power returns — the lamps, fans, space heaters and coffee makers with physical switches that fill owner reports — and it cannot wake a device that restores into standby and waits for its own button. That device will sit off when the schedule restores power, however dependable the plug and however accurate its monitoring. The check takes seconds: unplug the device while it is on, plug it back in, and see whether it resumes. That unplug and replug test is the whole compatibility question for control, just as the rating label is the whole question for load.
+            </p>
+            <p>
+              <strong>Coverage is the third limit, and it shapes the method below.</strong> One plug covers one outlet. It measures and controls the single device plugged into it — not a strip's worth of desk gear as separate devices, not the room, not the desk as a whole. A multi-device desk is measured one device at a time, moving a single plug from suspect to suspect, or with several plugs, each reporting its own device separately in the vendor app. Body size matters at that point: the EP25's slim 2.62 by 1.5 by 1.57 inch body stacks two plugs in one duplex outlet, the P110M's compact body is designed to avoid blocking the adjacent outlet though owners report two side by side can still feel tight, and the Amazon plug is the largest of the three at 3.2 by 1.5 by 2.2 inches.
+            </p>
+          </div>
+
+          <div class="article-section">
+            <h2>The three plugs we've reviewed, compared for monitoring</h2>
+            <table class="specs-table">
+              <tr>
+                <td><a href="../reviews/tapo-p110m-matter-smart-plug.html" class="accent-link">Tapo P110M Matter Smart Plug</a></td>
+                <td>The monitoring pick for a mixed or Matter household</td>
+                <td>Energy monitoring: Yes — daily, monthly and yearly use in the Tapo app</td>
+                <td>Cost estimates once you enter your electricity rate · Matter over Wi-Fi · 15A / 1800W</td>
+              </tr>
+              <tr>
+                <td><a href="../reviews/tp-link-kasa-ep25.html" class="accent-link">TP-Link Kasa EP25 Smart Plug</a></td>
+                <td>The monitoring pick for an Apple Home household</td>
+                <td>Energy monitoring: Yes — real-time and historical in the Kasa app</td>
+                <td>Apple HomeKit over Wi-Fi — not Matter · no hub, no subscription · 15A / 1800W</td>
+              </tr>
+              <tr>
+                <td><a href="../reviews/amazon-smart-plug.html" class="accent-link">Amazon Smart Plug</a></td>
+                <td>The honest skip for monitoring — simple Alexa on and off only</td>
+                <td>Energy monitoring: No</td>
+                <td>Alexa only · scheduling via the Alexa app · 15A / 1800W</td>
+              </tr>
+            </table>
+            <p>Specs above are the manufacturers' figures as recorded in each plug's full review on this site. Read the table's shape: the first two rows monitor and the third does not, both monitoring rows keep their history in a vendor app, and the load column never changes. What separates the two monitoring picks is platform — Matter across platforms for the Tapo plug, HomeKit over Wi-Fi for the Kasa plug — which our <a href="../work-tools/best-smart-plug.html" class="accent-link">general smart plug guide</a> works through platform-first.</p>
+          </div>
+
+          <hr class="section-divider">
+
+          <div class="article-section">
+            <h2>The method: how owners actually hunt standby draw</h2>
+            <p>
+              <strong>Put the plug on one suspect device, and only one.</strong> The owner-reported method is boring in the way that works: choose the device you actually suspect — desk gear that stays warm, a TV that never fully sleeps, a heater whose running pattern nobody knows — plug that single device through the monitoring plug, and resist measuring everything at once. One device per plug is a limit from the last check; as a method, it is also what makes the history readable. A record belonging to one named device can be acted on. A merged record from a crowded strip can only be wondered at.
+            </p>
+            <p>
+              <strong>Then let the history build over ordinary days, not a single test hour.</strong> Standby draw is a pattern, not an event. It hides in the hours nobody watches — overnight, during the workday, across a weekend away — and a device can look innocent across one supervised hour while drawing steadily through every unobserved one. Ordinary days are what the history features were built for: the EP25's historical record in the Kasa app, the P110M's daily, monthly and yearly views in the Tapo app. Give the suspect its normal life, including the idle stretches, and read the record afterwards. Owners who skip this step conclude monitoring told them nothing; owners who take it end up naming specific devices, which is the entire point of buying a monitoring plug instead of a plain one.
+            </p>
+            <p>
+              <strong>Do the energy maths yourself before deciding what the finding is worth.</strong> A device's draw in watts, multiplied by the hours it draws for, divided by 1000, gives kilowatt-hours. Multiply that by the rate on your own bill and you have the running cost — the same basis the Tapo app's cost estimates use once you enter your rate there. This guide quotes no rate and no running-cost figures, deliberately: rates differ by household, and a cost built on a stranger's rate is a fiction with decimals. A small draw sounds trivial in watts and stops sounding trivial when the hours are every hour, all year — and a large draw on a heater used briefly can matter less than a modest draw that never stops. History supplies the hours; your bill supplies the rate; the product of the two is the finding.
+            </p>
+            <p>
+              <strong>Finally, act with the controls the plug actually has.</strong> A finding earns its keep only when it changes a schedule. Both monitoring plugs schedule in their vendor apps: the P110M adds Auto-Off and Away Mode, and the EP25 offers custom schedules alongside sunrise and sunset patterns. The typical actions follow directly from a standby finding — schedule the device off overnight, set an Auto-Off so a heater or fan cannot run on indefinitely, or cut power to a device whose idle draw bought it nothing. Apply the control check before automating anything: the device has to resume when power returns, or the morning version of the schedule is a device sitting off, waiting for its own button. Monitoring finds the waste; scheduling, applied to the right kind of device, removes it.
+            </p>
+          </div>
+
+          <hr class="section-divider">
+
+          <div class="article-section">
+            <h2>The cross-platform monitoring pick: Tapo P110M Matter Smart Plug</h2>
+            <div class="product-figure">
+              <img src="https://m.media-amazon.com/images/I/31SzgM2uEnL._SL500_.jpg" alt="Tapo P110M Matter Smart Plug" loading="lazy" style="max-width:240px">
+            </div>
+            <p>
+              The P110M is the monitoring pick when the household is mixed, or might change. It speaks Matter over Wi-Fi — 2.4GHz only, Bluetooth for setup — and works across Alexa, Google Assistant, Siri, SmartThings and Apple Home. Its monitoring is built around the long view: the Tapo app shows daily, monthly and yearly use and gives cost estimates once you enter your electricity rate, which suits the method above — build a history over ordinary days, then price the finding with your own rate. Scheduling, Auto-Off and Away Mode are built in.
+            </p>
+            <p><strong>Fit check:</strong> the central caveat applies in full — energy data is richest in the Tapo app, and what carries into a Matter platform has depended on firmware and platform support, so plan to read the numbers in Tapo. Matter pairing works best close to the controller, and owners report two plugs side by side can still feel tight. Our <a href="../reviews/tapo-p110m-matter-smart-plug.html" class="accent-link">full review</a> records the whole picture.</p>
+            <p>
+              <a href="https://www.amazon.com/dp/B0DKGBP38V?tag=homeofficestack-20" target="_blank" rel="nofollow noopener sponsored" class="btn btn-primary btn-sm">Check price on Amazon →</a>
+              &nbsp;<a href="../reviews/tapo-p110m-matter-smart-plug.html" class="accent-link">Read our full review →</a>
+            </p>
+          </div>
+
+          <hr class="section-divider">
+
+          <div class="article-section">
+            <h2>The HomeKit monitoring pick: TP-Link Kasa EP25 Smart Plug</h2>
+            <div class="product-figure">
+              <img src="https://m.media-amazon.com/images/I/61dy0MWaMhL._SL500_.jpg" alt="TP-Link Kasa EP25 Smart Plug" loading="lazy" style="max-width:240px">
+            </div>
+            <p>
+              The EP25 is the monitoring pick for an Apple Home household. Energy-monitoring plugs that work directly with Siri and the Home app are still uncommon, and this one also works with Alexa, Google Assistant and SmartThings. Its monitoring states both halves of the job — real-time and historical draw — in the Kasa app, with no hub and no subscription. TP-Link rates it for a full 15A / 1800W load and certifies it UL, with a flame-retardant shell and a 2-year warranty, and the slim body stacks two plugs in one duplex outlet. Owners use it in the pattern the method section describes: histories read in Kasa, turned into schedules.
+            </p>
+            <p><strong>Fit check:</strong> it is not a Matter plug, with no Thread or Zigbee — a Matter-first household should choose the P110M instead. Energy history lives in the Kasa app even if control happens in Apple Home. Setup complaints concentrate on band-steered mesh networks, where joining the 2.4GHz band during pairing is the recorded fix. Our <a href="../reviews/tp-link-kasa-ep25.html" class="accent-link">full review</a> has the rest.</p>
+            <p>
+              <a href="https://www.amazon.com/dp/B0B14C719T?tag=homeofficestack-20" target="_blank" rel="nofollow noopener sponsored" class="btn btn-primary btn-sm">Check price on Amazon →</a>
+              &nbsp;<a href="../reviews/tp-link-kasa-ep25.html" class="accent-link">Read our full review →</a>
+            </p>
+          </div>
+
+          <hr class="section-divider">
+
+          <div class="article-section">
+            <h2>The honest skip for monitoring: Amazon Smart Plug</h2>
+            <div class="product-figure">
+              <img src="https://m.media-amazon.com/images/I/61nWujX2i2L._SL500_.jpg" alt="Amazon Smart Plug" loading="lazy" style="max-width:240px">
+            </div>
+            <p>
+              The Amazon Smart Plug cannot do the job this page is about. Its energy monitoring specification is no: it reports nothing about power draw, keeps no history, and produces no estimate, so there is no method it can serve. It is also Alexa only, on 2.4GHz Wi-Fi, with scheduling through Alexa routines in the Alexa app, and the largest body of the three. None of that makes it a bad plug — it makes it a different one. Judged as simple Alexa on and off control, with no hub and no separate vendor app, it has a clean case, made in our <a href="../reviews/amazon-smart-plug.html" class="accent-link">full review</a> and ranked in our <a href="../work-tools/best-smart-plug.html" class="accent-link">general smart plug guide</a>.
+            </p>
+            <p><strong>Fit check:</strong> buy it only when monitoring is genuinely not the job — a lamp or fan on a schedule in an all-Alexa home. Buy it hoping to check standby draw later and the later never comes, because the hardware reports nothing. The skip here is not a warning about quality; it is a warning about category.</p>
+            <p>
+              <a href="https://www.amazon.com/dp/B089DR29T6?tag=homeofficestack-20" target="_blank" rel="nofollow noopener sponsored" class="btn btn-primary btn-sm">Check price on Amazon →</a>
+              &nbsp;<a href="../reviews/amazon-smart-plug.html" class="accent-link">Read our full review →</a>
+            </p>
+          </div>
+
+          <hr class="section-divider">
+
+          <div class="article-section">
+            <h2>When none of these is the right buy</h2>
+            <p>
+              If the device you want to measure draws at or over the shared 15A / 1800W ceiling, none of these plugs belongs between it and the wall — that job needs a different class of meter. If your household runs Thread, Zigbee or Z-Wave rather than Wi-Fi and Matter over Wi-Fi, neither monitoring plug joins it: the EP25 has no such radio and the P110M is a Wi-Fi Matter plug. And if you will never open a vendor app to read a history, be honest about that before paying for monitoring — the data lives there, and unused monitoring is just a more complicated on and off switch. The simple plug above, or a plain timer, is the honest buy instead.
+            </p>
+          </div>
+
+          <hr class="section-divider">
+
+          <div class="article-section">
+            <h2>Energy monitoring questions, answered honestly</h2>
+            <h3>Where do I actually see the energy data from a monitoring smart plug?</h3>
+            <p>In the vendor app, for both monitoring plugs we review. The Tapo app shows the P110M's daily, monthly and yearly use and its cost estimates, and the Kasa app shows the EP25's real-time and historical draw. What carries into a platform app — Apple Home, Alexa, Google Home or SmartThings — can be less, and for the Tapo plug it has depended on firmware and platform. Expect to open the vendor app whenever the numbers are the point.</p>
+            <h3>Can a smart plug tell me what a device costs to run?</h3>
+            <p>Partly. The Tapo app produces cost estimates for the P110M once you enter your own electricity rate, and the Kasa app's history for the EP25 shows how much energy a device used over time. The maths is yours to check either way: watts multiplied by the hours run, divided by 1000, gives kilowatt-hours, and that multiplied by the rate on your own electricity bill gives the running cost. We quote no rate here because yours is the only one that makes the answer true.</p>
+            <h3>Can one monitoring plug measure my whole desk?</h3>
+            <p>No. One plug covers one outlet, so it measures the one device plugged into it. A multi-device desk is measured one device at a time — move the plug from suspect to suspect and let a history build for each — or with several plugs, each reporting its own device separately in the vendor app. There is no setting that turns a single-outlet plug into a whole-desk meter.</p>
+            <h3>Can a monitoring plug run a space heater or another high-draw device?</h3>
+            <p>Only inside the shared ceiling. All three plugs we review are rated 15A / 1800W, and space heaters are among the devices owners most often monitor with the two monitoring plugs. The check is the heater's own rating label, not the plug's marketing: judge the device's stated draw against that ceiling and stay visibly under it. A device that draws at or over the rating does not belong on any of these plugs, and monitoring a load does not make an over-limit load safe.</p>
+            <h3>Why does a device stay off when the plug turns the power back on?</h3>
+            <p>Because a smart plug can only cut and restore power; it cannot press another device's own power button. It genuinely controls devices that resume when power returns — lamps, fans and heaters with physical switches are the common owner examples — and it cannot wake a device that restores into standby and waits for its own button. Test it before blaming the plug: unplug it while it is on, plug it back in, and see whether it resumes. That test is the whole control question.</p>
+          </div>
+
+          <div class="info-card info-card--lg">
+            <p class="section-label">Bottom Line</p>
+            <h2>Buy the history, and plan to read it in the vendor app</h2>
+            <p>
+              Run the checks in order: history first, real-time draw second, cost estimates built on your own rate third — and for both plugs that pass, the record lives in the vendor app. Mixed or Matter household: the <a href="../reviews/tapo-p110m-matter-smart-plug.html" class="accent-link">Tapo P110M</a>, with daily, monthly and yearly views in the Tapo app. Apple Home household: the <a href="../reviews/tp-link-kasa-ep25.html" class="accent-link">Kasa EP25</a>, with real-time and historical draw in the Kasa app and no subscription. Simple Alexa on and off, with no measurement at all: the <a href="../reviews/amazon-smart-plug.html" class="accent-link">Amazon Smart Plug</a> — the honest skip on this page, and a reasonable plug on the page where it belongs. For the platform-first ranking, see our <a href="../work-tools/best-smart-plug.html" class="accent-link">general smart plug guide</a> or <a href="../categories/smart-plugs.html" class="accent-link">all our smart plug reviews</a>.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="../" class="site-logo">
+    <img src="../logo.svg" alt="Home Office Stack" height="32" class="logo-icon">
+    <span class="logo-text">Home Office Stack</span>
+  </a>
+          <p>The home office resource for remote workers. Honest reviews of desk gear and work tools — no sponsored picks, no fluff.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Desk Gear</h4>
+          <ul>
+            <li><a href="../reviews/anker-7in1-hub.html">Anker USB-C Hub</a></li>
+            <li><a href="../reviews/tp-link-kasa-ep25.html">TP-Link Kasa EP25</a></li>
+            <li><a href="../reviews/amazon-basics-monitor-arm.html">Amazon Basics Arm</a></li>
+            <li><a href="../reviews/quntis-monitor-light-bar-pro.html">Quntis Monitor Light Bar</a></li>
+            <li><a href="../reviews/rain-design-ilevel2.html">Rain Design iLevel 2</a></li>
+            <li><a href="../reviews/lifelong-upryze-ergonomic.html">Lifelong Upryze</a></li>
+            <li><a href="../reviews/amazon-basics-laptop-stand.html">Amazon Basics Laptop Stand</a></li>
+            <li><a href="../reviews/ysagi-leather-desk-mat.html">YSAGi Desk Mat</a></li>
+            <li><a href="../reviews/anker-555-usb-c-hub.html">Anker 555 USB-C Hub</a></li>
+            <li><a href="../reviews/north-bayou-f80-monitor-arm.html">North Bayou F80</a></li>
+            <li><a href="../reviews/quntis-monitor-light-bar.html">Quntis Monitor Light Bar</a></li>
+            <li><a href="../reviews/ergodriven-topo-mini.html">Ergodriven Topo Mini</a></li>
+            <li><a href="../reviews/amazon-smart-plug.html">Amazon Smart Plug</a></li>
+            <li><a href="../reviews/huanuo-single-monitor-arm.html">HUANUO Monitor Arm</a></li>
+            <li><a href="../reviews/lamicall-adjustable-laptop-stand.html">Lamicall Laptop Stand</a></li>
+            <li><a href="../reviews/tapo-p110m-matter-smart-plug.html">Tapo P110M Smart Plug</a></li>
+            <li><a href="../reviews/satechi-vegan-leather-desk-mat.html">Satechi Desk Mat</a></li>
+            <li><a href="../reviews/duramont-ergonomic-office-chair.html">Duramont Ergonomic Chair</a></li>
+            <li><a href="../reviews/shw-48-electric-standing-desk.html">SHW 48 Electric Standing Desk</a></li>
+            <li><a href="../reviews/logitech-ergo-k860.html">Logitech Ergo K860</a></li>
+            <li><a href="../reviews/logitech-lift-vertical.html">Logitech Lift</a></li>
+            <li><a href="../reviews/anker-powerconf-c200.html">Anker PowerConf C200</a></li>
+            <li><a href="../reviews/logitech-brio-101.html">Logitech Brio 101</a></li>
+            <li><a href="../reviews/flexispot-en1-one-piece-standing-desk.html">FlexiSpot EN1 Standing Desk</a></li>
+            <li><a href="../reviews/gabrylly-ergonomic-office-chair.html">GABRYLLY Ergonomic Chair</a></li>
+            <li><a href="../reviews/hon-ignition-2-task-chair.html">HON Ignition 2.0</a></li>
+            <li><a href="../reviews/vivo-electric-63x32-standing-desk.html">VIVO 63 Standing Desk</a></li>
+            <li><a href="../reviews/marsail-electric-standing-desk.html">Marsail Standing Desk</a></li>
+            <li><a href="../reviews/logitech-c920s-hd-pro.html">Logitech C920s</a></li>
+            <li><a href="../reviews/logitech-brio-4k.html">Logitech Brio 4K</a></li>
+            <li><a href="../reviews/sihoo-m57-ergonomic-office-chair.html">SIHOO M57</a></li>
+            <li><a href="../reviews/logitech-mx-vertical.html">Logitech MX Vertical</a></li>
+            <li><a href="../reviews/logitech-mx-mechanical.html">Logitech MX Mechanical</a></li>
+            <li><a href="../reviews/logitech-mx-master-3s.html">Logitech MX Master 3S</a></li>
+            <li><a href="../reviews/logitech-ergo-m575s.html">Logitech ERGO M575S</a></li>
+            <li><a href="../reviews/logitech-mx-keys-s.html">Logitech MX Keys S</a></li>
+            <li><a href="../reviews/logitech-mx-keys-mini.html">Logitech MX Keys Mini</a></li>
+            <li><a href="../reviews/litwaro-under-desk-cable-tray.html">Litwaro Cable Tray</a></li>
+            <li><a href="../reviews/yecaye-j-channel-cable-raceway.html">Yecaye J Channel</a></li>
+            <li><a href="../reviews/baskiss-cable-management-box.html">Baskiss Cable Box</a></li>
+            <li><a href="../categories/desk-gear.html">All Desk Gear →</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Work Tools</h4>
+          <ul>
+            <li><a href="../work-tools/gifts-for-remote-workers.html">Gifts for Remote Workers</a></li>
+            <li><a href="../work-tools/best-monitor-arm-for-ultrawide.html">Ultrawide Monitor Arms</a></li>
+            <li><a href="../work-tools/best-monitor-arm-for-home-office.html">Monitor Arms for Home Office</a></li>
+            <li><a href="../work-tools/best-monitor-arm-for-small-desks.html">Monitor Arms for Small Desks</a></li>
+            <li><a href="../work-tools/best-monitor-arm-for-standing-desk.html">Monitor Arms for Standing Desks</a></li>
+            <li><a href="../work-tools/monitor-arm-checker.html">Monitor Arm Checker</a></li>
+            <li><a href="../work-tools/best-usb-c-hub-for-macbook.html">USB-C Hubs for MacBook</a></li>
+            <li><a href="../work-tools/best-desk-mat-for-small-desks.html">Desk Mats for Small Desks</a></li>
+            <li><a href="../work-tools/best-laptop-stand-for-posture.html">Laptop Stands for Posture</a></li>
+            <li><a href="../work-tools/best-laptop-stand-for-small-desks.html">Laptop Stands for Small Desks</a></li>
+            <li><a href="../work-tools/laptop-stand-vs-monitor-arm.html">Laptop Stand vs Monitor Arm</a></li>
+            <li><a href="../work-tools/ergonomic-desk-setup.html">Ergonomic Desk Setup</a></li>
+            <li><a href="../work-tools/desk-setup-checklist.html">Desk Setup Checklist</a></li>
+            <li><a href="../work-tools/pet-proofing-your-desk.html">Pet-Proofing Your Desk</a></li>
+            <li><a href="../work-tools/best-monitor-light-bar.html">Monitor Light Bars</a></li>
+            <li><a href="../work-tools/best-smart-plug.html">Smart Plugs</a></li>
+            <li><a href="../work-tools/best-cable-management.html">Cable Management</a></li>
+            <li><a href="../work-tools/best-standing-desk-for-small-spaces.html">Standing Desks for Small Spaces</a></li>
+            <li><a href="../work-tools/best-webcam-for-video-calls.html">Webcams for Video Calls</a></li>
+            <li><a href="../work-tools/best-webcam-for-low-light.html">Webcams for Low Light</a></li>
+            <li><a href="../work-tools/best-webcam-for-group-calls.html">Webcams for Group Calls</a></li>
+            <li><a href="../work-tools/best-webcam-for-streaming.html">Webcams for Streaming and Recording</a></li>
+            <li><a href="../work-tools/best-ergonomic-office-chair.html">Ergonomic Office Chairs</a></li>
+            <li><a href="../work-tools/best-ergonomic-chair-for-tall-users.html">Ergonomic Chairs for Tall Users</a></li>
+            <li><a href="../work-tools/best-ergonomic-chair-for-smaller-users.html">Ergonomic Chairs for Smaller Users</a></li>
+            <li><a href="../work-tools/best-ergonomic-chair-for-lumbar-support.html">Best Ergonomic Chair for Lumbar Support</a></li>
+            <li><a href="../work-tools/best-keyboard-for-working-from-home.html">Keyboards for Working From Home</a></li>
+            <li><a href="../work-tools/best-keyboard-for-small-hands.html">Keyboards for Small Hands</a></li>
+            <li><a href="../work-tools/best-keyboard-for-large-hands.html">Keyboards for Large Hands</a></li>
+            <li><a href="../work-tools/best-mouse-for-working-from-home.html">Mice for Working From Home</a></li>
+            <li><a href="../work-tools/best-mouse-for-small-hands.html">Mice for Small Hands</a></li>
+            <li><a href="../work-tools/best-mouse-for-large-hands.html">Mice for Large Hands</a></li>
+            <li><a href="../work-tools/best-mouse-for-wrist-pain.html">Mice for Wrist Comfort</a></li>
+            <li><a href="../work-tools/best-laptop-stand-for-17-inch-laptop.html">Laptop Stands for 17-Inch Laptops</a></li>
+            <li><a href="../work-tools/best-ergonomic-chair-for-long-hours.html">Ergonomic Chairs for Long Hours</a></li>
+            <li><a href="../work-tools/best-smart-plug-for-energy-monitoring.html">Smart Plugs for Energy Monitoring</a></li>
+            <li><a href="../work-tools/best-standing-desk-for-home-office.html">Standing Desks for Home Office</a></li>
+            <li><a href="../work-tools/best-standing-desk-for-tall-users.html">Standing Desks for Tall Users</a></li>
+            <li><a href="../work-tools/best-standing-desk-for-shorter-users.html">Standing Desks for Shorter Users</a></li>
+            <li><a href="../work-tools/video-call-setup-for-home-office.html">Video Call Setup</a></li>
+            <li><a href="../work-tools/standing-desk-setup-guide.html">Standing Desk Setup</a></li>
+            <li><a href="../work-tools/small-home-office-setup.html">Small Home Office Setup</a></li>
+            <li><a href="../work-tools/renter-friendly-home-office.html">Renter-Friendly Home Office</a></li>
+            <li><a href="../work-tools/email-marketing-for-remote-workers.html">Email Marketing</a></li>
+            <li><a href="../work-tools/course-platforms-2026.html">Course Platforms</a></li>
+            <li><a href="../work-tools/web-hosting-for-side-projects.html">Web Hosting</a></li>
+            <li><a href="../categories/work-tools.html">All Work Tools →</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Home Office Stack. We may earn from qualifying purchases via affiliate links — at no extra cost to you.</p>
+        <p><a href="../privacy-policy.html">Privacy Policy</a></p>
+      </div>
+    </div>
+  </footer>
+<script src="../js/affiliate-click.js" defer></script>
+</body>
+</html>
