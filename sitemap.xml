@@ -284,13 +284,13 @@
   </url>
   <url>
     <loc>https://homeofficestack.com/categories/laptop-stands.html</loc>
-    <lastmod>2026-11-02</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://homeofficestack.com/categories/monitor-arms.html</loc>
-    <lastmod>2026-11-02</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -314,7 +314,7 @@
   </url>
   <url>
     <loc>https://homeofficestack.com/categories/work-tools.html</loc>
-    <lastmod>2026-11-02</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -386,7 +386,7 @@
   </url>
   <url>
     <loc>https://homeofficestack.com/work-tools/laptop-stand-vs-monitor-arm.html</loc>
-    <lastmod>2026-11-02</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -854,5 +854,11 @@
     <loc>https://homeofficestack.com/work-tools/bedroom-home-office-setup.html</loc>
     <lastmod>2026-11-03</lastmod>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://homeofficestack.com/work-tools/best-laptop-stand-and-monitor-arm-setup.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>
